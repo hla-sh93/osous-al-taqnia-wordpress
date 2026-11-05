@@ -5,7 +5,7 @@ Webflow export of November 2026. Every page renders identically to the Webflow o
 measured page by page; nothing Webflow-specific is shipped (no `webflow.js`, no jQuery, no
 CDN or CodeSandbox scripts).
 
-**Status: version 0.1.0, not editable yet.** Page content lives in the theme's own files
+**Status: version 0.2.0, not editable yet.** Page content lives in the theme's own files
 (`theme/osous/content/`), generated from the export. Making it editable in WordPress is a
 later version (see "What is left").
 
@@ -14,8 +14,12 @@ later version (see "What is left").
 ```
 reference/        the Webflow export, untouched: the reference every check compares against
 theme/osous/      the WordPress theme (this is what gets installed)
+plugins/osous-site/  the companion plugin: security hardening and head cleanup, kept out of
+                  the theme because they belong to the site, not its look
+docs/             the installation guide for the client (English and Arabic)
   functions.php     loads inc/: one file per concern
-  inc/              setup, cleanup, security, content, render, assets, seo, contact form, WP-CLI
+  inc/              setup, styles, content, render, assets, seo, contact form, redirects,
+                    the page installer (on activation and Appearance → Site pages), WP-CLI
   header.php, footer.php, index.php, single.php
   template-parts/   the page fallback, the blog list (slot), its card and pager
   content/          GENERATED: page manifests, HTML fragments, the shared parts
@@ -50,8 +54,8 @@ cp .env.example .env            # then fill in the passwords
 docker compose up -d
 tools/wp.sh core install --url=http://localhost:8100 --title="Osous Al Taqnia" --admin_user=admin --admin_password=... --admin_email=admin@example.test --skip-email
 tools/wp.sh rewrite structure '/%postname%/' --hard
-tools/wp.sh theme activate osous
-tools/wp.sh osous install-pages
+tools/wp.sh plugin activate osous-site
+tools/wp.sh theme activate osous      # activation installs the 66 pages
 ```
 
 Site: http://localhost:8100 · Mail (Mailpit): http://localhost:8045
@@ -61,6 +65,16 @@ To rebuild the theme's generated files from the export:
 ```bash
 python tools/build.py
 ```
+
+## Delivery package
+
+```bash
+python tools/package.py     # dist/osous.zip, dist/osous-site.zip and the client package
+tools/handoff-test.sh       # installs the package on a clean WordPress and checks every page
+```
+
+The client package holds both zips, the screenshot, `INSTALL.md` / `INSTALL-ar.md` and the
+complete source (every file git tracks: no secrets, dependencies or local data).
 
 ## Checks
 
@@ -74,9 +88,10 @@ tools/check.sh --quick    # everything except the browser comparisons
 
 | check | proves | passing looks like |
 |---|---|---|
-| PHP standards | WordPress Coding Standards + PHP 8.1 compatibility | `19 PHP files, 0 errors, 0 warnings` |
+| PHP standards | WordPress Coding Standards + PHP 8.1 compatibility, theme and plugin | `N PHP files, 0 errors, 0 warnings` |
+| Theme Check | WordPress's official theme review tool | `Theme Check: 0 required, 1 warnings` |
 | JS lint | `@wordpress/eslint-plugin` | `7 scripts, 0 problems` |
-| CSS lint | `@wordpress/stylelint-config` on the hand-written stylesheets | `2 hand-written stylesheets, 0 problems` |
+| CSS lint | `@wordpress/stylelint-config` on the hand-written stylesheets | `3 hand-written stylesheets, 0 problems` |
 | duplication | no copied code in the theme or tools (jscpd) | `Found 0 clones` |
 | markup vs Webflow | every page's elements, text, links and pictures equal the export's | `0 of 66 pages differ` |
 | contact form | delivery, refusals, honeypot, rate limit, no caching | `8 checks, 0 problems` |
@@ -118,11 +133,17 @@ tools/check.sh --quick    # everything except the browser comparisons
 
 - **Page cache:** the contact page sends no-cache headers and `DONOTCACHEPAGE`; keep it out of
   any cache so its security token stays fresh.
-- **Upload limit:** the theme zip is about 15 MB (pictures). Raise PHP's
+- **Upload limit:** the theme zip is about 14 MB (pictures). Raise PHP's
   `upload_max_filesize` / `post_max_size` above that, or upload the theme folder over SFTP.
 - **Mail:** the contact form uses `wp_mail()`; configure SMTP on the live site so messages
   are delivered reliably. Recipient: the site's admin email (filter `osous_contact_recipient`).
 - **Server hardening** (TLS, HSTS, blocking `xmlrpc.php`, file permissions) belongs to the host.
+
+## Theme Check
+
+0 required problems. One warning: `seo-backgorund.jpg` (800 KB) from the design, kept as
+supplied. The remaining recommendations (WordPress menus, custom logo, comments, editor
+styles) belong to the editable version.
 
 ## What is left
 

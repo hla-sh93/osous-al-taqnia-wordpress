@@ -24,7 +24,7 @@ from cssselect import GenericTranslator, SelectorError
 from lxml import etree
 
 sys.path.insert(0, str(Path(__file__).parent))
-from common import ASSETS, CLASS_RENAMES, ID_RENAMES, REFERENCE, parse, public_pages, styled_pages  # noqa: E402
+from common import ASSETS, CLASS_RENAMES, ID_RENAMES, REFERENCE, asset_filename, parse, public_pages, styled_pages  # noqa: E402
 
 OUT = ASSETS / "css"
 
@@ -140,6 +140,7 @@ def format_declarations(tokens, indent: str) -> str:
         if "deleted" in value and "var(" in value:
             value = "unset"
         important = " !important" if d.important else ""
+        value = re.sub(r"url\((['\"]?)\.\./images/([^'\")]+)\1\)", lambda m: f'url("../images/{asset_filename(m.group(2))}")', value)
         name = rename_vars(d.name) if d.name.startswith("--") else d.lower_name
         lines.append(f"{indent}{name}: {rename_vars(value)}{important};")
     return "\n".join(lines)

@@ -49,15 +49,15 @@ PY
 
 php_standards() {
 	tools/phpcs.sh -q --report=summary || return 1
-	echo "$(find theme/osous -name '*.php' -not -path '*/content/*' | wc -l) PHP files, 0 errors, 0 warnings (WordPress Coding Standards)"
+	echo "$(find theme/osous plugins/osous-site -name '*.php' -not -path '*/content/*' | wc -l) PHP files, 0 errors, 0 warnings (WordPress Coding Standards)"
 }
 js_lint() {
 	npx eslint theme/osous/assets/js --ignore-pattern "theme/osous/assets/js/vendor/**" --max-warnings 0 || return 1
 	echo "$(find theme/osous/assets/js -maxdepth 1 -name '*.js' | wc -l) scripts, 0 problems (@wordpress/eslint-plugin)"
 }
 css_lint() {
-	npx stylelint "theme/osous/assets/css/interactions.css" "theme/osous/assets/css/fonts.css" || return 1
-	echo "2 hand-written stylesheets, 0 problems (@wordpress/stylelint-config)"
+	npx stylelint "theme/osous/assets/css/interactions.css" "theme/osous/assets/css/fonts.css" "theme/osous/assets/css/wordpress.css" || return 1
+	echo "3 hand-written stylesheets, 0 problems (@wordpress/stylelint-config)"
 }
 duplication() {
 	local output
@@ -65,7 +65,19 @@ duplication() {
 	printf '%s\n' "$output" | grep -o 'Found [0-9]* clones'
 }
 
+theme_check() {
+	local report required
+	report="$(tools/wp.sh theme-check run osous 2>&1)" || { echo "$report"; return 1; }
+	required="$(echo "$report" | grep -c '^REQUIRED' || true)"
+	if [ "$required" != "0" ]; then
+		echo "$report" | grep '^REQUIRED'
+		return 1
+	fi
+	echo "Theme Check: 0 required, $(echo "$report" | grep -c '^WARNING' || true) warnings"
+}
+
 run "PHP standards" php_standards
+run "Theme Check" theme_check
 run "JS lint" js_lint
 run "CSS lint" css_lint
 run "duplication" duplication

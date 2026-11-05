@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from functools import lru_cache
 from pathlib import Path
 
@@ -48,6 +49,17 @@ CLASS_RENAMES = {
 ID_RENAMES = {
     "inquiery": "inquiry",
 }
+
+
+def asset_filename(name: str) -> str:
+    """A picture's file name in the theme: lowercase, words joined by hyphens, one dot.
+
+    Webflow names such as "Data-protection.Data-Loss-Prevention02.webp" carry dots and
+    capitals that hosting tools misread (a ".dat" inside one is taken for a data file).
+    """
+    base, _, ext = name.rpartition(".")
+    base = re.sub(r"[^a-z0-9_-]+", "-", base.lower()).strip("-")
+    return f"{re.sub(r'-{2,}', '-', base)}.{ext.lower()}"
 
 
 def public_pages() -> list[Path]:

@@ -38,6 +38,7 @@ from common import (  # noqa: E402
     REFERENCE,
     SLUG_FIXES,
     TEMPLATES,
+    asset_filename,
     parse,
     public_pages,
     slug_for,
@@ -113,7 +114,7 @@ class Extractor:
             if node.get("srcset"):
                 node.set("srcset", ", ".join(self.srcset_item(i, page) for i in node.get("srcset").split(",")))
             if node.get("style") and "images/" in node.get("style"):
-                node.set("style", re.sub(r"url\((['\"]?)images/", lambda m: f"url({m.group(1)}{{{{theme}}}}/images/", node.get("style")))
+                node.set("style", re.sub(r"url\((['\"]?)images/([^'\")]+)", lambda m: f"url({m.group(1)}{{{{theme}}}}/images/{asset_filename(m.group(2))}", node.get("style")))
             self.tags[node.tag].update(node.attrib.keys())
         return el
 
@@ -125,8 +126,9 @@ class Extractor:
     def url(self, value: str, page: str) -> str:
         value = value.strip()
         if value.startswith("images/"):
-            self.images.add(value.split("?")[0])
-            return "{{theme}}/" + value
+            name = asset_filename(value.split("?")[0][len("images/"):])
+            self.images.add(name)
+            return "{{theme}}/images/" + name
         match = re.fullmatch(r"([\w-]+\.html)(#[\w-]*)?", value)
         if match:
             target, anchor = match.group(1), match.group(2) or ""
@@ -289,23 +291,29 @@ class Extractor:
             (CONTENT / "site" / f"{part}.html").write_text(markup, encoding="utf-8", newline="\n")
 
     def copy_images(self) -> None:
-        """Copies every picture the theme uses: those in the markup, those the stylesheets
-        use as backgrounds (so build_css.py runs first), and the site icons."""
+        """Copies every picture the theme uses, under its clean name: those in the markup,
+        those the stylesheets use as backgrounds (so build_css.py runs first), and the
+        site icons."""
         dest = ASSETS / "images"
-        if dest.exists():
-            shutil.rmtree(dest)
-        dest.mkdir(parents=True)
+        sources: dict[str, Path] = {}
+        for source in (REFERENCE / "images").iterdir():
+            clean = asset_filename(source.name)
+            if clean in sources:
+                raise SystemExit(f"two pictures would share the name {clean}: {sources[clean].name}, {source.name}")
+            sources[clean] = source
         in_css = {
-            "images/" + name
+            name
             for sheet in (ASSETS / "css").glob("*.css")
             for name in re.findall(r'url\("\.\./images/([^"]+)"\)', sheet.read_text(encoding="utf-8"))
         }
-        for rel in sorted(self.images | in_css | {"images/favicon.png", "images/webclip.jpg"}):
-            src = REFERENCE / rel
-            if not src.exists():
-                self.problems.append(f"missing image {rel}")
+        if dest.exists():
+            shutil.rmtree(dest)
+        dest.mkdir(parents=True)
+        for name in sorted(self.images | in_css | {"favicon.png", "webclip.jpg"}):
+            if name not in sources:
+                self.problems.append(f"missing image {name}")
                 continue
-            shutil.copy2(src, dest / Path(rel).name)
+            shutil.copy2(sources[name], dest / name)
 
     @staticmethod
     def write_redirects() -> None:

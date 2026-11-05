@@ -55,6 +55,14 @@ while ( have_posts() ) :
 	<section class="section">
 		<div class="w-layout-blockcontainer container blog w-container">
 			<div class="w-richtext"><?php the_content(); ?></div>
+			<?php
+			wp_link_pages(
+				array(
+					'before' => '<nav class="page-links" aria-label="' . esc_attr__( 'Pages', 'osous' ) . '">',
+					'after'  => '</nav>',
+				)
+			);
+			?>
 		</div>
 	</section>
 	<?php

@@ -42,6 +42,7 @@ services:
     volumes:
       - wp:/var/www/html
       - ./theme/osous:/var/www/html/wp-content/themes/osous
+      - ./plugins/osous-site:/var/www/html/wp-content/plugins/osous-site
       - ./docker/mu-plugins:/var/www/html/wp-content/mu-plugins:ro
 
   cli:
@@ -58,6 +59,7 @@ services:
     volumes:
       - wp:/var/www/html
       - ./theme/osous:/var/www/html/wp-content/themes/osous
+      - ./plugins/osous-site:/var/www/html/wp-content/plugins/osous-site
       - ./docker/mu-plugins:/var/www/html/wp-content/mu-plugins:ro
       - ./tools:/tools:ro
 

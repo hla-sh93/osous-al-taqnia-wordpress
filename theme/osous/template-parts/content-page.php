@@ -14,6 +14,14 @@ defined( 'ABSPATH' ) || exit;
 			<article <?php post_class(); ?>>
 				<h1 class="h1"><?php the_title(); ?></h1>
 				<div class="w-richtext"><?php the_content(); ?></div>
+				<?php
+				wp_link_pages(
+					array(
+						'before' => '<nav class="page-links" aria-label="' . esc_attr__( 'Pages', 'osous' ) . '">',
+						'after'  => '</nav>',
+					)
+				);
+				?>
 			</article>
 		<?php endwhile; ?>
 	</div>

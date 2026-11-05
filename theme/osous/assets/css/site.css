@@ -321,7 +321,7 @@ blockquote {
 }
 
 .container.fit.bg-img-14 {
-  background-image: url("../images/Cyber-Security.IAM02.webp");
+  background-image: url("../images/cyber-security-iam02.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -345,7 +345,7 @@ blockquote {
 }
 
 .container.bg-12 {
-  background-image: url("../images/Data-protection.Backup-Solutions02.webp");
+  background-image: url("../images/data-protection-backup-solutions02.webp");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -353,7 +353,7 @@ blockquote {
 }
 
 .container.bg-17 {
-  background-image: url("../images/Services.ICT-solutions08.webp");
+  background-image: url("../images/services-ict-solutions08.webp");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -886,7 +886,7 @@ blockquote {
 }
 
 .section.bg-img-15 {
-  background-image: linear-gradient(#00000080, #00000080), url("../images/Cloud-service.Microsoft-Azure-Cloud02.webp");
+  background-image: linear-gradient(#00000080, #00000080), url("../images/cloud-service-microsoft-azure-cloud02.webp");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto;
@@ -997,7 +997,7 @@ blockquote {
 }
 
 .container-full.h-100.bg-img-9 {
-  background-image: url("../images/Infrastructure.HCI-Solutions02.webp");
+  background-image: url("../images/infrastructure-hci-solutions02.webp");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -1005,7 +1005,7 @@ blockquote {
 }
 
 .container-full.bg-img-13 {
-  background-image: url("../images/Cyber-Security.SIEM-and-SOC02.webp");
+  background-image: url("../images/cyber-security-siem-and-soc02.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -1013,7 +1013,7 @@ blockquote {
 }
 
 .container-full.bg-img-8 {
-  background-image: url("../images/Infrastructure.Server-and-Storage02.webp");
+  background-image: url("../images/infrastructure-server-and-storage02.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -1021,7 +1021,7 @@ blockquote {
 }
 
 .container-full.bg-img-7 {
-  background-image: url("../images/Infrastructure.Server-and-Storage03.webp");
+  background-image: url("../images/infrastructure-server-and-storage03.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -1029,7 +1029,7 @@ blockquote {
 }
 
 .container-full.bg-img-16 {
-  background-image: url("../images/Infrastructure.Virtualization02.webp");
+  background-image: url("../images/infrastructure-virtualization02.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -1101,7 +1101,7 @@ blockquote {
 }
 
 .modal.bg-azura {
-  background-image: url("../images/partner-Azure-bg.svg");
+  background-image: url("../images/partner-azure-bg.svg");
   background-position: 0 0;
   background-size: auto;
   justify-content: center;
@@ -2661,7 +2661,7 @@ blockquote {
 }
 
 .img_tech_we_use {
-  background-image: url("../images/img_technologies_we_Use.webp");
+  background-image: url("../images/img_technologies_we_use.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2740,7 +2740,7 @@ blockquote {
 }
 
 .img_bg_2 {
-  background-image: url("../images/Infrastructure.CCTV02.webp");
+  background-image: url("../images/infrastructure-cctv02.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2784,7 +2784,7 @@ blockquote {
 }
 
 .img_bg_3 {
-  background-image: url("../images/Data-protection.Data-Loss-Prevention02.webp");
+  background-image: url("../images/data-protection-data-loss-prevention02.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2801,7 +2801,7 @@ blockquote {
 
 .ss {
   border-radius: var(--radius-card);
-  background-image: url("../images/Most-alerts-lead-nowhere.webp");
+  background-image: url("../images/most-alerts-lead-nowhere.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;

@@ -14,13 +14,13 @@ define( 'OSOUS_DIR', get_template_directory() );
 
 require OSOUS_DIR . '/inc/setup.php';
 require OSOUS_DIR . '/inc/cleanup.php';
-require OSOUS_DIR . '/inc/security.php';
 require OSOUS_DIR . '/inc/content.php';
 require OSOUS_DIR . '/inc/render.php';
 require OSOUS_DIR . '/inc/assets.php';
 require OSOUS_DIR . '/inc/seo.php';
 require OSOUS_DIR . '/inc/contact-form.php';
 require OSOUS_DIR . '/inc/redirects.php';
+require OSOUS_DIR . '/inc/install.php';
 
 if ( defined( 'WP_CLI' ) && WP_CLI ) {
 	require OSOUS_DIR . '/inc/class-osous-cli.php';

@@ -3,6 +3,7 @@
 	<description>WordPress Coding Standards for the Osous theme.</description>
 
 	<file>theme/osous</file>
+	<file>plugins/osous-site</file>
 	<exclude-pattern>theme/osous/assets/*</exclude-pattern>
 	<exclude-pattern>theme/osous/content/*</exclude-pattern>
 
@@ -20,6 +21,7 @@
 		<properties>
 			<property name="text_domain" type="array">
 				<element value="osous"/>
+				<element value="osous-site"/>
 			</property>
 		</properties>
 	</rule>

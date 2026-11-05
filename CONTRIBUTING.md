@@ -53,3 +53,16 @@ See the table in README.md. Browser checks need the reference served on port 811
 
 `_local/` (ignored by git) holds posts fetched from the live site's public REST API for
 testing the blog; `tools/import-posts.php` puts them into the local WordPress.
+
+## Since 0.2.0
+
+- **Theme and plugin are separate on purpose.** The theme is how the site looks (and its
+  content); `plugins/osous-site` is site-wide protection that must not disappear when the
+  theme changes. WordPress's Theme Check flags head cleanup inside a theme as plugin territory.
+- **The theme installs its own pages** on activation (`inc/install.php`), the same code as
+  Appearance → Site pages and `wp osous install-pages`.
+- **Picture names are cleaned** (`common.asset_filename`) the same way in the markup, the
+  stylesheets and the copied files; two pictures that would share a name stop the build.
+- **Escapes written through shell heredocs turned `\1` and `\n` into control characters and
+  line breaks** three times. Write such code with the editor, and grep for `\x01` after.
+- **Every delivery is tested on a clean WordPress:** `python tools/package.py && tools/handoff-test.sh`.

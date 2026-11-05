@@ -24,6 +24,7 @@ function osous_styles(): array {
 		'osous-tokens'    => 'css/tokens.css',
 		'osous-site'      => 'css/site.css',
 		'osous-interact'  => 'css/interactions.css',
+		'osous-wordpress' => 'css/wordpress.css',
 	);
 }
 
