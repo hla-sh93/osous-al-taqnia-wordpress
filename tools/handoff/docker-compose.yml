@@ -34,6 +34,8 @@ services:
         define( 'WP_DEBUG_DISPLAY', false );
     volumes:
       - wp:/var/www/html
+      # A typical host's upload limit; WordPress's image allows only 2 MB.
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini:ro
 
   cli:
     image: wordpress:cli
