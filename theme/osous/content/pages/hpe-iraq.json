@@ -1,0 +1,43 @@
+{
+  "key": "hpe-iraq",
+  "slug": "hpe-iraq",
+  "source": "hpe-iraq.html",
+  "title": "HPE Partner in Iraq – Storage & Infrastructure Solutions | Osous Al Taqnia",
+  "description": "Certified HPE partner in Iraq offering enterprise-grade servers, cloud, and data storage solutions. Full support from design to deployment.",
+  "og_title": "HPE Partner in Iraq – Storage & Infrastructure Solutions | Osous Al Taqnia",
+  "og_description": "Certified HPE partner in Iraq offering enterprise-grade servers, cloud, and data storage solutions. Full support from design to deployment.",
+  "body_class": "",
+  "chrome": true,
+  "preloader": false,
+  "features": [
+    "list-scroll"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "section": "pages/hpe-iraq/01.html"
+    },
+    {
+      "section": "pages/hpe-iraq/02.html"
+    },
+    {
+      "section": "pages/hpe-iraq/03.html"
+    },
+    {
+      "section": "pages/hpe-iraq/04.html"
+    },
+    {
+      "section": "pages/hpe-iraq/05.html"
+    },
+    {
+      "section": "pages/hpe-iraq/06.html"
+    },
+    {
+      "section": "pages/hpe-iraq/07.html"
+    },
+    {
+      "part": "footer",
+      "surface": "c-surface-white"
+    }
+  ]
+}

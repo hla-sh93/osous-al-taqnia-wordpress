@@ -1,0 +1,39 @@
+{
+  "key": "endpoint-security-iraq",
+  "slug": "endpoint-security-iraq",
+  "source": "endpoint-secuirty-iraq.html",
+  "title": "Endpoint Security Solutions in Iraq | Osous Al Taqnia",
+  "description": "Protect your Iraq business with Osous Al Taqnia's comprehensive endpoint security solutions. Expert threat prevention, detection & response for the digital age.",
+  "og_title": "Endpoint Security Solutions in Iraq | Osous Al Taqnia",
+  "og_description": "Protect your Iraq business with Osous Al Taqnia's comprehensive endpoint security solutions. Expert threat prevention, detection & response for the digital age.",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "list-scroll"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-main"
+      },
+      "items": [
+        {
+          "section": "pages/endpoint-security-iraq/01.html"
+        },
+        {
+          "section": "pages/endpoint-security-iraq/02.html"
+        },
+        {
+          "section": "pages/endpoint-security-iraq/03.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

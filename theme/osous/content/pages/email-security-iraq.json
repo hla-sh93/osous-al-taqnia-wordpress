@@ -1,0 +1,39 @@
+{
+  "key": "email-security-iraq",
+  "slug": "email-security-iraq",
+  "source": "email-security-iraq.html",
+  "title": "Email Security Solutions in Iraq | Osous Al Taqnia",
+  "description": "Protect your Iraqi business from sophisticated email threats with Osous Al-Taqnia's multi-layered security solutions. Get local expertise and 24/7 Arabic support.",
+  "og_title": "Email Security Solutions in Iraq | Osous Al Taqnia",
+  "og_description": "Protect your Iraqi business from sophisticated email threats with Osous Al-Taqnia's multi-layered security solutions. Get local expertise and 24/7 Arabic support.",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "list-scroll"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-main"
+      },
+      "items": [
+        {
+          "section": "pages/email-security-iraq/01.html"
+        },
+        {
+          "section": "pages/email-security-iraq/02.html"
+        },
+        {
+          "section": "pages/email-security-iraq/03.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

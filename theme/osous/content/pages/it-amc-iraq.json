@@ -1,0 +1,46 @@
+{
+  "key": "it-amc-iraq",
+  "slug": "it-amc-iraq",
+  "source": "it-amc-iraq.html",
+  "title": "IT AMC Iraq - IT AMC Services and Solutions - IT AMC Company | Osous Al Taqnia",
+  "description": "Take the hassle out of IT issues with Iraq's leading IT AMC provider. Our team will make sure your IT infrastructure is running peacefully. Get your AMC now!",
+  "og_title": "IT AMC Iraq - IT AMC Services and Solutions - IT AMC Company | Osous Al Taqnia",
+  "og_description": "Take the hassle out of IT issues with Iraq's leading IT AMC provider. Our team will make sure your IT infrastructure is running peacefully. Get your AMC now!",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "list-scroll"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "section": "pages/it-amc-iraq/01.html"
+    },
+    {
+      "section": "pages/it-amc-iraq/02.html"
+    },
+    {
+      "section": "pages/it-amc-iraq/03.html"
+    },
+    {
+      "section": "pages/it-amc-iraq/04.html"
+    },
+    {
+      "section": "pages/it-amc-iraq/05.html"
+    },
+    {
+      "section": "pages/it-amc-iraq/06.html"
+    },
+    {
+      "section": "pages/it-amc-iraq/07.html"
+    },
+    {
+      "section": "pages/it-amc-iraq/08.html"
+    },
+    {
+      "part": "footer",
+      "surface": "c-surface-white"
+    }
+  ]
+}

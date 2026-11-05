@@ -1,0 +1,57 @@
+{
+  "key": "cloud-optimization-iraq",
+  "slug": "cloud-optimization-iraq",
+  "source": "cloud-optimization-iraq.html",
+  "title": "Cloud Optimization Services - Cloud Experts in Iraq | Osous Al Taqnia",
+  "description": "Maximize cloud performance while reducing costs with Osous Al Taqnia's cloud optimization services in Iraq. Save 30-60% on cloud spending with our expert solutions.",
+  "og_title": "Cloud Optimization Services - Cloud Experts in Iraq | Osous Al Taqnia",
+  "og_description": "Maximize cloud performance while reducing costs with Osous Al Taqnia's cloud optimization services in Iraq. Save 30-60% on cloud spending with our expert solutions.",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-main"
+      },
+      "items": [
+        {
+          "section": "pages/cloud-optimization-iraq/01.html"
+        },
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-wrap"
+          },
+          "items": [
+            {
+              "section": "pages/cloud-optimization-iraq/02.html"
+            },
+            {
+              "section": "pages/cloud-optimization-iraq/03.html"
+            },
+            {
+              "section": "pages/cloud-optimization-iraq/04.html"
+            },
+            {
+              "section": "pages/cloud-optimization-iraq/05.html"
+            },
+            {
+              "section": "pages/cloud-optimization-iraq/06.html"
+            }
+          ]
+        },
+        {
+          "section": "pages/cloud-optimization-iraq/07.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

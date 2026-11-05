@@ -1,0 +1,57 @@
+{
+  "key": "customer-onboarding",
+  "slug": "customer-onboarding",
+  "source": "customer-onboarding.html",
+  "title": "Customer Onboarding",
+  "description": "",
+  "og_title": "Customer Onboarding",
+  "og_description": "",
+  "body_class": "body",
+  "chrome": true,
+  "preloader": false,
+  "features": [],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-wrap"
+      },
+      "items": [
+        {
+          "section": "pages/customer-onboarding/01.html"
+        },
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-main"
+          },
+          "items": [
+            {
+              "section": "pages/customer-onboarding/02.html"
+            },
+            {
+              "section": "pages/customer-onboarding/03.html"
+            },
+            {
+              "section": "pages/customer-onboarding/04.html"
+            },
+            {
+              "section": "pages/customer-onboarding/05.html"
+            },
+            {
+              "section": "pages/customer-onboarding/06.html"
+            }
+          ]
+        },
+        {
+          "section": "pages/customer-onboarding/07.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

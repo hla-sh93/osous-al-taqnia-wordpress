@@ -1,0 +1,39 @@
+{
+  "key": "disaster-recovery-iraq",
+  "slug": "disaster-recovery-iraq",
+  "source": "disaster-recovery-iraq.html",
+  "title": "Disaster Recovery Solutions & Services in Iraq | Osous Al Taqnia",
+  "description": "Implement robust disaster recovery solutions with Osous Al Taqnia to protect your Iraqi business from data loss and minimize downtime. Expert planning, testing and support. Contact us today!",
+  "og_title": "Disaster Recovery Solutions & Services in Iraq | Osous Al Taqnia",
+  "og_description": "Implement robust disaster recovery solutions with Osous Al Taqnia to protect your Iraqi business from data loss and minimize downtime. Expert planning, testing and support. Contact us today!",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "list-scroll"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-main"
+      },
+      "items": [
+        {
+          "section": "pages/disaster-recovery-iraq/01.html"
+        },
+        {
+          "section": "pages/disaster-recovery-iraq/02.html"
+        },
+        {
+          "section": "pages/disaster-recovery-iraq/03.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

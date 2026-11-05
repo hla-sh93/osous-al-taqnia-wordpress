@@ -1,0 +1,134 @@
+{
+  "a": [
+    "aria-label",
+    "class",
+    "href",
+    "target"
+  ],
+  "blockquote": [],
+  "br": [],
+  "div": [
+    "aria-label",
+    "class",
+    "data-animation",
+    "data-collapse",
+    "data-delay",
+    "data-duration",
+    "data-easing",
+    "data-easing2",
+    "data-hover",
+    "id",
+    "role"
+  ],
+  "em": [],
+  "form": [
+    "action",
+    "data-name",
+    "id",
+    "method",
+    "name"
+  ],
+  "h1": [
+    "class",
+    "text-split",
+    "words-rotate-in"
+  ],
+  "h2": [
+    "class",
+    "id"
+  ],
+  "h3": [
+    "class"
+  ],
+  "h4": [],
+  "h5": [],
+  "h6": [],
+  "iframe": [
+    "allowfullscreen",
+    "height",
+    "loading",
+    "max-width",
+    "referrerpolicy",
+    "src",
+    "style"
+  ],
+  "img": [
+    "alt",
+    "class",
+    "id",
+    "loading",
+    "sizes",
+    "src",
+    "srcset",
+    "style",
+    "width"
+  ],
+  "input": [
+    "class",
+    "data-name",
+    "data-wait",
+    "id",
+    "maxlength",
+    "name",
+    "placeholder",
+    "required",
+    "type",
+    "value"
+  ],
+  "li": [
+    "class"
+  ],
+  "nav": [
+    "class"
+  ],
+  "ol": [
+    "role"
+  ],
+  "p": [
+    "class",
+    "id"
+  ],
+  "path": [
+    "clip-rule",
+    "d",
+    "fill",
+    "fill-rule",
+    "stroke",
+    "stroke-width"
+  ],
+  "section": [
+    "class",
+    "id"
+  ],
+  "span": [
+    "class",
+    "style"
+  ],
+  "strong": [
+    "class"
+  ],
+  "sub": [],
+  "sup": [],
+  "svg": [
+    "class",
+    "fill",
+    "height",
+    "transform",
+    "viewbox",
+    "width",
+    "xmlns"
+  ],
+  "textarea": [
+    "class",
+    "data-name",
+    "id",
+    "maxlength",
+    "name",
+    "placeholder",
+    "required"
+  ],
+  "ul": [
+    "class",
+    "role"
+  ]
+}

@@ -1,0 +1,10 @@
+.env
+node_modules/
+vendor/
+dist/
+_captures/
+*.log
+.DS_Store
+Thumbs.db
+tools/composer.phar
+_local/

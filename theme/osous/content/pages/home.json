@@ -1,0 +1,41 @@
+{
+  "key": "home",
+  "slug": "",
+  "source": "index.html",
+  "title": "Osous Al Taqnia - Leading IT & Cybersecurity Solutions in Iraq",
+  "description": "Transform your Iraqi business with Osous Al Taqnia's comprehensive IT solutions. Expert services in cybersecurity, cloud, infrastructure, and managed IT across Baghdad, Erbil, and Basra.",
+  "og_title": "Osous Al Taqnia - Leading IT & Cybersecurity Solutions in Iraq",
+  "og_description": "Transform your Iraqi business with Osous Al Taqnia's comprehensive IT solutions. Expert services in cybersecurity, cloud, infrastructure, and managed IT across Baghdad, Erbil, and Basra.",
+  "body_class": "c-surface-secondary",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "swiper",
+    "overlapping-cards"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "section": "pages/home/01.html"
+    },
+    {
+      "section": "pages/home/02.html"
+    },
+    {
+      "section": "pages/home/03.html"
+    },
+    {
+      "section": "pages/home/04.html"
+    },
+    {
+      "section": "pages/home/05.html"
+    },
+    {
+      "section": "pages/home/06.html"
+    },
+    {
+      "part": "footer",
+      "surface": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "key": "aml-compliance-software",
+  "slug": "aml-compliance-software",
+  "source": "aml-compliance-software.html",
+  "title": "AML & Compliance Software for Banks | Osous Al Taqnia",
+  "description": "Run your entire compliance cycle on one platform. From KYC and sanctions screening to transaction monitoring and regulatory reporting, with nothing falling between the stages.",
+  "og_title": "",
+  "og_description": "",
+  "body_class": "",
+  "chrome": true,
+  "preloader": false,
+  "features": [
+    "accordion"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-wrap"
+      },
+      "items": [
+        {
+          "section": "pages/aml-compliance-software/01.html"
+        },
+        {
+          "section": "pages/aml-compliance-software/02.html"
+        },
+        {
+          "section": "pages/aml-compliance-software/03.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

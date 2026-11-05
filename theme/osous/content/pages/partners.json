@@ -1,0 +1,29 @@
+{
+  "key": "partners",
+  "slug": "partners",
+  "source": "partners.html",
+  "title": "partners",
+  "description": "",
+  "og_title": "partners",
+  "og_description": "",
+  "body_class": "",
+  "chrome": true,
+  "preloader": false,
+  "features": [],
+  "settings": {},
+  "items": [
+    {
+      "section": "pages/partners/01.html"
+    },
+    {
+      "section": "pages/partners/02.html"
+    },
+    {
+      "section": "pages/partners/03.html"
+    },
+    {
+      "part": "footer",
+      "surface": "c-surface-white"
+    }
+  ]
+}

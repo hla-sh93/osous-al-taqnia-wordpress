@@ -1,0 +1,62 @@
+{
+  "key": "identity-access-management-iraq",
+  "slug": "identity-access-management-iraq",
+  "source": "identity-access-management-iraq.html",
+  "title": "Identity and Access Management Solutions in Iraq - IAM Security | Osous Al Taqnia",
+  "description": "Enhance your organization's security with Osous Al Taqnia's comprehensive IAM solutions tailored for Iraqi businesses. SSO, MFA, RBAC & more. Contact us today!",
+  "og_title": "Identity and Access Management Solutions in Iraq - IAM Security | Osous Al Taqnia",
+  "og_description": "Enhance your organization's security with Osous Al Taqnia's comprehensive IAM solutions tailored for Iraqi businesses. SSO, MFA, RBAC & more. Contact us today!",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "list-scroll"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-main"
+      },
+      "items": [
+        {
+          "section": "pages/identity-access-management-iraq/01.html"
+        },
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-wrap"
+          },
+          "items": [
+            {
+              "section": "pages/identity-access-management-iraq/02.html"
+            },
+            {
+              "section": "pages/identity-access-management-iraq/03.html"
+            },
+            {
+              "section": "pages/identity-access-management-iraq/04.html"
+            },
+            {
+              "section": "pages/identity-access-management-iraq/05.html"
+            },
+            {
+              "section": "pages/identity-access-management-iraq/06.html"
+            },
+            {
+              "section": "pages/identity-access-management-iraq/07.html"
+            }
+          ]
+        },
+        {
+          "section": "pages/identity-access-management-iraq/08.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

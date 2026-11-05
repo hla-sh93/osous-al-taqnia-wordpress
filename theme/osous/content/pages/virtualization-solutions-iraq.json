@@ -1,0 +1,62 @@
+{
+  "key": "virtualization-solutions-iraq",
+  "slug": "virtualization-solutions-iraq",
+  "source": "virtualization-solutions-iraq.html",
+  "title": "Virtualization Solutions in Iraq - Maximize IT Efficiency | Osous Al Taqnia",
+  "description": "Optimize your Iraqi business with virtualization solutions that reduce costs by 50%, enhance continuity, and improve IT efficiency. Expert implementation by Osous Al Taqnia.",
+  "og_title": "Virtualization Solutions in Iraq - Maximize IT Efficiency | Osous Al Taqnia",
+  "og_description": "Optimize your Iraqi business with virtualization solutions that reduce costs by 50%, enhance continuity, and improve IT efficiency. Expert implementation by Osous Al Taqnia.",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "list-scroll"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-main"
+      },
+      "items": [
+        {
+          "section": "pages/virtualization-solutions-iraq/01.html"
+        },
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-wrap"
+          },
+          "items": [
+            {
+              "section": "pages/virtualization-solutions-iraq/02.html"
+            },
+            {
+              "section": "pages/virtualization-solutions-iraq/03.html"
+            },
+            {
+              "section": "pages/virtualization-solutions-iraq/04.html"
+            },
+            {
+              "section": "pages/virtualization-solutions-iraq/05.html"
+            },
+            {
+              "section": "pages/virtualization-solutions-iraq/06.html"
+            },
+            {
+              "section": "pages/virtualization-solutions-iraq/07.html"
+            }
+          ]
+        },
+        {
+          "section": "pages/virtualization-solutions-iraq/08.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

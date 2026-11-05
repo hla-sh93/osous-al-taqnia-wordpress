@@ -1,0 +1,28 @@
+{
+  "key": "contact",
+  "slug": "contact",
+  "source": "contact.html",
+  "title": "Contact | Osous Al Taqnia",
+  "description": "",
+  "og_title": "Contact | Osous Al Taqnia",
+  "og_description": "",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "contact-form"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "section": "pages/contact/01.html"
+    },
+    {
+      "section": "pages/contact/02.html"
+    },
+    {
+      "part": "footer",
+      "surface": "c-surface-white"
+    }
+  ]
+}

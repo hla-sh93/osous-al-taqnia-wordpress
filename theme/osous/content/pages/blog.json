@@ -1,0 +1,29 @@
+{
+  "key": "blog",
+  "slug": "blog",
+  "source": "blog.html",
+  "title": "blog",
+  "description": "",
+  "og_title": "blog",
+  "og_description": "",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [],
+  "settings": {},
+  "items": [
+    {
+      "section": "pages/blog/01.html"
+    },
+    {
+      "section": "pages/blog/02.html",
+      "slots": [
+        "posts"
+      ]
+    },
+    {
+      "part": "footer",
+      "surface": "c-surface-white"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "key": "e-commerce",
+  "slug": "e-commerce",
+  "source": "e-commerce.html",
+  "title": "e-commerce",
+  "description": "",
+  "og_title": "e-commerce",
+  "og_description": "",
+  "body_class": "body",
+  "chrome": true,
+  "preloader": false,
+  "features": [
+    "swiper",
+    "list-scroll",
+    "accordion"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-wrap"
+      },
+      "items": [
+        {
+          "section": "pages/e-commerce/01.html"
+        },
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-main"
+          },
+          "items": [
+            {
+              "section": "pages/e-commerce/02.html"
+            },
+            {
+              "section": "pages/e-commerce/03.html"
+            },
+            {
+              "section": "pages/e-commerce/04.html"
+            },
+            {
+              "section": "pages/e-commerce/05.html"
+            },
+            {
+              "section": "pages/e-commerce/06.html"
+            },
+            {
+              "section": "pages/e-commerce/07.html"
+            },
+            {
+              "section": "pages/e-commerce/08.html"
+            },
+            {
+              "section": "pages/e-commerce/09.html"
+            },
+            {
+              "section": "pages/e-commerce/10.html"
+            }
+          ]
+        },
+        {
+          "section": "pages/e-commerce/11.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

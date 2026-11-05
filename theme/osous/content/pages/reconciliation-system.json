@@ -1,0 +1,54 @@
+{
+  "key": "reconciliation-system",
+  "slug": "reconciliation-system",
+  "source": "reconciliation-system.html",
+  "title": "Reconciliation System",
+  "description": "",
+  "og_title": "Reconciliation System",
+  "og_description": "",
+  "body_class": "body",
+  "chrome": true,
+  "preloader": false,
+  "features": [],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-wrap"
+      },
+      "items": [
+        {
+          "section": "pages/reconciliation-system/01.html"
+        },
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-main"
+          },
+          "items": [
+            {
+              "section": "pages/reconciliation-system/02.html"
+            },
+            {
+              "section": "pages/reconciliation-system/03.html"
+            },
+            {
+              "section": "pages/reconciliation-system/04.html"
+            }
+          ]
+        },
+        {
+          "section": "pages/reconciliation-system/05.html"
+        },
+        {
+          "section": "pages/reconciliation-system/06.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

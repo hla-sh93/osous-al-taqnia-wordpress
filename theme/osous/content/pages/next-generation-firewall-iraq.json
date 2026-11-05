@@ -1,0 +1,71 @@
+{
+  "key": "next-generation-firewall-iraq",
+  "slug": "next-generation-firewall-iraq",
+  "source": "next-generation-firewall-iraq.html",
+  "title": "Next Generation Firewall Solutions in Iraq | Osous Al Taqnia",
+  "description": "Protect your Iraqi business with Osous Al Taqnia's advanced next generation firewall solutions. Enterprise-grade cybersecurity tailored for Baghdad and all of Iraq. Contact us today!",
+  "og_title": "Next Generation Firewall Solutions in Iraq | Osous Al Taqnia",
+  "og_description": "Protect your Iraqi business with Osous Al Taqnia's advanced next generation firewall solutions. Enterprise-grade cybersecurity tailored for Baghdad and all of Iraq. Contact us today!",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "list-scroll",
+    "feature-scroll"
+  ],
+  "settings": {
+    "feature-scroll": {
+      "duration": 0.6,
+      "ease": "power2.inOut"
+    }
+  },
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-main"
+      },
+      "items": [
+        {
+          "section": "pages/next-generation-firewall-iraq/01.html"
+        },
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-wrap"
+          },
+          "items": [
+            {
+              "section": "pages/next-generation-firewall-iraq/02.html"
+            },
+            {
+              "section": "pages/next-generation-firewall-iraq/03.html"
+            },
+            {
+              "section": "pages/next-generation-firewall-iraq/04.html"
+            },
+            {
+              "section": "pages/next-generation-firewall-iraq/05.html"
+            },
+            {
+              "section": "pages/next-generation-firewall-iraq/06.html"
+            },
+            {
+              "section": "pages/next-generation-firewall-iraq/07.html"
+            },
+            {
+              "section": "pages/next-generation-firewall-iraq/08.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "pages/next-generation-firewall-iraq/09.html"
+    },
+    {
+      "part": "footer",
+      "surface": "c-surface-white"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "mobile-app",
+  "slug": "mobile-app",
+  "source": "mobile-app.html",
+  "title": "mobile app",
+  "description": "",
+  "og_title": "mobile app",
+  "og_description": "",
+  "body_class": "",
+  "chrome": true,
+  "preloader": false,
+  "features": [
+    "swiper",
+    "list-scroll",
+    "accordion"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-wrap"
+      },
+      "items": [
+        {
+          "section": "pages/mobile-app/01.html"
+        },
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-main"
+          },
+          "items": [
+            {
+              "section": "pages/mobile-app/02.html"
+            },
+            {
+              "section": "pages/mobile-app/03.html"
+            },
+            {
+              "section": "pages/mobile-app/04.html"
+            },
+            {
+              "section": "pages/mobile-app/05.html"
+            },
+            {
+              "section": "pages/mobile-app/06.html"
+            },
+            {
+              "section": "pages/mobile-app/07.html"
+            },
+            {
+              "section": "pages/mobile-app/08.html"
+            },
+            {
+              "section": "pages/mobile-app/09.html"
+            },
+            {
+              "section": "pages/mobile-app/10.html"
+            },
+            {
+              "section": "pages/mobile-app/11.html"
+            },
+            {
+              "section": "pages/mobile-app/12.html"
+            }
+          ]
+        },
+        {
+          "section": "pages/mobile-app/13.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

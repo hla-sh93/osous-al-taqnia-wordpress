@@ -1,0 +1,29 @@
+{
+  "key": "terms-conditions",
+  "slug": "terms-conditions",
+  "source": "terms-conditions.html",
+  "title": "Terms & Conditions",
+  "description": "",
+  "og_title": "Terms & Conditions",
+  "og_description": "",
+  "body_class": "",
+  "chrome": true,
+  "preloader": false,
+  "features": [],
+  "settings": {},
+  "items": [
+    {
+      "section": "pages/terms-conditions/01.html"
+    },
+    {
+      "section": "pages/terms-conditions/02.html"
+    },
+    {
+      "section": "pages/terms-conditions/03.html"
+    },
+    {
+      "part": "footer",
+      "surface": "c-surface-white"
+    }
+  ]
+}

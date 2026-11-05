@@ -1,0 +1,236 @@
+/**
+ * Interactions: hover effects and the open states that site.js and accordion.js toggle.
+ * Each block reproduces one of the original site's interactions.
+ */
+
+/* Desktop navigation: a top-level item shows its panel on hover or keyboard focus. */
+@media (min-width: 992px) {
+
+  .dd-menu-item .nav-link {
+    transition: color 0.1s;
+  }
+
+  .dd-menu-item:hover .nav-link,
+  .dd-menu-item:focus-within .nav-link {
+    color: hsl(174.7 100% 48.8%);
+  }
+
+  .dd-menu-item:hover > .menu,
+  .dd-menu-item:focus-within > .menu {
+    display: flex;
+    animation: osous-menu-rise 0.3s both;
+  }
+
+  .menu-list-item {
+    transition: opacity 0.2s;
+  }
+
+  .menu-list-item > * {
+    transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .menu-list-item:hover {
+    opacity: 0.5;
+  }
+
+  .menu-list-item:hover > * {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes osous-menu-rise {
+
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+/* Mobile navigation: the menu button opens the full-screen menu. */
+@media (max-width: 991px) {
+
+  .menu-icon-top,
+  .menu-icon-bottom {
+    transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .navbar.is-menu-open .menu-icon-top {
+    transform: translateY(5px) rotate(-45deg);
+  }
+
+  .navbar.is-menu-open .menu-icon-bottom {
+    transform: translateY(-5px) rotate(45deg);
+  }
+
+  .navbar.is-menu-open .menu-icon-middle {
+    display: none;
+  }
+
+  .navbar.is-menu-open .navbar-menu {
+    display: block;
+    animation: osous-menu-drop 0.21s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  }
+
+  /* A group's links stay folded until its heading is tapped. */
+  .dd-menu-list-toggle + * {
+    display: none;
+    overflow: hidden;
+  }
+
+  .dd-menu-list-toggle.is-open + * {
+    display: block;
+  }
+
+  .dd-menu-list-toggle .accordion-icon-line-v {
+    transform: rotate(180deg);
+    transition: transform 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .menu-item-toggle .accordion-icon-line-v {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .dd-menu-list-toggle.is-open .accordion-icon-line-v,
+  .menu-item-toggle.w--open .accordion-icon-line-v {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes osous-menu-drop {
+
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+/* Call-to-action buttons: the dot swells and the arrow nudges left. */
+.btn-cta .btn-icon-dot,
+.btn-cta .t-r-md {
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.btn-cta:hover .btn-icon-dot {
+  opacity: 0.8;
+  transform: scale(1.5);
+}
+
+.btn-cta:hover .t-r-md {
+  transform: translateX(-5px);
+}
+
+/* Expandable partner cards. */
+.card.c-surface-secondary.expand {
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.card.c-surface-secondary.expand:hover {
+  background-color: #2339aa;
+  transform: scale(1.05);
+}
+
+/* Accordions: folded to their question until opened (accordion.js sets the height). */
+.js .accordion {
+  height: 80px;
+  cursor: pointer;
+}
+
+.accordion .h3 {
+  transition: color 0.2s;
+}
+
+.accordion.is-open .h3 {
+  color: hsl(260.1 66.5% 57.8%);
+}
+
+.accordion-icon-line-h,
+.accordion-icon-line-v {
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.accordion.is-open .accordion-icon-line-h {
+  opacity: 0;
+}
+
+.accordion.is-open .accordion-icon-line-v {
+  transform: rotate(90deg);
+}
+
+/* Logo rows that scroll sideways without end. */
+.marquee-row {
+  animation: osous-marquee 20s linear infinite;
+}
+
+@keyframes osous-marquee {
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .marquee-row {
+    animation: none;
+  }
+
+  .dd-menu-item > .menu,
+  .navbar-menu {
+    animation: none !important;
+  }
+}
+
+/* The partner logo strip on the home page scrolls sideways without end. */
+.marquee-wrapper .infinite-carousel {
+  animation: osous-marquee 20s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .marquee-wrapper .infinite-carousel {
+    animation: none;
+  }
+}
+
+/* Blog cards: the picture zooms, the frame takes the brand colour, the title softens. */
+.blog-image-thumb {
+  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.blog-image-thumb-container {
+  transition: border-color 0.2s ease-out;
+}
+
+.blog-card .h2 {
+  transition: color 0.2s ease;
+}
+
+.blog-card:hover .blog-image-thumb {
+  transform: scale(1.1);
+}
+
+.blog-card:hover .blog-image-thumb-container {
+  border-color: var(--primary-border);
+}
+
+.blog-card:hover .h2 {
+  color: var(--neutral-light-subtle);
+}
+
+/* Contact form: a hidden field for bots, and the result of a submission. */
+.osous-hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.contact-sent .w-form form {
+  display: none;
+}
+
+.contact-sent .w-form-done,
+.contact-failed .w-form-fail {
+  display: block;
+}

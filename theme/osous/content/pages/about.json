@@ -1,0 +1,47 @@
+{
+  "key": "about",
+  "slug": "about",
+  "source": "about.html",
+  "title": "ICT and Cybersecurity Company in Iraq | Osous Al Taqnia",
+  "description": "Leading ICT and cybersecurity company in Iraq offering digital transformation, cloud, and infrastructure services for the public and private sectors.",
+  "og_title": "ICT and Cybersecurity Company in Iraq | Osous Al Taqnia",
+  "og_description": "Leading ICT and cybersecurity company in Iraq offering digital transformation, cloud, and infrastructure services for the public and private sectors.",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [],
+  "settings": {},
+  "items": [
+    {
+      "section": "pages/about/01.html"
+    },
+    {
+      "section": "pages/about/02.html"
+    },
+    {
+      "section": "pages/about/03.html"
+    },
+    {
+      "section": "pages/about/04.html"
+    },
+    {
+      "section": "pages/about/05.html"
+    },
+    {
+      "section": "pages/about/06.html"
+    },
+    {
+      "section": "pages/about/07.html"
+    },
+    {
+      "section": "pages/about/08.html"
+    },
+    {
+      "section": "pages/about/09.html"
+    },
+    {
+      "part": "footer",
+      "surface": "c-surface-white"
+    }
+  ]
+}

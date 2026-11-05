@@ -1,0 +1,44 @@
+{
+  "key": "not-found",
+  "slug": "",
+  "source": "404.html",
+  "title": "Not Found",
+  "description": "",
+  "og_title": "Not Found",
+  "og_description": "",
+  "body_class": "_404",
+  "chrome": false,
+  "preloader": false,
+  "features": [],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-wrap"
+      },
+      "items": [
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-main"
+          },
+          "items": [
+            {
+              "section": "templates/not-found/01.html"
+            },
+            {
+              "section": "templates/not-found/02.html"
+            },
+            {
+              "section": "templates/not-found/03.html"
+            },
+            {
+              "section": "templates/not-found/04.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

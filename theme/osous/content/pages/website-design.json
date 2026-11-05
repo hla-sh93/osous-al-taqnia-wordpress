@@ -1,0 +1,79 @@
+{
+  "key": "website-design",
+  "slug": "website-design",
+  "source": "website-design.html",
+  "title": "website-design",
+  "description": "",
+  "og_title": "website-design",
+  "og_description": "",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "swiper",
+    "list-scroll",
+    "accordion"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-wrap"
+      },
+      "items": [
+        {
+          "section": "pages/website-design/01.html"
+        },
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-main"
+          },
+          "items": [
+            {
+              "section": "pages/website-design/02.html"
+            },
+            {
+              "section": "pages/website-design/03.html"
+            },
+            {
+              "section": "pages/website-design/04.html"
+            },
+            {
+              "section": "pages/website-design/05.html"
+            },
+            {
+              "section": "pages/website-design/06.html"
+            },
+            {
+              "section": "pages/website-design/07.html"
+            },
+            {
+              "section": "pages/website-design/08.html"
+            },
+            {
+              "section": "pages/website-design/09.html"
+            },
+            {
+              "section": "pages/website-design/10.html"
+            },
+            {
+              "section": "pages/website-design/11.html"
+            },
+            {
+              "section": "pages/website-design/12.html"
+            }
+          ]
+        },
+        {
+          "section": "pages/website-design/13.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}

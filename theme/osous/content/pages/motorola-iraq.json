@@ -1,0 +1,43 @@
+{
+  "key": "motorola-iraq",
+  "slug": "motorola-iraq",
+  "source": "motorola-iraq.html",
+  "title": "Motorola Solutions Partner in Iraq | Authorized Reseller",
+  "description": "Motorola Solutions Iraq delivered by a certified local partner in Baghdad, Basra, and Erbil. Secure video, command center, and safety systems.",
+  "og_title": "Motorola Solutions Partner in Iraq | Authorized Reseller",
+  "og_description": "Motorola Solutions Iraq delivered by a certified local partner in Baghdad, Basra, and Erbil. Secure video, command center, and safety systems.",
+  "body_class": "",
+  "chrome": true,
+  "preloader": false,
+  "features": [
+    "list-scroll"
+  ],
+  "settings": {},
+  "items": [
+    {
+      "section": "pages/motorola-iraq/01.html"
+    },
+    {
+      "section": "pages/motorola-iraq/02.html"
+    },
+    {
+      "section": "pages/motorola-iraq/03.html"
+    },
+    {
+      "section": "pages/motorola-iraq/04.html"
+    },
+    {
+      "section": "pages/motorola-iraq/05.html"
+    },
+    {
+      "section": "pages/motorola-iraq/06.html"
+    },
+    {
+      "section": "pages/motorola-iraq/07.html"
+    },
+    {
+      "part": "footer",
+      "surface": "c-surface-white"
+    }
+  ]
+}

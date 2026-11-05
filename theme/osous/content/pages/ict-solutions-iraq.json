@@ -1,0 +1,67 @@
+{
+  "key": "ict-solutions-iraq",
+  "slug": "ict-solutions-iraq",
+  "source": "ict-solutions-iraq.html",
+  "title": "ICT Solutions in Iraq - Leading ICT Services Company | Osous Al Taqnia",
+  "description": "Empower your business with Osous Al Taqnia's complete ICT solutions in Iraq. Network infrastructure, cloud computing, cybersecurity & more. Transform your operations today.",
+  "og_title": "ICT Solutions in Iraq - Leading ICT Services Company  | Osous Al Taqnia",
+  "og_description": "Empower your business with Osous Al Taqnia's complete ICT solutions in Iraq. Network infrastructure, cloud computing, cybersecurity & more. Transform your operations today.",
+  "body_class": "",
+  "chrome": true,
+  "preloader": true,
+  "features": [
+    "feature-scroll"
+  ],
+  "settings": {
+    "feature-scroll": {
+      "duration": 0.6,
+      "ease": "power2.inOut"
+    }
+  },
+  "items": [
+    {
+      "wrapper": {
+        "tag": "div",
+        "class": "page-main"
+      },
+      "items": [
+        {
+          "section": "pages/ict-solutions-iraq/01.html"
+        },
+        {
+          "wrapper": {
+            "tag": "div",
+            "class": "page-wrap"
+          },
+          "items": [
+            {
+              "section": "pages/ict-solutions-iraq/02.html"
+            },
+            {
+              "section": "pages/ict-solutions-iraq/03.html"
+            },
+            {
+              "section": "pages/ict-solutions-iraq/04.html"
+            },
+            {
+              "section": "pages/ict-solutions-iraq/05.html"
+            },
+            {
+              "section": "pages/ict-solutions-iraq/06.html"
+            },
+            {
+              "section": "pages/ict-solutions-iraq/07.html"
+            }
+          ]
+        },
+        {
+          "section": "pages/ict-solutions-iraq/08.html"
+        },
+        {
+          "part": "footer",
+          "surface": "c-surface-white"
+        }
+      ]
+    }
+  ]
+}
