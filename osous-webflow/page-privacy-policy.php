@@ -4,12 +4,12 @@
  */
 get_header();
 ?>
-<div class="section header" data-wf--header--style="style-1"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
+<div class="section header"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
 <div class="container h-100">
 <div class="header-contents">
-<div class="spacer" data-wf--spacer--variant="1x"></div>
+<div class="spacer"></div>
 <div>
-<h1 class="h1 a-c" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"2ef5e533-cf57-a671-85c8-09df900bd27b"}}}' text-split="" words-rotate-in=""><?php esc_html_e( 'Privacy Policy', 'osous' ); ?></h1>
+<h1 class="h1 a-c" text-split="" words-rotate-in=""><?php esc_html_e( 'Privacy Policy', 'osous' ); ?></h1>
 </div>
 </div>
 </div>
@@ -23,7 +23,7 @@ get_header();
 </div>
 </section><section class="section">
 <div class="w-layout-blockcontainer container w-container">
-<div class="_w-max-200" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}}}'>
+<div class="_w-max-200">
 <div class="divider gradient-1"></div>
 </div>
 <div class="w-richtext">

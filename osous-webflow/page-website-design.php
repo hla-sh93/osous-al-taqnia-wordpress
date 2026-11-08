@@ -5,20 +5,20 @@
 get_header();
 ?>
 <div class="page-wrap">
-<section bind="c43bbb05-49b1-bdf4-9641-4ca0d0f4100e" class="preloader"></section>
-<a bind="70e540a2-83c2-c3d2-8b52-fff1dbaafb9e" class="whatsapp w-inline-block" href="https://wa.me/+9647870606069" target="_blank">
+<section class="preloader"></section>
+<a class="whatsapp w-inline-block" href="https://wa.me/+9647870606069" target="_blank">
 <div class="w-layout-blockcontainer container-lg w-container">
 <div class="magnatic p-r-0">
-<div bind="70e540a2-83c2-c3d2-8b52-fff1dbaafba1" class="icon-whatsapp w-embed"><svg fill="none" height="58" viewbox="0 0 57 58" width="57" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-whatsapp w-embed"><svg fill="none" height="58" viewbox="0 0 57 58" width="57" xmlns="http://www.w3.org/2000/svg">
 <path clip-rule="evenodd" d="M13.1601 52.8946L14.182 53.5165C18.497 56.1023 23.4446 57.4607 28.4896 57.4771H28.5058C43.9976 57.4771 56.6181 44.7608 56.6181 29.1151C56.6181 21.5377 53.6982 14.4186 48.3937 9.0506C43.0892 3.68262 36.0165 0.736771 28.5058 0.736771C13.0141 0.720405 0.393555 13.4366 0.393555 29.0824C0.393555 34.434 1.86973 39.6547 4.69232 44.1716L5.35741 45.2518L2.5186 55.7095L13.1601 52.8946ZM18.1574 13.3385C18.7576 13.3548 19.4227 13.3876 20.0553 14.8114C20.4607 15.7271 21.1341 17.3914 21.6986 18.7864C22.1732 19.9593 22.5707 20.9417 22.667 21.1286C22.8779 21.5541 23.0077 22.0451 22.7319 22.6179C22.6993 22.6856 22.6686 22.7503 22.639 22.8126C22.4178 23.2776 22.2603 23.6087 21.8884 24.0417C21.7362 24.2189 21.5776 24.4132 21.4195 24.6068C21.1397 24.9497 20.8615 25.2905 20.6231 25.531C20.2013 25.9565 19.7633 26.4148 20.25 27.2658C20.7367 28.1168 22.4399 30.9154 24.9543 33.1738C27.6574 35.6132 30.0079 36.6411 31.1963 37.1607C31.4271 37.2616 31.614 37.3434 31.7512 37.4126C32.5947 37.8381 33.0976 37.7726 33.5843 37.1998C34.0709 36.627 35.6931 34.7122 36.2609 33.8612C36.8124 33.0102 37.3802 33.1575 38.1588 33.4357C38.9374 33.7303 43.0902 35.7924 43.9337 36.2179C44.1 36.3017 44.2555 36.3773 44.3996 36.4474C44.9872 36.733 45.3866 36.9271 45.5559 37.2162C45.7668 37.5762 45.7668 39.2783 45.0693 41.2749C44.3555 43.2715 40.9003 45.1863 39.3592 45.3336C39.2118 45.3477 39.0651 45.3657 38.9141 45.3842C37.4869 45.5592 35.6754 45.7813 29.2206 43.2061C21.2682 40.0363 16.0185 32.1722 14.956 30.5807C14.872 30.4548 14.8142 30.3682 14.7833 30.3262C14.7777 30.3187 14.7718 30.3106 14.7653 30.3018C14.2824 29.6468 11.328 25.6397 11.328 21.505C11.328 17.5496 13.2504 15.4903 14.1271 14.5511C14.1826 14.4916 14.234 14.4366 14.2804 14.3859C15.059 13.5349 15.9675 13.3221 16.5352 13.3221C17.103 13.3221 17.6707 13.3221 18.1574 13.3385Z" fill="currentColor" fill-rule="evenodd"></path>
 </svg></div>
-<div bind="70e540a2-83c2-c3d2-8b52-fff1dbaafba2" class="icon-whatsapp-border w-embed"><svg fill="none" height="68" viewbox="0 0 67 68" width="67" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-whatsapp-border w-embed"><svg fill="none" height="68" viewbox="0 0 67 68" width="67" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.714844 67.3068L5.34988 50.245C2.4843 45.237 0.981045 39.5655 0.996704 33.7677C0.996704 15.6 15.6534 0.828857 33.6455 0.828857C42.3832 0.828857 50.5885 4.25702 56.7424 10.4814C62.912 16.7058 66.31 24.984 66.2944 33.7835C66.2944 51.9512 51.6376 66.7223 33.6299 66.7223H33.6142C28.1493 66.7223 22.7783 65.3321 18.0023 62.7096L0.714844 67.3068Z" fill="#945FFE"></path>
 </svg></div>
 </div>
 </div>
 </a>
-<div bind="78a9e0e1-a66d-7caa-f48d-55a97e4bac67" class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" data-wf--navbar--style="default" data-wf-component-id="b34223f0-89a2-d8be-2a87-6097027da21f" data-wf-variant-state="base" role="banner">
+<div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" data-wf-component-id="b34223f0-89a2-d8be-2a87-6097027da21f" data-wf-variant-state="base" role="banner">
 <div class="navbar-wrapper elevation">
 <a class="navbar-brand w-nav-brand" href="<?php echo esc_url( osous_url( 'index.html' ) ); ?>"><img alt="<?php esc_attr_e( 'Osous Al Taqnia', 'osous' ); ?>" class="logo" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/Logo-Full-mixed.svg" width="130"/></a>
 <div class="navebar-menu">
@@ -28,9 +28,9 @@ get_header();
 <div class="menu-item">
 <a class="nav-link" href="<?php echo esc_url( osous_url( 'about.html' ) ); ?>"><?php esc_html_e( 'About', 'osous' ); ?></a>
 </div>
-<div bind="8c66bee8-866a-6609-aa3e-3dcd59c8a297" class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
+<div class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
 <div class="menu-item-toggle w-dropdown-toggle">
-<div bind="8c66bee8-866a-6609-aa3e-3dcd59c8a299" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<div class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
 <a class="nav-link" href="#"><?php esc_html_e( 'Solutions', 'osous' ); ?></a>
 <div class="menu-list-icon">
 <div class="accordion-icon-line-v bg-white"></div>
@@ -185,9 +185,9 @@ get_header();
 </div>
 </nav>
 </div>
-<div bind="9b4a1091-3f82-fdb3-a60e-69bf9f7061a2" class="dd-menu-item hide-on-desktop w-dropdown" data-delay="0" data-hover="true">
+<div class="dd-menu-item hide-on-desktop w-dropdown" data-delay="0" data-hover="true">
 <div class="menu-item-toggle w-dropdown-toggle">
-<div bind="9b4a1091-3f82-fdb3-a60e-69bf9f7061a4" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<div class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
 <a class="nav-link" href="#"><?php esc_html_e( 'Products', 'osous' ); ?></a>
 <div class="menu-list-icon">
 <div class="accordion-icon-line-v bg-white"></div>
@@ -222,9 +222,9 @@ get_header();
 </div>
 </nav>
 </div>
-<div bind="b3e72f1c-6d42-476e-cbee-c3907fd09a8a" class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
+<div class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
 <div class="menu-item-toggle w-dropdown-toggle">
-<div bind="b3e72f1c-6d42-476e-cbee-c3907fd09a8c" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<div class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
 <a class="nav-link" href="#"><?php esc_html_e( 'Services', 'osous' ); ?></a>
 <div class="menu-list-icon">
 <div class="accordion-icon-line-v bg-white"></div>
@@ -287,9 +287,9 @@ get_header();
 </div>
 </nav>
 </div>
-<div bind="7e5b02eb-eb8c-3c72-cdb8-9eb997de1e0e" class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
+<div class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
 <div class="menu-item-toggle w-dropdown-toggle">
-<div bind="7e5b02eb-eb8c-3c72-cdb8-9eb997de1e10" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<div class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
 <a class="nav-link hide-on-tablet" href="<?php echo esc_url( osous_url( 'partners.html' ) ); ?>"><?php esc_html_e( 'Partners', 'osous' ); ?></a>
 <a class="nav-link hide-on-desktop" href="#"><?php esc_html_e( 'Partners', 'osous' ); ?></a>
 <div class="menu-list-icon">
@@ -400,23 +400,23 @@ get_header();
 </a>
 </div>
 </div>
-<div class="section header w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b bg_8" data-wf--header--style="style-2"><img alt="" class="header-cut w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
+<div class="section header w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b bg_8"><img alt="" class="header-cut w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
 <div class="container h-100 w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b">
 <div class="header-contents w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b">
-<div class="t-r-md c-on-light w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"948dc51e-29d7-17b5-3761-a146bc5829c8"}}}'><?php esc_html_e( 'Services', 'osous' ); ?></div>
-<div class="spacer" data-wf--spacer--variant="1x"></div>
-<div class="_w-max-200" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}}}'>
+<div class="t-r-md c-on-light w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b"><?php esc_html_e( 'Services', 'osous' ); ?></div>
+<div class="spacer"></div>
+<div class="_w-max-200">
 <div class="divider gradient-1 m-y-0 w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b"></div>
 </div>
 <div>
-<h1 class="h1 a-c w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b osous-title-light" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"2ef5e533-cf57-a671-85c8-09df900bd27b"}}}' text-split="" words-rotate-in=""><?php esc_html_e( 'Professional Web Design in Iraq for Modern Businesses', 'osous' ); ?></h1>
-<p class="p-r-sm c-on-neutral a-c w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"55e6ff9a-1cd7-051d-6d3c-ffdd8f8e7601"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"32fd7b44-8704-4d9e-6779-0172356281da"}}}'><?php esc_html_e( 'We design high-performing websites for Iraqi businesses — fast, mobile-first, and built to rank on Google. Your competitors are already online. Let\'s make sure you stand out.', 'osous' ); ?></p>
+<h1 class="h1 a-c w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b osous-title-light" text-split="" words-rotate-in=""><?php esc_html_e( 'Professional Web Design in Iraq for Modern Businesses', 'osous' ); ?></h1>
+<p class="p-r-sm c-on-neutral a-c w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b"><?php esc_html_e( 'We design high-performing websites for Iraqi businesses — fast, mobile-first, and built to rank on Google. Your competitors are already online. Let\'s make sure you stand out.', 'osous' ); ?></p>
 </div>
 </div>
 </div><img alt="" class="header_img w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header_img_website.webp"/>
 </div>
 <div class="page-main">
-<section class="section c-surface-white" data-wf--section--variant="tight">
+<section class="section c-surface-white">
 <div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
 <div class="w-layout-grid grid-4">
 <div class="card metric">
@@ -438,15 +438,15 @@ get_header();
 </div>
 </div>
 </section>
-<section class="section c-surface-light overflow-hidden" data-wf--section--variant="base">
+<section class="section c-surface-light overflow-hidden">
 <div class="slot">
 <div class="w-layout-grid grid-2">
 <div class="w-layout-vflex f-v">
-<div class="section_title" data-wf--section_title--align="left">
-<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="section_title">
+<div class="eyebrow_badge">
 <div class="t-b-sm"><?php esc_html_e( 'WHY IT MATTERS', 'osous' ); ?></div>
 </div>
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-richtext">
 <h2><?php esc_html_e( 'Why Web Design Matters for Businesses inIraq', 'osous' ); ?></h2>
@@ -455,9 +455,9 @@ get_header();
 </div>
 </div>
 </div>
-<a class="btn w-inline-block" data-wf--button--variant="primary" href="#">
+<a class="btn w-inline-block" href="#">
 <div class="t-r-md c-on-primary"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>
@@ -488,15 +488,15 @@ get_header();
 </div>
 </div>
 </div>
-<div class="spacer w-variant-973385ee-73e5-8054-c31c-1d063c55913b" data-wf--spacer--variant="4x"></div>
+<div class="spacer w-variant-973385ee-73e5-8054-c31c-1d063c55913b"></div>
 <div class="w-layout-vflex f-v a-c-t">
 <h3 class="h1 thin"><?php esc_html_e( 'Technology', 'osous' ); ?></h3>
 <div class="w-layout-hflex grid-5"><img alt="<?php esc_attr_e( 'WordPress', 'osous' ); ?>" class="logo_technology" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/WordPress.webp"/><img alt="<?php esc_attr_e( 'Webflow', 'osous' ); ?>" class="logo_technology" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/Webflow.webp"/><img alt="<?php esc_attr_e( 'Next.js', 'osous' ); ?>" class="logo_technology" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/Next.js.webp"/></div>
 </div>
-<div class="spacer w-variant-973385ee-73e5-8054-c31c-1d063c55913b" data-wf--spacer--variant="4x"></div>
+<div class="spacer w-variant-973385ee-73e5-8054-c31c-1d063c55913b"></div>
 </div>
 </section>
-<section class="section w-variant-2e28a4ec-0a9a-9a38-9e9f-a87be7f1f021 c-surface-light" data-wf--section--variant="full">
+<section class="section w-variant-2e28a4ec-0a9a-9a38-9e9f-a87be7f1f021 c-surface-light">
 <div class="slot w-variant-2e28a4ec-0a9a-9a38-9e9f-a87be7f1f021">
 <div class="w-layout-hflex marquee">
 <div class="w-layout-hflex marquee-row">
@@ -516,10 +516,10 @@ get_header();
 </div>
 </div>
 </section>
-<section class="section w-variant-2e28a4ec-0a9a-9a38-9e9f-a87be7f1f021 c-surface-white overflow-hidden" data-wf--section--variant="full">
+<section class="section w-variant-2e28a4ec-0a9a-9a38-9e9f-a87be7f1f021 c-surface-white overflow-hidden">
 <div class="slot w-variant-2e28a4ec-0a9a-9a38-9e9f-a87be7f1f021">
-<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
 <h2><?php esc_html_e( 'Our Work', 'osous' ); ?></h2>
@@ -538,13 +538,13 @@ get_header();
 </div>
 </div>
 </section>
-<section class="section w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0 c-surface-white" data-wf--section--variant="fit-full">
+<section class="section w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0 c-surface-white">
 <div class="slot w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0 c-surface-secondary">
 <div class="content list-scroll">
 <div class="w-layout-grid grid-2 list_scrolled">
 <div class="cell list-scroll">
-<div class="section_title" data-wf--section_title--align="left">
-<div class="w-layout-vflex section_title_them w-variant-5053a507-255c-7c47-49b7-669050399f5e" data-wf--section_title_them--theme="dark">
+<div class="section_title">
+<div class="w-layout-vflex section_title_them w-variant-5053a507-255c-7c47-49b7-669050399f5e">
 <div>
 <div class="h2 w-richtext">
 <h2><?php esc_html_e( 'Web Design Services in Iraq', 'osous' ); ?></h2>
@@ -669,13 +669,13 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 </div>
 </section>
-<section class="section c-surface-light" data-wf--section--variant="base">
+<section class="section c-surface-light">
 <div class="slot">
-<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
-<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2">
+<div class="eyebrow_badge">
 <div class="t-b-sm"><?php esc_html_e( 'Budget & Pricing', 'osous' ); ?></div>
 </div>
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
 <h2><?php esc_html_e( 'Web Design Cost in', 'osous' ); ?> <em><?php esc_html_e( 'Iraq', 'osous' ); ?></em></h2>
@@ -693,108 +693,108 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 <div class="card corner_top_0">
 <ul class="list" role="list">
-<li class="list_item" data-wf--list_item--type="arrow">
+<li class="list_item">
 <div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
 <div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'Number of pages and overall site complexity', 'osous' ); ?></div>
 </div>
 </li>
-<li class="list_item" data-wf--list_item--type="arrow">
+<li class="list_item">
 <div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
 <div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'Custom UI/UX design vs. template-based approach', 'osous' ); ?></div>
 </div>
 </li>
-<li class="list_item" data-wf--list_item--type="arrow">
+<li class="list_item">
 <div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
 <div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'E-commerce functionality and payment integration', 'osous' ); ?></div>
 </div>
 </li>
-<li class="list_item" data-wf--list_item--type="arrow">
+<li class="list_item">
 <div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
 <div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'Arabic and Kurdish multilingual requirements', 'osous' ); ?></div>
 </div>
 </li>
-<li class="list_item" data-wf--list_item--type="arrow">
+<li class="list_item">
 <div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
 <div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'CMS platform choice and custom feature development', 'osous' ); ?></div>
 </div>
 </li>
-<li class="list_item" data-wf--list_item--type="arrow">
+<li class="list_item">
 <div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
 <div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'Third-party integrations — CRM, ERP, booking systems', 'osous' ); ?></div>
 </div>
 </li>
-<li class="list_item" data-wf--list_item--type="arrow">
+<li class="list_item">
 <div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
 <div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'Scalability options', 'osous' ); ?></div>
 <div class="t-r-sm opacity-70"><?php esc_html_e( 'Post-launch maintenance and support scope', 'osous' ); ?></div>
 </div>
@@ -811,50 +811,50 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 <div class="card corner_top_0">
 <ul class="list" role="list">
-<li class="list_item" data-wf--list_item--type="number">
+<li class="list_item">
 <div class="list_item_number">
 <div class="t-m-lg c-on-tertiary">01</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'Define your goals', 'osous' ); ?> </div>
 <div class="t-r-sm opacity-70"><?php esc_html_e( 'what should your website achieve on day one?', 'osous' ); ?></div>
 </div>
 </li>
-<li class="list_item" data-wf--list_item--type="number">
+<li class="list_item">
 <div class="list_item_number">
 <div class="t-m-lg c-on-tertiary">02</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'List your pages', 'osous' ); ?></div>
 <div class="t-r-sm opacity-70"><?php esc_html_e( 'home, about, services, blog, contact, and any special sections.', 'osous' ); ?></div>
 </div>
 </li>
-<li class="list_item" data-wf--list_item--type="number">
+<li class="list_item">
 <div class="list_item_number">
 <div class="t-m-lg c-on-tertiary">03</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'Identify integrations', 'osous' ); ?> </div>
 <div class="t-r-sm opacity-70"><?php esc_html_e( 'payment, live chat, maps, or existing business systems.', 'osous' ); ?></div>
 </div>
@@ -863,27 +863,27 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 </div>
 </div>
-<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9" data-wf--spacer--variant="2x"></div>
+<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9"></div>
 <div class="w-layout-hflex f-h a-c-c">
-<a class="btn w-inline-block" data-wf--button--variant="primary" href="#">
+<a class="btn w-inline-block" href="#">
 <div class="t-r-md c-on-primary"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>
 </div>
 </div>
 </section>
-<section class="section w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0 c-surface-white" data-wf--section--variant="fit-full">
+<section class="section w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0 c-surface-white">
 <div class="slot w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0 img_bg_1">
 <div class="w-layout-grid grid-2">
 <div class="card">
 <div class="seo_graphic_container"><img alt="" class="icon-256" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/seo.jpg"/></div>
-<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
-<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2">
+<div class="eyebrow_badge">
 <div class="t-b-sm"><?php esc_html_e( 'SEO & DIGITAL MARKETING', 'osous' ); ?></div>
 </div>
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
 <h2><?php esc_html_e( 'Built to Rank on Google in Iraq', 'osous' ); ?></h2>
@@ -893,50 +893,50 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 </div>
 <ul class="list" role="list">
-<li class="list_item" data-wf--list_item--type="number">
+<li class="list_item">
 <div class="list_item_number">
 <div class="t-m-lg c-on-tertiary">01</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'On-Page  Setup', 'osous' ); ?></div>
 <div class="t-r-sm opacity-70"><?php esc_html_e( 'what should your website achieve on day one?', 'osous' ); ?></div>
 </div>
 </li>
-<li class="list_item" data-wf--list_item--type="number">
+<li class="list_item">
 <div class="list_item_number">
 <div class="t-m-lg c-on-tertiary">02</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'Local SEO for Iraqi Businesses', 'osous' ); ?></div>
 <div class="t-r-sm opacity-70"><?php esc_html_e( 'Platform choice — iOS only, Android only, or both', 'osous' ); ?></div>
 </div>
 </li>
-<li class="list_item" data-wf--list_item--type="number">
+<li class="list_item">
 <div class="list_item_number">
 <div class="t-m-lg c-on-tertiary">03</div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="list_checked_icon w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
 </svg>
 </div>
 </div>
-<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="list_item_content">
 <div class="t-b-md"><?php esc_html_e( 'Convers2. Local SEO for Iraqi Businessesion Rate Optimization', 'osous' ); ?></div>
 <div class="t-r-sm opacity-70"><?php esc_html_e( 'Platform choice — iOS only, Android only, or both', 'osous' ); ?></div>
 </div>
@@ -946,13 +946,13 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 </div>
 </section>
-<section class="section pattern_1" data-wf--section--variant="tight">
+<section class="section pattern_1">
 <div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
-<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
-<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2">
+<div class="eyebrow_badge">
 <div class="t-b-sm"><?php esc_html_e( 'How We Work', 'osous' ); ?></div>
 </div>
-<div class="w-layout-vflex section_title_them w-variant-5053a507-255c-7c47-49b7-669050399f5e" data-wf--section_title_them--theme="dark">
+<div class="w-layout-vflex section_title_them w-variant-5053a507-255c-7c47-49b7-669050399f5e">
 <div>
 <div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
 <h2><?php esc_html_e( 'Our Simple 4-Step Web Design Process', 'osous' ); ?></h2>
@@ -1005,13 +1005,13 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 </div>
 </section>
-<section class="section c-surface-white" data-wf--section--variant="base">
+<section class="section c-surface-white">
 <div class="slot">
-<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
-<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2">
+<div class="eyebrow_badge">
 <div class="t-b-sm"><?php esc_html_e( 'Industries We Serve', 'osous' ); ?></div>
 </div>
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
 <h2><?php esc_html_e( 'Web Design for Every', 'osous' ); ?><br/><em><?php esc_html_e( 'Iraqi Industry', 'osous' ); ?></em></h2>
@@ -1044,13 +1044,13 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 </div>
 </section>
-<section class="section c-surface-white" data-wf--section--variant="base">
+<section class="section c-surface-white">
 <div class="slot">
-<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
-<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2">
+<div class="eyebrow_badge">
 <div class="t-b-sm"><?php esc_html_e( 'Client Reviews', 'osous' ); ?></div>
 </div>
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
 <h2><?php esc_html_e( 'What Iraqi Businesses Say About Us', 'osous' ); ?></h2>
@@ -1062,7 +1062,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <div class="swiper-wrapper tesimonial">
 <div class="swiper-slide">
 <div class="testimonial_card_1">
-<div class="card testimonial" data-wf--testimonial--variant="base">
+<div class="card testimonial">
 <div class="_5_stars"></div>
 <p class="p-b-lg"><?php esc_html_e( '"Our new website transformed the way customers find us. We went from invisible on Google to ranking #1 in Baghdad within two months. Incredible results."', 'osous' ); ?></p>
 <div class="w-layout-hflex f-h t">
@@ -1077,7 +1077,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 <div class="swiper-slide">
 <div class="testimonial_card_2">
-<div class="card testimonial w-variant-375e6d65-118b-6894-2a5f-1d79cc00d736" data-wf--testimonial--variant="primary">
+<div class="card testimonial w-variant-375e6d65-118b-6894-2a5f-1d79cc00d736">
 <div class="_5_stars w-variant-375e6d65-118b-6894-2a5f-1d79cc00d736"></div>
 <p class="p-b-lg"><?php esc_html_e( '"The team understood exactly what we needed — a bilingual site that works flawlessly in both Arabic and Kurdish. Our clinic appointments doubled since launch."', 'osous' ); ?></p>
 <div class="w-layout-hflex f-h t">
@@ -1092,7 +1092,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 <div class="swiper-slide">
 <div class="testimonial_card_3">
-<div class="card testimonial" data-wf--testimonial--variant="base">
+<div class="card testimonial">
 <div class="_5_stars"></div>
 <p class="p-b-lg"><?php esc_html_e( '"Professional, fast, and they delivered exactly what they promised. Our ecommerce store now processes orders 24/7. Best investment we made for our business."', 'osous' ); ?></p>
 <div class="w-layout-hflex f-h t">
@@ -1109,10 +1109,10 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 </div>
 </section>
-<section class="section c-surface-white" data-wf--section--variant="tight">
+<section class="section c-surface-white">
 <div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
-<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
 <h2><?php esc_html_e( 'FAQs', 'osous' ); ?></h2>
@@ -1121,7 +1121,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 </div>
 <div class="w-layout-vflex">
-<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion">
 <div class="accordion_qustion">
 <div class="h3"><?php esc_html_e( 'How much does web design cost in Iraq?', 'osous' ); ?></div>
 <div class="accordion_icon">
@@ -1133,7 +1133,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p class="p"><?php esc_html_e( 'Web design pricing in Iraq varies based on the type of website, number of pages, and features required. Basic websites start at a lower investment, while custom ecommerce platforms require larger budgets. Contact us for a personalized quote based on your exact needs.', 'osous' ); ?></p>
 </div>
 </div>
-<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion">
 <div class="accordion_qustion">
 <div class="h3"><?php esc_html_e( 'How long does it take to build a website?', 'osous' ); ?></div>
 <div class="accordion_icon">
@@ -1145,7 +1145,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p class="p"><?php esc_html_e( 'Most standard business websites take 3 to 6 weeks to design and develop. E-commerce websites and complex projects may take longer. We provide a clear timeline at the start of every project so you always know what to expect.', 'osous' ); ?></p>
 </div>
 </div>
-<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion">
 <div class="accordion_qustion">
 <div class="h3"><?php esc_html_e( 'Do you offer Arabic and Kurdish website design?', 'osous' ); ?></div>
 <div class="accordion_icon">
@@ -1157,7 +1157,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p class="p"><?php esc_html_e( 'Yes. We build fully bilingual and multilingual websites supporting Arabic and Kurdish, with proper right-to-left (RTL) design for Arabic content. Reaching all of Iraq\'s diverse audiences is a priority in every project we take on.', 'osous' ); ?></p>
 </div>
 </div>
-<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion">
 <div class="accordion_qustion">
 <div class="h3"><?php esc_html_e( 'Can you help with SEO in Iraq?', 'osous' ); ?></div>
 <div class="accordion_icon">
@@ -1169,7 +1169,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p class="p"><?php esc_html_e( 'Absolutely. SEO is integrated into every website we build. We also offer standalone SEO Iraq services including keyword research, content optimization, link building, and local SEO campaigns targeting Baghdad, Erbil, and Basra.', 'osous' ); ?></p>
 </div>
 </div>
-<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion">
 <div class="accordion_qustion">
 <div class="h3"><?php esc_html_e( 'Do I need hosting inside Iraq?', 'osous' ); ?></div>
 <div class="accordion_icon">
@@ -1181,7 +1181,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p class="p"><?php esc_html_e( 'WordPress is the most popular and flexible CMS for Iraqi businesses due to its ease of use, plugin ecosystem, and SEO capabilities. For ecommerce, WooCommerce or Shopify are strong options depending on your scale and budget.', 'osous' ); ?></p>
 </div>
 </div>
-<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion">
 <div class="accordion_qustion">
 <div class="h3"><?php esc_html_e( 'Do you offer Arabic and Kurdish website design?', 'osous' ); ?></div>
 <div class="accordion_icon">
@@ -1197,17 +1197,17 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 </section>
 </div>
-<div bind="e7b0e4ae-847c-fd95-2f18-98ae53a2315b" id="inquiery">
-<section class="section c-surface-white" data-wf--section--variant="tight">
+<div id="inquiery">
+<section class="section c-surface-white">
 <div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
 <div class="card cta-bg">
 <div class="section_title center">
-<h2 class="h2 a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"4f4ff8c1-7149-c37a-723a-6df3a7b8dac0"}}}'><?php esc_html_e( 'Ready to Grow Your Business Online?', 'osous' ); ?></h2>
-<p class="p a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"66cc16e7-3a04-8032-1c49-0c4dbb3d137b"}}}'><?php esc_html_e( 'Whether you\'re launching a new business or redesigning an outdated site, our team is ready. Free consultation. No commitment. Just results.', 'osous' ); ?></p>
+<h2 class="h2 a-c c-on-primary"><?php esc_html_e( 'Ready to Grow Your Business Online?', 'osous' ); ?></h2>
+<p class="p a-c c-on-primary"><?php esc_html_e( 'Whether you\'re launching a new business or redesigning an outdated site, our team is ready. Free consultation. No commitment. Just results.', 'osous' ); ?></p>
 <div class="spacer-3x"></div>
 <a class="btn dark w-inline-block" href="<?php echo esc_url( osous_url( 'contact.html' ) ); ?>">
 <div class="t-r-md"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
-<div bind="afa2a8e7-3bc2-ef1b-02fd-a439665df88e" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>

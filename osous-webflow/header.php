@@ -6,14 +6,6 @@
 <html <?php language_attributes(); ?> data-wf-page="<?php echo esc_attr( osous_wf_page_id() ); ?>" data-wf-site="6118020d3c76366cad8d0a43">
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
-  <title><?php echo esc_html( osous_meta( 'title' ) ); ?></title>
-  <meta content="<?php echo esc_attr( osous_meta( 'description' ) ); ?>" name="description">
-  <meta content="<?php echo esc_attr( osous_meta( 'title' ) ); ?>" property="og:title">
-  <meta content="<?php echo esc_attr( osous_meta( 'description' ) ); ?>" property="og:description">
-  <meta content="<?php echo esc_attr( osous_meta( 'title' ) ); ?>" name="twitter:title">
-  <meta content="<?php echo esc_attr( osous_meta( 'description' ) ); ?>" name="twitter:description">
-  <meta property="og:type" content="website">
-  <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <style>html.w-mod-js:not(.w-mod-ix3) :is(.navebar-menu, .accordion) {visibility: hidden !important;}@media not all and (max-width: 479px) and (min-width: 0px){@media not all and (max-width: 767px) and (min-width: 480px){@media not all and (max-width: 991px) and (min-width: 768px){html.w-mod-js:not(.w-mod-ix3) :is(:is(.dd-menu-item, .dd-menu-item) .nav-link, :is(.dd-menu-item, .dd-menu-item) .menu, .background-overlay) {visibility: hidden !important;}}}}@media not all and (min-width: 992px){html.w-mod-js:not(.w-mod-ix3) :is(.dd-menu-list-toggle + *) {visibility: hidden !important;}}</style>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -50,7 +42,7 @@
 </head>
 <body <?php body_class( 'c-surface-secondary' ); ?>>
 <?php wp_body_open(); ?>
-<section bind="c43bbb05-49b1-bdf4-9641-4ca0d0f4100e" class="preloader"></section><div bind="78a9e0e1-a66d-7caa-f48d-55a97e4bac67" class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" data-wf--navbar--style="default" data-wf-component-id="b34223f0-89a2-d8be-2a87-6097027da21f" data-wf-variant-state="base" role="banner">
+<section class="preloader"></section><div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" data-wf-component-id="b34223f0-89a2-d8be-2a87-6097027da21f" data-wf-variant-state="base" role="banner">
 <div class="navbar-wrapper elevation">
 <a <?php echo osous_aria_current( 'index.html' ); ?> class="navbar-brand w-nav-brand <?php echo osous_current_class( 'index.html' ); ?>" href="<?php echo esc_url( osous_url( 'index.html' ) ); ?>"><img alt="<?php esc_attr_e( 'Osous Al Taqnia', 'osous' ); ?>" class="logo" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/Logo-Full-mixed.svg" width="130"/></a>
 <div class="navebar-menu">
@@ -60,9 +52,9 @@
 <div class="menu-item">
 <a <?php echo osous_aria_current( 'about.html' ); ?> class="nav-link <?php echo osous_current_class( 'about.html' ); ?>" href="<?php echo esc_url( osous_url( 'about.html' ) ); ?>"><?php esc_html_e( 'About', 'osous' ); ?></a>
 </div>
-<div bind="8c66bee8-866a-6609-aa3e-3dcd59c8a297" class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
+<div class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
 <div class="menu-item-toggle w-dropdown-toggle">
-<div bind="8c66bee8-866a-6609-aa3e-3dcd59c8a299" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<div class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
 <a class="nav-link" href="#"><?php esc_html_e( 'Solutions', 'osous' ); ?></a>
 <div class="menu-list-icon">
 <div class="accordion-icon-line-v bg-white"></div>
@@ -217,9 +209,9 @@
 </div>
 </nav>
 </div>
-<div bind="9b4a1091-3f82-fdb3-a60e-69bf9f7061a2" class="dd-menu-item hide-on-desktop w-dropdown" data-delay="0" data-hover="true">
+<div class="dd-menu-item hide-on-desktop w-dropdown" data-delay="0" data-hover="true">
 <div class="menu-item-toggle w-dropdown-toggle">
-<div bind="9b4a1091-3f82-fdb3-a60e-69bf9f7061a4" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<div class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
 <a class="nav-link" href="#"><?php esc_html_e( 'Products', 'osous' ); ?></a>
 <div class="menu-list-icon">
 <div class="accordion-icon-line-v bg-white"></div>
@@ -254,9 +246,9 @@
 </div>
 </nav>
 </div>
-<div bind="b3e72f1c-6d42-476e-cbee-c3907fd09a8a" class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
+<div class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
 <div class="menu-item-toggle w-dropdown-toggle">
-<div bind="b3e72f1c-6d42-476e-cbee-c3907fd09a8c" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<div class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
 <a class="nav-link" href="#"><?php esc_html_e( 'Services', 'osous' ); ?></a>
 <div class="menu-list-icon">
 <div class="accordion-icon-line-v bg-white"></div>
@@ -319,9 +311,9 @@
 </div>
 </nav>
 </div>
-<div bind="7e5b02eb-eb8c-3c72-cdb8-9eb997de1e0e" class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
+<div class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
 <div class="menu-item-toggle w-dropdown-toggle">
-<div bind="7e5b02eb-eb8c-3c72-cdb8-9eb997de1e10" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<div class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
 <a <?php echo osous_aria_current( 'partners.html' ); ?> class="nav-link hide-on-tablet <?php echo osous_current_class( 'partners.html' ); ?>" href="<?php echo esc_url( osous_url( 'partners.html' ) ); ?>"><?php esc_html_e( 'Partners', 'osous' ); ?></a>
 <a class="nav-link hide-on-desktop" href="#"><?php esc_html_e( 'Partners', 'osous' ); ?></a>
 <div class="menu-list-icon">
@@ -431,13 +423,13 @@
 <div class="menu-icon-bottom"></div>
 </a>
 </div>
-</div><a bind="70e540a2-83c2-c3d2-8b52-fff1dbaafb9e" class="whatsapp w-inline-block" href="https://wa.me/+9647870606069" target="_blank">
+</div><a class="whatsapp w-inline-block" href="https://wa.me/+9647870606069" target="_blank">
 <div class="w-layout-blockcontainer container-lg w-container">
 <div class="magnatic p-r-0">
-<div bind="70e540a2-83c2-c3d2-8b52-fff1dbaafba1" class="icon-whatsapp w-embed"><svg fill="none" height="58" viewbox="0 0 57 58" width="57" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-whatsapp w-embed"><svg fill="none" height="58" viewbox="0 0 57 58" width="57" xmlns="http://www.w3.org/2000/svg">
 <path clip-rule="evenodd" d="M13.1601 52.8946L14.182 53.5165C18.497 56.1023 23.4446 57.4607 28.4896 57.4771H28.5058C43.9976 57.4771 56.6181 44.7608 56.6181 29.1151C56.6181 21.5377 53.6982 14.4186 48.3937 9.0506C43.0892 3.68262 36.0165 0.736771 28.5058 0.736771C13.0141 0.720405 0.393555 13.4366 0.393555 29.0824C0.393555 34.434 1.86973 39.6547 4.69232 44.1716L5.35741 45.2518L2.5186 55.7095L13.1601 52.8946ZM18.1574 13.3385C18.7576 13.3548 19.4227 13.3876 20.0553 14.8114C20.4607 15.7271 21.1341 17.3914 21.6986 18.7864C22.1732 19.9593 22.5707 20.9417 22.667 21.1286C22.8779 21.5541 23.0077 22.0451 22.7319 22.6179C22.6993 22.6856 22.6686 22.7503 22.639 22.8126C22.4178 23.2776 22.2603 23.6087 21.8884 24.0417C21.7362 24.2189 21.5776 24.4132 21.4195 24.6068C21.1397 24.9497 20.8615 25.2905 20.6231 25.531C20.2013 25.9565 19.7633 26.4148 20.25 27.2658C20.7367 28.1168 22.4399 30.9154 24.9543 33.1738C27.6574 35.6132 30.0079 36.6411 31.1963 37.1607C31.4271 37.2616 31.614 37.3434 31.7512 37.4126C32.5947 37.8381 33.0976 37.7726 33.5843 37.1998C34.0709 36.627 35.6931 34.7122 36.2609 33.8612C36.8124 33.0102 37.3802 33.1575 38.1588 33.4357C38.9374 33.7303 43.0902 35.7924 43.9337 36.2179C44.1 36.3017 44.2555 36.3773 44.3996 36.4474C44.9872 36.733 45.3866 36.9271 45.5559 37.2162C45.7668 37.5762 45.7668 39.2783 45.0693 41.2749C44.3555 43.2715 40.9003 45.1863 39.3592 45.3336C39.2118 45.3477 39.0651 45.3657 38.9141 45.3842C37.4869 45.5592 35.6754 45.7813 29.2206 43.2061C21.2682 40.0363 16.0185 32.1722 14.956 30.5807C14.872 30.4548 14.8142 30.3682 14.7833 30.3262C14.7777 30.3187 14.7718 30.3106 14.7653 30.3018C14.2824 29.6468 11.328 25.6397 11.328 21.505C11.328 17.5496 13.2504 15.4903 14.1271 14.5511C14.1826 14.4916 14.234 14.4366 14.2804 14.3859C15.059 13.5349 15.9675 13.3221 16.5352 13.3221C17.103 13.3221 17.6707 13.3221 18.1574 13.3385Z" fill="currentColor" fill-rule="evenodd"></path>
 </svg></div>
-<div bind="70e540a2-83c2-c3d2-8b52-fff1dbaafba2" class="icon-whatsapp-border w-embed"><svg fill="none" height="68" viewbox="0 0 67 68" width="67" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-whatsapp-border w-embed"><svg fill="none" height="68" viewbox="0 0 67 68" width="67" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.714844 67.3068L5.34988 50.245C2.4843 45.237 0.981045 39.5655 0.996704 33.7677C0.996704 15.6 15.6534 0.828857 33.6455 0.828857C42.3832 0.828857 50.5885 4.25702 56.7424 10.4814C62.912 16.7058 66.31 24.984 66.2944 33.7835C66.2944 51.9512 51.6376 66.7223 33.6299 66.7223H33.6142C28.1493 66.7223 22.7783 65.3321 18.0023 62.7096L0.714844 67.3068Z" fill="#945FFE"></path>
 </svg></div>
 </div>

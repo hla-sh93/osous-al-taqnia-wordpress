@@ -1,23 +1,49 @@
-Osous Al Taqnia (Webflow) 1.0.0
+Osous Al Taqnia (Webflow) 1.1.0
 ================================
 
-Converted from the Webflow export. One template per page, with a shared
-header and footer.
+Converted from the Webflow export. A classic WordPress theme: one template per
+page, with a shared header and footer.
 
 Setup
 -----
 1. Appearance -> Themes -> Add New -> Upload Theme, choose this zip, Activate.
-2. Settings -> Permalinks -> Post name -> Save.
-3. Create one page per Webflow page. The page slug is the Webflow file name
-   without ".html" (e.g. "about", "cctv-company-iraq"). WordPress uses the
-   matching template automatically: page-{slug}.php. The home page uses
-   front-page.php and should be given the slug "home".
-   Templates are also listed under Page Attributes as "Template Name".
-4. Settings -> Reading -> "A static page": Homepage = "home".
-5. Delete WordPress's default draft "Privacy Policy" page first, so the
-   privacy-policy slug is free.
-6. Contact form mail goes to the site's admin email. To change it, use the
+2. That's it. On activation the theme:
+   - creates one page per template (the slug comes from the file name:
+     page-cctv-company-iraq.php -> /cctv-company-iraq/), plus a "Home" page;
+   - sets Settings -> Reading -> "A static page" to Home, unless a static front
+     page is already set;
+   - sets the permalinks to "Post name" when they are still "Plain";
+   - publishes WordPress's own "Privacy Policy" draft, so /privacy-policy/
+     shows the designed page.
+   Pages that already exist are never changed. Activating again only adds the
+   pages that are missing.
+3. Contact form mail goes to the site's admin email. To change it, use the
    osous_contact_recipient filter. Most hosts need an SMTP plugin for wp_mail().
+4. Optional spam protection: Appearance -> Customize -> Cloudflare Turnstile,
+   enter the site key and the secret key. With no keys the form works without
+   the challenge.
+
+Where things are
+----------------
+- page-{slug}.php   one file per page; the text is in the file.
+- front-page.php    the home page.
+- header.php        <head>, preloader and the navigation menu.
+- footer.php        the footer.
+- single.php        a blog post. template-parts/ holds the blog list and hero.
+- functions.php     page titles and descriptions (one table), scripts and
+                    styles, the contact form.
+- inc/              Turnstile and the page installer.
+- js/               the site's own scripts (carousel, scrolling lists, split
+                    section, overlapping cards); js/vendor/ holds jQuery, GSAP,
+                    ScrollTrigger and Swiper. Nothing loads from other hosts
+                    except Google Fonts (and Turnstile on the contact page).
+
+Titles and SEO
+--------------
+The browser title and meta description of each page come from the table in
+functions.php (osous_meta). Any SEO plugin (Yoast, Rank Math, All in One SEO,
+SEOPress) takes over the title and the meta tags once it is active, so they can
+be edited per page from the dashboard.
 
 Blog posts
 ----------
@@ -28,8 +54,8 @@ description.
 
 The blog page lists the posts, 12 per page, newest first, with page links
 under the list (?paged=2 and so on). Each card opens the post.
-If you set the blog as the posts page (Settings -> Reading -> "A static page"
--> Posts page), home.php shows the same design.
+If you set the blog as the posts page (Settings -> Reading -> Posts page),
+home.php shows the same design.
 
 Not converted
 -------------
@@ -37,21 +63,10 @@ Not converted
 - design-system.html (style guide, no site header or footer)
 - detail_blogs.html (replaced by the single post template, see Blog posts)
 
-Scripts
--------
-Local: jQuery 3.5.1, GSAP 3.15.0, ScrollTrigger 3.15.0, Swiper 11.2.10
-(js/vendor/), webflow.js (js/).
-Still remote:
-- carousel.js (all pages), overlapping-cards.js (home page) and split-section.js
-  (Office 365 page), all from the Webflow sandbox host 3kjjlt.csb.app.
-To host any of these locally, save the file into js/vendor/ with the same
-name as the remote file. The theme uses the local copy when it exists.
-(carousel.js, overlapping-cards.js and split-section.js are the only ones
-the local-first rule applies to.)
-
 Notes
 -----
 - Page titles for e-commerce, partners, mobile-app and website-design are the
-  short titles from the Webflow drafts. Set proper titles in the editor
-  (Page -> Title) and the browser tab will use them.
-- The contact form has no spam protection yet.
+  short titles from the Webflow drafts. Install an SEO plugin to set proper
+  titles, or edit the table in functions.php.
+- The slug "endpoint-secuirty-iraq" keeps the spelling of the live Webflow URL
+  so existing links and search results still work.

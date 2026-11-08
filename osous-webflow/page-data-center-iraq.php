@@ -4,16 +4,16 @@
  */
 get_header();
 ?>
-<div class="section header" data-wf--header--style="style-1"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
+<div class="section header"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
 <div class="container h-100">
 <div class="header-contents">
-<div class="t-r-md c-on-light" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"948dc51e-29d7-17b5-3761-a146bc5829c8"}}}'><?php esc_html_e( 'Infrastructure', 'osous' ); ?></div>
-<div class="spacer" data-wf--spacer--variant="1x"></div>
-<div class="_w-max-200" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}}}'>
+<div class="t-r-md c-on-light"><?php esc_html_e( 'Infrastructure', 'osous' ); ?></div>
+<div class="spacer"></div>
+<div class="_w-max-200">
 <div class="divider gradient-1 m-y-0"></div>
 </div>
 <div>
-<h1 class="h1 a-c" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"2ef5e533-cf57-a671-85c8-09df900bd27b"}}}' text-split="" words-rotate-in=""><?php esc_html_e( 'Data Center Solutions for Iraqi Businesses', 'osous' ); ?></h1>
+<h1 class="h1 a-c" text-split="" words-rotate-in=""><?php esc_html_e( 'Data Center Solutions for Iraqi Businesses', 'osous' ); ?></h1>
 </div>
 </div>
 </div>
@@ -43,51 +43,51 @@ get_header();
 <h2 class="h2"><?php esc_html_e( 'Smart Modular Data Centers: Ready for Immediate Deployment Across Iraq', 'osous' ); ?></h2>
 <p class="p-r-sm"><?php esc_html_e( 'The cornerstone of Osous Al Taqnia\'s offering is their "Smart Modular Data Centers" – prefabricated, scalable solutions designed for immediate deployment and future expansion throughout Iraq. These next-generation data centers feature:', 'osous' ); ?></p>
 <div class="w-layout-grid grid-3">
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Smart, Compact Integrated Components', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'optimized for Iraqi facilities', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Smart, Compact Integrated Components', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'optimized for Iraqi facilities', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Comprehensive Hardware and Software Solutions', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'for complete functionality', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Comprehensive Hardware and Software Solutions', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'for complete functionality', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Integrated Power Distribution Units (PDUs)', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'designed for Iraq\'s infrastructure', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Integrated Power Distribution Units (PDUs)', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'designed for Iraq\'s infrastructure', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Uninterruptible Power Supply (UPS) Systems', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'to manage Iraq\'s power challenges', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Uninterruptible Power Supply (UPS) Systems', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'to manage Iraq\'s power challenges', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Advanced Monitoring Capabilities', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'for real-time oversight in remote locations', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Advanced Monitoring Capabilities', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'for real-time oversight in remote locations', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Efficient Cooling Infrastructure', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'engineered for Iraq\'s climate conditions', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Efficient Cooling Infrastructure', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'engineered for Iraq\'s climate conditions', 'osous' ); ?></p>
 </div>
 </div>
 </div>
@@ -139,11 +139,11 @@ get_header();
 </div>
 </div>
 </div>
-</section><section class="section w-variant-28a6d7a7-f44c-3cfd-c8ea-d9dc543f8bfd c-surface-white" data-wf--section--variant="fit">
+</section><section class="section w-variant-28a6d7a7-f44c-3cfd-c8ea-d9dc543f8bfd c-surface-white">
 <div class="slot w-variant-28a6d7a7-f44c-3cfd-c8ea-d9dc543f8bfd c-surface-light">
-<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9" data-wf--spacer--variant="2x"></div>
-<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9"></div>
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
 <h2><?php esc_html_e( 'Strategic Technology Partnerships for Enhanced Iraqi Infrastructure', 'osous' ); ?></h2>
@@ -152,27 +152,27 @@ get_header();
 </div>
 </div>
 <div class="w-layout-grid grid-3">
-<div class="card w-variant-a115059f-30fe-83fc-54fd-880e99e58c1e" data-wf--card--style="secondary">
+<div class="card w-variant-a115059f-30fe-83fc-54fd-880e99e58c1e">
 <div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/dell-partner.svg"/>
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Enterprise-Grade Computing Infrastructure', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Dell provides the reliable servers, storage, and networking equipment that power our prefabricated data centers, delivering performance and redundancy for mission-critical applications across Iraq.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Enterprise-Grade Computing Infrastructure', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'Dell provides the reliable servers, storage, and networking equipment that power our prefabricated data centers, delivering performance and redundancy for mission-critical applications across Iraq.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/vertiv-partner.svg"/>
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Power & Cooling Solutions Optimized for Iraqi Conditions', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Vertiv delivers reliable power and cooling solutions engineered for Iraq\'s challenging environment, ensuring optimal performance during unstable power conditions while minimizing energy consumption.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Power & Cooling Solutions Optimized for Iraqi Conditions', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'Vertiv delivers reliable power and cooling solutions engineered for Iraq\'s challenging environment, ensuring optimal performance during unstable power conditions while minimizing energy consumption.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card w-variant-a115059f-30fe-83fc-54fd-880e99e58c1e" data-wf--card--style="secondary">
+<div class="card w-variant-a115059f-30fe-83fc-54fd-880e99e58c1e">
 <div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/huawel-partner.svg"/>
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Enterprise-Grade Computing Infrastructure', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Huawei\'s cutting-edge networking solutions ensure seamless connectivity throughout Iraq, providing high-bandwidth connections and intelligent management systems for distributed infrastructure.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Enterprise-Grade Computing Infrastructure', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'Huawei\'s cutting-edge networking solutions ensure seamless connectivity throughout Iraq, providing high-bandwidth connections and intelligent management systems for distributed infrastructure.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
@@ -206,17 +206,17 @@ get_header();
 </div>
 </section>
 </div>
-</section><div bind="e7b0e4ae-847c-fd95-2f18-98ae53a2315b" id="inquiery">
-<section class="section c-surface-white" data-wf--section--variant="tight">
+</section><div id="inquiery">
+<section class="section c-surface-white">
 <div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
 <div class="card cta-bg">
 <div class="section_title center">
-<h2 class="h2 a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"4f4ff8c1-7149-c37a-723a-6df3a7b8dac0"}}}'><?php esc_html_e( 'Transform Your Data Center Infrastructure Today', 'osous' ); ?></h2>
-<p class="p a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"66cc16e7-3a04-8032-1c49-0c4dbb3d137b"}}}'><?php esc_html_e( 'Ready to revolutionize your IT operations? Contact an Osous Al Taqnia expert today and discover how our prefabricated data center modules can transform your business infrastructure across Iraq.', 'osous' ); ?></p>
+<h2 class="h2 a-c c-on-primary"><?php esc_html_e( 'Transform Your Data Center Infrastructure Today', 'osous' ); ?></h2>
+<p class="p a-c c-on-primary"><?php esc_html_e( 'Ready to revolutionize your IT operations? Contact an Osous Al Taqnia expert today and discover how our prefabricated data center modules can transform your business infrastructure across Iraq.', 'osous' ); ?></p>
 <div class="spacer-3x"></div>
 <a class="btn dark w-inline-block" href="<?php echo esc_url( osous_url( 'contact.html' ) ); ?>">
 <div class="t-r-md"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
-<div bind="afa2a8e7-3bc2-ef1b-02fd-a439665df88e" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>

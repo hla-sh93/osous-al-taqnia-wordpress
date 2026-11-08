@@ -4,16 +4,16 @@
  */
 get_header();
 ?>
-<div class="section header" data-wf--header--style="style-1"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
+<div class="section header"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
 <div class="container h-100">
 <div class="header-contents">
-<div class="t-r-md c-on-light" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"948dc51e-29d7-17b5-3761-a146bc5829c8"}}}'><?php esc_html_e( 'Infrastructure', 'osous' ); ?></div>
-<div class="spacer" data-wf--spacer--variant="1x"></div>
-<div class="_w-max-200" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}}}'>
+<div class="t-r-md c-on-light"><?php esc_html_e( 'Infrastructure', 'osous' ); ?></div>
+<div class="spacer"></div>
+<div class="_w-max-200">
 <div class="divider gradient-1 m-y-0"></div>
 </div>
 <div>
-<h1 class="h1 a-c" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"2ef5e533-cf57-a671-85c8-09df900bd27b"}}}' text-split="" words-rotate-in=""><?php esc_html_e( 'HCI Solutions', 'osous' ); ?></h1>
+<h1 class="h1 a-c" text-split="" words-rotate-in=""><?php esc_html_e( 'HCI Solutions', 'osous' ); ?></h1>
 </div>
 </div>
 </div>
@@ -37,10 +37,10 @@ get_header();
 <div class="w-layout-vflex flex-v a-c-c" id="w-node-_7d67e316-1587-bb5f-2e5e-89d5481bd96b-0c17d745">
 <div class="w-layout-blockcontainer container fit w-container">
 <div class="card-4 bg-blur">
-<a class="w-inline-block" href="#" sym-bind='{"link":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"298c2111-39a9-6334-efa6-01908696a899"}}}'></a>
+<a class="w-inline-block" href="#"></a>
 <div class="content">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b823700b-d7da-86f1-7d70-33ecda235405"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"921a9331-db14-554a-84d5-47021f255e3c"}}}'><?php esc_html_e( 'Why Iraqi Businesses Are Adopting HCI Solutions', 'osous' ); ?></h3>
-<p class="paragraph" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"613582ae-6b1d-9e9c-bf26-ae0303ca7135"}}}'><?php esc_html_e( 'Traditional data center architectures no longer meet the demands of Iraq\'s dynamic business environment. They require substantial capital investment, demand specialized expertise across multiple domains, create scaling challenges through disruptive upgrades, and often result in resource silos and underutilization. Iraqi businesses are turning to HCI solutions to address these critical infrastructure limitations and position themselves for digital success.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Why Iraqi Businesses Are Adopting HCI Solutions', 'osous' ); ?></h3>
+<p class="paragraph"><?php esc_html_e( 'Traditional data center architectures no longer meet the demands of Iraq\'s dynamic business environment. They require substantial capital investment, demand specialized expertise across multiple domains, create scaling challenges through disruptive upgrades, and often result in resource silos and underutilization. Iraqi businesses are turning to HCI solutions to address these critical infrastructure limitations and position themselves for digital success.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
@@ -53,41 +53,41 @@ get_header();
 <h2 class="h2"><?php esc_html_e( 'Real-World Applications of HCI Solutions in Iraq', 'osous' ); ?></h2>
 </div>
 <div class="w-layout-grid grid-3">
-<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
-<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Data Center Modernization', 'osous' ); ?></h3>
-<p class="p c-on-primary-subtle" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b901eb9c-1939-7ce3-65b3-0dd34c2aa8e0"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fb72aabd-1983-9ae3-887a-91c34ad6d6eb"}}}'><?php esc_html_e( 'HCI provides an ideal foundation for Iraqi organizations looking to transition from legacy infrastructure to modern, software-defined data centers. This transformation enables greater efficiency, improved performance, and enhanced agility while reducing overall complexity.', 'osous' ); ?></p>
-<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
-<div class="card1-outline" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"8c778a17-3a83-2937-0196-67484ecd970e"}}}}}'></div>
+<div class="card-2">
+<h3 class="h3 c-on-primary"><?php esc_html_e( 'Data Center Modernization', 'osous' ); ?></h3>
+<p class="p c-on-primary-subtle"><?php esc_html_e( 'HCI provides an ideal foundation for Iraqi organizations looking to transition from legacy infrastructure to modern, software-defined data centers. This transformation enables greater efficiency, improved performance, and enhanced agility while reducing overall complexity.', 'osous' ); ?></p>
+<div class="card2-background"></div>
+<div class="card1-outline"></div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Virtual Desktop Infrastructure (VDI)', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'HCI excels at supporting virtual desktop deployments, enabling secure, seamless access to desktops and applications from any device across Iraq. Organizations can rapidly scale their VDI environment to accommodate remote work initiatives while maintaining centralized control and security.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Virtual Desktop Infrastructure (VDI)', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'HCI excels at supporting virtual desktop deployments, enabling secure, seamless access to desktops and applications from any device across Iraq. Organizations can rapidly scale their VDI environment to accommodate remote work initiatives while maintaining centralized control and security.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Hybrid Cloud Deployment', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'By bridging on-premises infrastructure with cloud services, HCI creates a flexible foundation for hybrid cloud strategies in Iraq. Organizations can easily move workloads between environments, leverage cloud services, and optimize resource allocation based on cost and performance requirements.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Hybrid Cloud Deployment', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'By bridging on-premises infrastructure with cloud services, HCI creates a flexible foundation for hybrid cloud strategies in Iraq. Organizations can easily move workloads between environments, leverage cloud services, and optimize resource allocation based on cost and performance requirements.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Business Continuity and Disaster Recovery', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'HCI solutions integrate robust data protection capabilities, including automated failover and rapid recovery. This built-in resilience ensures critical business operations can continue even in the face of hardware failures or site-wide disasters common in challenging environments.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Business Continuity and Disaster Recovery', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'HCI solutions integrate robust data protection capabilities, including automated failover and rapid recovery. This built-in resilience ensures critical business operations can continue even in the face of hardware failures or site-wide disasters common in challenging environments.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Application Modernization', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Modern applications demand infrastructure that can keep pace with rapid development cycles and changing requirements. HCI accelerates application deployment and updates while providing the flexibility to support diverse workloads from traditional enterprise applications to cloud-native services for Iraqi businesses.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Application Modernization', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'Modern applications demand infrastructure that can keep pace with rapid development cycles and changing requirements. HCI accelerates application deployment and updates while providing the flexibility to support diverse workloads from traditional enterprise applications to cloud-native services for Iraqi businesses.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
@@ -109,11 +109,11 @@ get_header();
 </div>
 </div>
 </div>
-</section><section class="section w-variant-28a6d7a7-f44c-3cfd-c8ea-d9dc543f8bfd c-surface-white" data-wf--section--variant="fit">
+</section><section class="section w-variant-28a6d7a7-f44c-3cfd-c8ea-d9dc543f8bfd c-surface-white">
 <div class="slot w-variant-28a6d7a7-f44c-3cfd-c8ea-d9dc543f8bfd c-surface-light">
-<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9" data-wf--spacer--variant="2x"></div>
-<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9"></div>
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
 <h2><?php esc_html_e( 'Our', 'osous' ); ?> <span class="highlight"><?php esc_html_e( 'Strategic Partners', 'osous' ); ?></span></h2>
@@ -123,32 +123,32 @@ get_header();
 </div>
 </div>
 <div class="w-layout-grid grid-2">
-<div class="card w-variant-a115059f-30fe-83fc-54fd-880e99e58c1e" data-wf--card--style="secondary">
+<div class="card w-variant-a115059f-30fe-83fc-54fd-880e99e58c1e">
 <div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/dell-partner.svg"/>
 <div class="position-relative-10">
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'As a certified Dell partner, we provide Dell EMC VxRail solutions offering faster deployment, continuous innovation through PowerEdge platforms, and seamless VMware integration for Iraqi businesses requiring enterprise-grade virtualized applications.', 'osous' ); ?></p>
+<p><?php esc_html_e( 'As a certified Dell partner, we provide Dell EMC VxRail solutions offering faster deployment, continuous innovation through PowerEdge platforms, and seamless VMware integration for Iraqi businesses requiring enterprise-grade virtualized applications.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/partner-logo05.svg"/>
 <div class="position-relative-10">
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Our VMware partnership enables delivery of industry-leading virtualization technology that powers our HCI solutions. We implement optimized VMware vSAN environments for simplified management and create flexible hybrid cloud deployments for Iraqi enterprises.', 'osous' ); ?></p>
+<p><?php esc_html_e( 'Our VMware partnership enables delivery of industry-leading virtualization technology that powers our HCI solutions. We implement optimized VMware vSAN environments for simplified management and create flexible hybrid cloud deployments for Iraqi enterprises.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/partner-dark-citrix.svg"/>
 <div class="position-relative-10">
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Through our Citrix partnership, we enhance HCI offerings with VDI solutions providing secure access to applications from any device. We help Iraqi organizations implement scalable remote work environments while maintaining centralized control and security.', 'osous' ); ?></p>
+<p><?php esc_html_e( 'Through our Citrix partnership, we enhance HCI offerings with VDI solutions providing secure access to applications from any device. We help Iraqi organizations implement scalable remote work environments while maintaining centralized control and security.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
 <div id="w-node-db2a726b-b12a-4f86-dc42-4ccebf0307c2-0c17d745">
-<div class="card w-variant-a115059f-30fe-83fc-54fd-880e99e58c1e" data-wf--card--style="secondary">
+<div class="card w-variant-a115059f-30fe-83fc-54fd-880e99e58c1e">
 <div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/partner-white-hewlett.svg"/>
 <div class="position-relative-10">
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'As an authorized HPE partner, we deliver HPE SimpliVity solutions combining infrastructure, advanced data services, and AI-driven operations at reduced costs. Our certified specialists provide built-in data protection, one-click updates, and HPE InfoSight predictive analytics.', 'osous' ); ?></p>
+<p><?php esc_html_e( 'As an authorized HPE partner, we deliver HPE SimpliVity solutions combining infrastructure, advanced data services, and AI-driven operations at reduced costs. Our certified specialists provide built-in data protection, one-click updates, and HPE InfoSight predictive analytics.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
@@ -183,17 +183,17 @@ get_header();
 </div>
 </section>
 </div>
-</section><div bind="e7b0e4ae-847c-fd95-2f18-98ae53a2315b" id="inquiery">
-<section class="section c-surface-white" data-wf--section--variant="tight">
+</section><div id="inquiery">
+<section class="section c-surface-white">
 <div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
 <div class="card cta-bg">
 <div class="section_title center">
-<h2 class="h2 a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"4f4ff8c1-7149-c37a-723a-6df3a7b8dac0"}}}'><?php esc_html_e( 'Transform Your Iraqi Business with Professional IT Services', 'osous' ); ?></h2>
-<p class="p a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"66cc16e7-3a04-8032-1c49-0c4dbb3d137b"}}}'><?php esc_html_e( 'Choosing the right IT partner is key in Iraq’s fast-moving market. Whether you’re launching new services, upgrading infrastructure, or improving cybersecurity, Osous Al-Taqnia offers the solutions and local support to help your business grow.', 'osous' ); ?></p>
+<h2 class="h2 a-c c-on-primary"><?php esc_html_e( 'Transform Your Iraqi Business with Professional IT Services', 'osous' ); ?></h2>
+<p class="p a-c c-on-primary"><?php esc_html_e( 'Choosing the right IT partner is key in Iraq’s fast-moving market. Whether you’re launching new services, upgrading infrastructure, or improving cybersecurity, Osous Al-Taqnia offers the solutions and local support to help your business grow.', 'osous' ); ?></p>
 <div class="spacer-3x"></div>
 <a class="btn dark w-inline-block" href="<?php echo esc_url( osous_url( 'contact.html' ) ); ?>">
 <div class="t-r-md"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
-<div bind="afa2a8e7-3bc2-ef1b-02fd-a439665df88e" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>

@@ -4,12 +4,12 @@
  */
 get_header();
 ?>
-<div class="section header" data-wf--header--style="style-1"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
+<div class="section header"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
 <div class="container h-100">
 <div class="header-contents">
-<div class="spacer" data-wf--spacer--variant="1x"></div>
+<div class="spacer"></div>
 <div>
-<h1 class="h1 a-c" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"2ef5e533-cf57-a671-85c8-09df900bd27b"}}}' text-split="" words-rotate-in=""><?php esc_html_e( 'IT Infrastructure', 'osous' ); ?></h1>
+<h1 class="h1 a-c" text-split="" words-rotate-in=""><?php esc_html_e( 'IT Infrastructure', 'osous' ); ?></h1>
 </div>
 </div>
 </div>
@@ -27,105 +27,105 @@ get_header();
 <h2 class="h2 a-c"><strong><?php esc_html_e( 'Our Core IT Infrastructure Solutions', 'osous' ); ?></strong></h2>
 </div>
 <div class="w-layout-grid grid-2">
-<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
-<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><strong><?php esc_html_e( 'Campus LAN & Wi-Fi Solutions', 'osous' ); ?></strong></h3>
-<p class="p c-on-primary-subtle" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b901eb9c-1939-7ce3-65b3-0dd34c2aa8e0"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fb72aabd-1983-9ae3-887a-91c34ad6d6eb"}}}'><?php esc_html_e( 'Maximize connectivity and productivity with our enterprise-grade Campus LAN and Wi-Fi solutions across Iraq. We design, implement, and manage high-performance wireless networks tailored to your specific business environment.Our Wi-Fi solutions work for diverse environments including corporate offices, educational institutions, and residential communities throughout Iraq, ensuring everyone stays connected with reliable, high-speed access.', 'osous' ); ?></p>
-<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
-<a class="btn _w-max-200 m-t-auto w-inline-block" href="<?php echo esc_url( osous_url( 'network-wifi-solutions-iraq.html' ) ); ?>" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fd73666c-546a-3d8d-674c-3f21473330af"}}}},"link":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"4a06ae1f-8880-098f-5a27-8d4d779da10d"}}}'>
-<div class="t-r-md c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"4d6b58b5-d74a-fb27-1203-9260f317f6d0"}}}'><?php esc_html_e( 'Read more', 'osous' ); ?></div>
+<div class="card-2">
+<h3 class="h3 c-on-primary"><strong><?php esc_html_e( 'Campus LAN & Wi-Fi Solutions', 'osous' ); ?></strong></h3>
+<p class="p c-on-primary-subtle"><?php esc_html_e( 'Maximize connectivity and productivity with our enterprise-grade Campus LAN and Wi-Fi solutions across Iraq. We design, implement, and manage high-performance wireless networks tailored to your specific business environment.Our Wi-Fi solutions work for diverse environments including corporate offices, educational institutions, and residential communities throughout Iraq, ensuring everyone stays connected with reliable, high-speed access.', 'osous' ); ?></p>
+<div class="card2-background"></div>
+<a class="btn _w-max-200 m-t-auto w-inline-block" href="<?php echo esc_url( osous_url( 'network-wifi-solutions-iraq.html' ) ); ?>">
+<div class="t-r-md c-on-primary"><?php esc_html_e( 'Read more', 'osous' ); ?></div>
 </a>
-<div class="card1-outline" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"8c778a17-3a83-2937-0196-67484ecd970e"}}}}}'></div>
+<div class="card1-outline"></div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><strong><?php esc_html_e( 'HCI (Hyper-Converged Infrastructure) Solutions', 'osous' ); ?></strong></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Enable unparalleled agility and efficiency with our unified Hyper-Converged Infrastructure solutions that provide seamless scalability and adaptability to evolving business needs in Iraq\'s growing technology sector.', 'osous' ); ?></p>
+<h3><strong><?php esc_html_e( 'HCI (Hyper-Converged Infrastructure) Solutions', 'osous' ); ?></strong></h3>
+<p><?php esc_html_e( 'Enable unparalleled agility and efficiency with our unified Hyper-Converged Infrastructure solutions that provide seamless scalability and adaptability to evolving business needs in Iraq\'s growing technology sector.', 'osous' ); ?></p>
 </div>
 <div class="w-layout-hflex">
-<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" data-wf--button--variant="secondary" href="<?php echo esc_url( osous_url( 'hci-solutions-iraq.html' ) ); ?>">
+<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" href="<?php echo esc_url( osous_url( 'hci-solutions-iraq.html' ) ); ?>">
 <div class="t-r-md c-on-primary"><?php esc_html_e( 'Read more', 'osous' ); ?></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><strong><?php esc_html_e( 'Servers and Storage Solutions', 'osous' ); ?></strong></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Meet the growing data demands of your Iraqi business with our comprehensive server and storage solutions built for performance, security, and efficiency.With years of experience providing server solutions throughout Iraq, we\'ve gained extensive knowledge of various applications used by businesses today, allowing us to recommend and implement the perfect configuration for your needs.', 'osous' ); ?></p>
+<h3><strong><?php esc_html_e( 'Servers and Storage Solutions', 'osous' ); ?></strong></h3>
+<p><?php esc_html_e( 'Meet the growing data demands of your Iraqi business with our comprehensive server and storage solutions built for performance, security, and efficiency.With years of experience providing server solutions throughout Iraq, we\'ve gained extensive knowledge of various applications used by businesses today, allowing us to recommend and implement the perfect configuration for your needs.', 'osous' ); ?></p>
 </div>
 <div class="w-layout-hflex">
-<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" data-wf--button--variant="secondary" href="<?php echo esc_url( osous_url( 'server-storage-iraq.html' ) ); ?>">
+<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" href="<?php echo esc_url( osous_url( 'server-storage-iraq.html' ) ); ?>">
 <div class="t-r-md c-on-primary"><?php esc_html_e( 'Read more', 'osous' ); ?></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><strong><?php esc_html_e( 'Virtualization Solutions', 'osous' ); ?></strong></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Transform your IT infrastructure with our virtualization solutions that optimize resource utilization and provide greater flexibility for Iraqi organizations.Our virtualization expertise helps businesses across Iraq consolidate infrastructure, reduce costs, and improve operational efficiency while maintaining performance and reliability.', 'osous' ); ?></p>
+<h3><strong><?php esc_html_e( 'Virtualization Solutions', 'osous' ); ?></strong></h3>
+<p><?php esc_html_e( 'Transform your IT infrastructure with our virtualization solutions that optimize resource utilization and provide greater flexibility for Iraqi organizations.Our virtualization expertise helps businesses across Iraq consolidate infrastructure, reduce costs, and improve operational efficiency while maintaining performance and reliability.', 'osous' ); ?></p>
 </div>
 <div class="w-layout-hflex">
-<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" data-wf--button--variant="secondary" href="<?php echo esc_url( osous_url( 'virtualization-solutions-iraq.html' ) ); ?>">
+<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" href="<?php echo esc_url( osous_url( 'virtualization-solutions-iraq.html' ) ); ?>">
 <div class="t-r-md c-on-primary"><?php esc_html_e( 'Read more', 'osous' ); ?></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><strong><?php esc_html_e( 'Structured Cabling', 'osous' ); ?></strong></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Build a reliable foundation for your IT infrastructure with our professional structured cabling services designed for Iraq\'s unique business environments.A well-designed structured cabling system ensures reliable connectivity and provides the backbone for all your technology solutions in any Iraqi facility.', 'osous' ); ?></p>
+<h3><strong><?php esc_html_e( 'Structured Cabling', 'osous' ); ?></strong></h3>
+<p><?php esc_html_e( 'Build a reliable foundation for your IT infrastructure with our professional structured cabling services designed for Iraq\'s unique business environments.A well-designed structured cabling system ensures reliable connectivity and provides the backbone for all your technology solutions in any Iraqi facility.', 'osous' ); ?></p>
 </div>
 <div class="w-layout-hflex">
-<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" data-wf--button--variant="secondary" href="<?php echo esc_url( osous_url( 'structured-cabling-iraq.html' ) ); ?>">
+<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" href="<?php echo esc_url( osous_url( 'structured-cabling-iraq.html' ) ); ?>">
 <div class="t-r-md c-on-primary"><?php esc_html_e( 'Read more', 'osous' ); ?></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><strong><?php esc_html_e( 'CCTV Surveillance Solutions', 'osous' ); ?></strong></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Protect your assets and enhance security with our comprehensive CCTV surveillance systems tailored for Iraqi businesses and institutions.Our expertise covers security planning, CCTV installations, and maintenance, helping you formulate effective surveillance systems customized to your specific needs throughout Iraq.', 'osous' ); ?></p>
+<h3><strong><?php esc_html_e( 'CCTV Surveillance Solutions', 'osous' ); ?></strong></h3>
+<p><?php esc_html_e( 'Protect your assets and enhance security with our comprehensive CCTV surveillance systems tailored for Iraqi businesses and institutions.Our expertise covers security planning, CCTV installations, and maintenance, helping you formulate effective surveillance systems customized to your specific needs throughout Iraq.', 'osous' ); ?></p>
 </div>
 <div class="w-layout-hflex">
-<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" data-wf--button--variant="secondary" href="<?php echo esc_url( osous_url( 'cctv-company-iraq.html' ) ); ?>">
+<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" href="<?php echo esc_url( osous_url( 'cctv-company-iraq.html' ) ); ?>">
 <div class="t-r-md c-on-primary"><?php esc_html_e( 'Read more', 'osous' ); ?></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><strong><?php esc_html_e( 'Modular Data Center Solutions', 'osous' ); ?></strong></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Deploy flexible, scalable data center infrastructure with our modular data center solutions designed for Iraq\'s evolving technology landscape.Our modular data center approach enables Iraqi businesses to adapt quickly to changing requirements while maintaining reliability and performance.', 'osous' ); ?></p>
+<h3><strong><?php esc_html_e( 'Modular Data Center Solutions', 'osous' ); ?></strong></h3>
+<p><?php esc_html_e( 'Deploy flexible, scalable data center infrastructure with our modular data center solutions designed for Iraq\'s evolving technology landscape.Our modular data center approach enables Iraqi businesses to adapt quickly to changing requirements while maintaining reliability and performance.', 'osous' ); ?></p>
 </div>
 <div class="w-layout-hflex">
-<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" data-wf--button--variant="secondary" href="<?php echo esc_url( osous_url( 'data-center-iraq.html' ) ); ?>">
+<a class="btn w-variant-cf3acc79-0dca-725f-d568-0e5a9974ae59 w-inline-block" href="<?php echo esc_url( osous_url( 'data-center-iraq.html' ) ); ?>">
 <div class="t-r-md c-on-primary"><?php esc_html_e( 'Read more', 'osous' ); ?></div>
-<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>
@@ -147,13 +147,13 @@ get_header();
 </div>
 </div>
 </section><div>
-<section class="section white list-scroll-section c-surface-white" data-wf--section--variant="base">
+<section class="section white list-scroll-section c-surface-white">
 <div class="slot">
 <section class="list-scroll">
 <div class="w-layout-grid grid-2">
 <div class="cell">
-<div class="section_title" data-wf--section_title--align="left">
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="section_title">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-richtext">
 <h2><strong><?php esc_html_e( 'Why Choose Osous Al Taqnia for IT Infrastructure Services?', 'osous' ); ?></strong></h2>
@@ -184,17 +184,17 @@ get_header();
 </section>
 </div>
 </section>
-</div><div bind="e7b0e4ae-847c-fd95-2f18-98ae53a2315b" id="inquiery">
-<section class="section c-surface-white" data-wf--section--variant="tight">
+</div><div id="inquiery">
+<section class="section c-surface-white">
 <div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
 <div class="card cta-bg">
 <div class="section_title center">
-<h2 class="h2 a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"4f4ff8c1-7149-c37a-723a-6df3a7b8dac0"}}}'><strong><?php esc_html_e( 'Take the Next Step with Osous Al Taqnia', 'osous' ); ?></strong></h2>
-<p class="p a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"66cc16e7-3a04-8032-1c49-0c4dbb3d137b"}}}'><?php esc_html_e( 'Ready to transform your IT infrastructure in Iraq?', 'osous' ); ?> <strong><?php esc_html_e( 'Contact our experts today', 'osous' ); ?></strong> <?php esc_html_e( 'for a personalized consultation and discover how our tailored solutions can drive innovation and growth for your business throughout Iraq.', 'osous' ); ?></p>
+<h2 class="h2 a-c c-on-primary"><strong><?php esc_html_e( 'Take the Next Step with Osous Al Taqnia', 'osous' ); ?></strong></h2>
+<p class="p a-c c-on-primary"><?php esc_html_e( 'Ready to transform your IT infrastructure in Iraq?', 'osous' ); ?> <strong><?php esc_html_e( 'Contact our experts today', 'osous' ); ?></strong> <?php esc_html_e( 'for a personalized consultation and discover how our tailored solutions can drive innovation and growth for your business throughout Iraq.', 'osous' ); ?></p>
 <div class="spacer-3x"></div>
 <a class="btn dark w-inline-block" href="<?php echo esc_url( osous_url( 'contact.html' ) ); ?>">
 <div class="t-r-md"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
-<div bind="afa2a8e7-3bc2-ef1b-02fd-a439665df88e" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>

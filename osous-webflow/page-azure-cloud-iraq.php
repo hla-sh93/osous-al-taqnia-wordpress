@@ -4,20 +4,20 @@
  */
 get_header();
 ?>
-<div class="section header" data-wf--header--style="style-1"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
+<div class="section header"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
 <div class="container h-100">
 <div class="header-contents">
-<div class="t-r-md c-on-light" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"948dc51e-29d7-17b5-3761-a146bc5829c8"}}}'><?php esc_html_e( 'Cloud Services', 'osous' ); ?></div>
-<div class="spacer" data-wf--spacer--variant="1x"></div>
-<div class="_w-max-200" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}}}'>
+<div class="t-r-md c-on-light"><?php esc_html_e( 'Cloud Services', 'osous' ); ?></div>
+<div class="spacer"></div>
+<div class="_w-max-200">
 <div class="divider gradient-1 m-y-0"></div>
 </div>
 <div>
-<h1 class="h1 a-c" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"2ef5e533-cf57-a671-85c8-09df900bd27b"}}}' text-split="" words-rotate-in=""><?php esc_html_e( 'Microsoft Azure Cloud Management & Migration Services in Iraq', 'osous' ); ?></h1>
+<h1 class="h1 a-c" text-split="" words-rotate-in=""><?php esc_html_e( 'Microsoft Azure Cloud Management & Migration Services in Iraq', 'osous' ); ?></h1>
 </div>
 </div>
 </div>
-</div><section class="section p-y-0" data-wf--section--variant="base">
+</div><section class="section p-y-0">
 <div class="slot">
 <div class="w-layout-grid grid-2 gap-1x">
 <div class="card f-v a-l-c c-surface-primary" id="w-node-_883e8c78-c864-1ea0-405a-452d07f0601e-df7b9c4f">
@@ -27,10 +27,10 @@ get_header();
 <div class="cell" id="w-node-_883e8c78-c864-1ea0-405a-452d07f06024-df7b9c4f"><img alt="<?php esc_attr_e( 'Osous Al Taqnia\'s Azure cloud management services in Iraq', 'osous' ); ?>" class="image h-100 radii-container" loading="lazy" sizes="(max-width: 479px) 100vw, 49vw" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/Azure-cloud-management-services.webp" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/images/Cloud-service.Microsoft-Azure-Cloud01-p-500.webp 500w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/Azure-cloud-management-services.webp 653w"/></div>
 </div>
 </div>
-</section><section class="section c-surface-white" data-wf--section--variant="base">
+</section><section class="section c-surface-white">
 <div class="slot">
-<div class="section_title" data-wf--section_title--align="left">
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="section_title">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-richtext">
 <h2><strong><?php esc_html_e( 'Enterprise-Grade Solutions for Business Applications', 'osous' ); ?></strong></h2>
@@ -38,7 +38,7 @@ get_header();
 </div>
 </div>
 </div>
-<div class="divider" data-wf--divider--style="light"></div>
+<div class="divider"></div>
 <div class="w-layout-grid grid-2">
 <div class="cell">
 <h3 class="h3"><?php esc_html_e( 'Centralized Backup Solutions', 'osous' ); ?></h3>
@@ -49,12 +49,12 @@ get_header();
 <p class="p c-on-neutral-subtle"><?php esc_html_e( 'Focus on website features rather than infrastructure with Azure App Service. Host web applications, REST APIs, and mobile back ends through a unified interface with support for multiple development languages and effortless scaling.', 'osous' ); ?></p>
 </div>
 </div>
-<div class="divider" data-wf--divider--style="light"></div>
+<div class="divider"></div>
 </div>
-</section><section class="section c-surface-light" data-wf--section--variant="base">
+</section><section class="section c-surface-light">
 <div class="slot">
-<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
 <h2><?php esc_html_e( 'Key Features of Professional Azure Cloud Management', 'osous' ); ?></h2>
@@ -63,57 +63,57 @@ get_header();
 </div>
 </div>
 <div class="w-layout-grid grid-3">
-<div class="card w-variant-b27c1ea4-652a-7de6-1eeb-fd6829115d82" data-wf--card--style="primary">
+<div class="card w-variant-b27c1ea4-652a-7de6-1eeb-fd6829115d82">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Continuous Compliance', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Gain better control of your security protocols and ensure your Azure Cloud Services comply with all regional and industry-standard regulations in Iraq.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Continuous Compliance', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'Gain better control of your security protocols and ensure your Azure Cloud Services comply with all regional and industry-standard regulations in Iraq.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Future-Proof Infrastructure', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Build a scalable, flexible Azure Cloud Infrastructure that grows with your business and easily adapts to changing needs.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Future-Proof Infrastructure', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'Build a scalable, flexible Azure Cloud Infrastructure that grows with your business and easily adapts to changing needs.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Easy Deployment', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Deploy, monitor, and manage your Azure Cloud Services centrally from anywhere, simplifying management across cloud and physical environments.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Easy Deployment', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'Deploy, monitor, and manage your Azure Cloud Services centrally from anywhere, simplifying management across cloud and physical environments.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Seamless Hybrid Environment', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'This is the defConnect your team with secure, advanced technology solutions that enable productivity from anywhere, anytime.ault text value', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Seamless Hybrid Environment', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'This is the defConnect your team with secure, advanced technology solutions that enable productivity from anywhere, anytime.ault text value', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Integrated Security', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Implement fully integrated security features and protocols to protect against cyber-attacks and ransomware.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'Integrated Security', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'Implement fully integrated security features and protocols to protect against cyber-attacks and ransomware.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
-<div class="card" data-wf--card--style="white">
+<div class="card">
 <div class="w-layout-vflex f-v a-l-sb h-100">
 <div class="position-relative-10">
-<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'AI and Machine Learning Integration', 'osous' ); ?></h3>
-<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Gain daily, deep insights into your systems and network health with Azure\'s advanced learning solutions to predict and prevent future failures.', 'osous' ); ?></p>
+<h3><?php esc_html_e( 'AI and Machine Learning Integration', 'osous' ); ?></h3>
+<p><?php esc_html_e( 'Gain daily, deep insights into your systems and network health with Azure\'s advanced learning solutions to predict and prevent future failures.', 'osous' ); ?></p>
 </div>
 </div>
 </div>
 </div>
 </div>
-</section><section class="section c-surface-white" data-wf--section--variant="tight">
+</section><section class="section c-surface-white">
 <div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6 c-border-light">
 <div class="w-layout-grid grid-2">
 <div class="modal bg-azura"><img alt="<?php esc_attr_e( 'Certified Microsoft Azure partner in Iraq', 'osous' ); ?>" class="icon-160" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/partner-Azure.svg"/>
@@ -125,13 +125,13 @@ get_header();
 </div>
 </div>
 </section><div>
-<section class="section white list-scroll-section c-surface-white" data-wf--section--variant="base">
+<section class="section white list-scroll-section c-surface-white">
 <div class="slot">
 <section class="list-scroll">
 <div class="w-layout-grid grid-2">
 <div class="cell">
-<div class="section_title" data-wf--section_title--align="left">
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="section_title">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-richtext">
 <h2><strong><?php esc_html_e( 'Why Choose Osous Al Taqnia\'s Azure Cloud Management Services?', 'osous' ); ?></strong></h2>
@@ -174,17 +174,17 @@ get_header();
 </div>
 </div>
 </div>
-</section><div bind="e7b0e4ae-847c-fd95-2f18-98ae53a2315b" id="inquiery">
-<section class="section c-surface-white" data-wf--section--variant="tight">
+</section><div id="inquiery">
+<section class="section c-surface-white">
 <div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
 <div class="card cta-bg">
 <div class="section_title center">
-<h2 class="h2 a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"4f4ff8c1-7149-c37a-723a-6df3a7b8dac0"}}}'><strong><?php esc_html_e( 'Contact Iraq\'s Leading Azure Cloud Experts Today', 'osous' ); ?></strong></h2>
-<p class="p a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"66cc16e7-3a04-8032-1c49-0c4dbb3d137b"}}}'><?php esc_html_e( 'Get faster, fully managed access to Azure integrated tools and create a seamless work environment for your organization. Contact Osous Al Taqnia, Iraq\'s trusted Azure solutions provider, today to begin your transformation.', 'osous' ); ?></p>
+<h2 class="h2 a-c c-on-primary"><strong><?php esc_html_e( 'Contact Iraq\'s Leading Azure Cloud Experts Today', 'osous' ); ?></strong></h2>
+<p class="p a-c c-on-primary"><?php esc_html_e( 'Get faster, fully managed access to Azure integrated tools and create a seamless work environment for your organization. Contact Osous Al Taqnia, Iraq\'s trusted Azure solutions provider, today to begin your transformation.', 'osous' ); ?></p>
 <div class="spacer-3x"></div>
 <a class="btn dark w-inline-block" href="<?php echo esc_url( osous_url( 'contact.html' ) ); ?>">
 <div class="t-r-md"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
-<div bind="afa2a8e7-3bc2-ef1b-02fd-a439665df88e" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>

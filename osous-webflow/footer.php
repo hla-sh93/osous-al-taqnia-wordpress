@@ -3,15 +3,15 @@
  * Footer: the site footer and the closing tags. Scripts are queued in functions.php.
  */
 ?>
-<section bind="61c55ba8-9847-1f1e-b042-6aa7b5ae4cd3">
-<section class="section w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0<?php echo osous_footer_class(); ?>" data-wf--section--variant="fit-full">
+<section>
+<section class="section w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0<?php echo osous_footer_class(); ?>">
 <div class="slot w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0 c-surface-dark">
 <div class="content">
-<div class="spacer w-variant-973385ee-73e5-8054-c31c-1d063c55913b" data-wf--spacer--variant="4x"></div>
+<div class="spacer w-variant-973385ee-73e5-8054-c31c-1d063c55913b"></div>
 <div class="grid-4 fotter">
 <div class="cell" id="w-node-_83d1a635-2966-d519-ddf0-9416c5befc30-b5ae4cd3">
 <div class="t-r-md c-on-dark-subtle all-cap"><?php esc_html_e( 'Discover', 'osous' ); ?></div>
-<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9" data-wf--spacer--variant="2x"></div>
+<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9"></div>
 <div class="w-layout-vflex flex-v">
 <a <?php echo osous_aria_current( 'cloud-services-iraq.html' ); ?> class="link c-on-secondary <?php echo osous_current_class( 'cloud-services-iraq.html' ); ?>" href="<?php echo esc_url( osous_url( 'cloud-services-iraq.html' ) ); ?>"><?php esc_html_e( 'Cloud Services', 'osous' ); ?></a>
 <a <?php echo osous_aria_current( 'cybersecurity-iraq.html' ); ?> class="link c-on-secondary <?php echo osous_current_class( 'cybersecurity-iraq.html' ); ?>" href="<?php echo esc_url( osous_url( 'cybersecurity-iraq.html' ) ); ?>"><?php esc_html_e( 'Cyber Security', 'osous' ); ?></a>
@@ -23,7 +23,7 @@
 </div>
 <div class="cell">
 <div class="t-r-md c-on-dark-subtle all-cap"><?php esc_html_e( 'UAE', 'osous' ); ?></div>
-<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9" data-wf--spacer--variant="2x"></div>
+<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9"></div>
 <div class="w-layout-vflex f-v">
 <div class="w-layout-hflex f-h"><img alt="" class="icon-20" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon-pin.svg"/>
 <div class="t-r-md c-on-dark"><?php esc_html_e( '6th Floor, The Meydan Hotel, Nad Al Sheba, Dubai', 'osous' ); ?></div>
@@ -38,7 +38,7 @@
 </div>
 <div class="cell">
 <div class="t-r-md c-on-dark-subtle all-cap"><?php esc_html_e( 'Syria', 'osous' ); ?></div>
-<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9" data-wf--spacer--variant="2x"></div>
+<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9"></div>
 <div class="w-layout-vflex f-v">
 <div class="w-layout-hflex f-h"><img alt="" class="icon-20" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon-pin.svg"/>
 <div class="t-r-md c-on-dark"><?php esc_html_e( 'Baghdad St., Damascus', 'osous' ); ?></div>
@@ -53,7 +53,7 @@
 </div>
 <div class="cell">
 <div class="t-r-md c-on-dark-subtle all-cap"><?php esc_html_e( 'IRAQ', 'osous' ); ?></div>
-<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9" data-wf--spacer--variant="2x"></div>
+<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9"></div>
 <div class="w-layout-vflex f-v">
 <div class="w-layout-hflex f-h"><img alt="" class="icon-20" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon-pin.svg"/>
 <div class="t-r-md c-on-dark"><?php esc_html_e( 'Villa S 11/5, Atconz, Erbil', 'osous' ); ?> <br/><?php esc_html_e( '62nd St, Baghdad', 'osous' ); ?></div>
@@ -66,11 +66,11 @@
 </div>
 </div>
 </div>
-<div bind="418d608b-0a88-9620-f4f6-671badcffaeb" class="fotter_map w-embed w-iframe"><iframe allowfullscreen="" height="150" loading="lazy" max-width="300" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.6770720498216!2d44.022947900000005!3d36.24733779999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40071f6fc027b687%3A0x2a5846c52d553dfc!2sOSOUS%20AL%20TAQNIA!5e0!3m2!1sen!2siq!4v1769344992153!5m2!1sen!2siq" style="border:10;"></iframe></div>
+<div class="fotter_map w-embed w-iframe"><iframe allowfullscreen="" height="150" loading="lazy" max-width="300" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.6770720498216!2d44.022947900000005!3d36.24733779999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40071f6fc027b687%3A0x2a5846c52d553dfc!2sOSOUS%20AL%20TAQNIA!5e0!3m2!1sen!2siq!4v1769344992153!5m2!1sen!2siq" style="border:10;"></iframe></div>
 </div>
 </div>
 </div>
-<div class="divider w-variant-2afc0d02-f483-a16b-e234-c99c6208eb8c" data-wf--divider--style="dark"></div>
+<div class="divider w-variant-2afc0d02-f483-a16b-e234-c99c6208eb8c"></div>
 <div class="w-layout-grid grid-2">
 <div class="cell" id="w-node-d1abfb77-2be4-1a59-aa83-3b25090cab5b-b5ae4cd3">
 <div>
@@ -85,7 +85,7 @@
 </div>
 <div class="w-layout-hflex f-h" id="w-node-_4780ea5e-953e-5f26-2564-d037e981310c-b5ae4cd3"><img alt="" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo_iso_9001.png"/><img alt="" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo_iso_27001.png"/></div>
 </div>
-<div class="divider w-variant-2afc0d02-f483-a16b-e234-c99c6208eb8c" data-wf--divider--style="dark"></div>
+<div class="divider w-variant-2afc0d02-f483-a16b-e234-c99c6208eb8c"></div>
 <div class="w-layout-grid grid-3 gap-none">
 <div class="f-h a-l-c" id="w-node-_676fa326-e1f4-cd83-8719-4bfec45fdc7f-b5ae4cd3"></div>
 <div class="w-layout-hflex f-h" id="w-node-_7d30fcaf-eed0-6815-f617-d967b8350203-b5ae4cd3">

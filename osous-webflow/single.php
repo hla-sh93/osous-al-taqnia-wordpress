@@ -15,7 +15,7 @@ get_header();
         </div>
         <div class="t-r-sm">/</div>
         <div class="breadcrumb-item">
-          <a class="breadcrumb-item-link" href="<?php echo esc_url( home_url( '/blog/' ) ); ?>"><?php esc_html_e( 'Blog', 'osous' ); ?></a>
+          <a class="breadcrumb-item-link" href="<?php echo esc_url( osous_blog_url() ); ?>"><?php esc_html_e( 'Blog', 'osous' ); ?></a>
         </div>
       </nav>
       <h1 class="h1"><?php the_title(); ?></h1>

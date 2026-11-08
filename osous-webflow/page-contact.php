@@ -4,13 +4,13 @@
  */
 get_header();
 ?>
-<section class="section w-variant-28a6d7a7-f44c-3cfd-c8ea-d9dc543f8bfd" data-wf--section--variant="fit">
+<section class="section w-variant-28a6d7a7-f44c-3cfd-c8ea-d9dc543f8bfd">
 <div class="slot w-variant-28a6d7a7-f44c-3cfd-c8ea-d9dc543f8bfd c-surface-light">
 <div class="w-layout-grid grid-2">
 <div class="w-layout-vflex card c-surface-none">
 <div class="content">
-<div class="section_title" data-wf--section_title--align="left">
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="section_title">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-richtext">
 <h2><?php esc_html_e( 'Transform Your Iraqi Business with Professional IT Services', 'osous' ); ?></h2>
@@ -18,7 +18,7 @@ get_header();
 </div>
 </div>
 </div>
-<div class="divider" data-wf--divider--style="light"></div>
+<div class="divider"></div>
 <div>
 <h3 class="h3"><?php esc_html_e( 'Request a Free IT Consultation', 'osous' ); ?></h3>
 <div class="w-layout-grid call-us">
@@ -38,8 +38,8 @@ get_header();
 </div>
 <div class="card c-surface-secondary">
 <div class="content">
-<div class="section_title" data-wf--section_title--align="left">
-<div class="w-layout-vflex section_title_them w-variant-5053a507-255c-7c47-49b7-669050399f5e" data-wf--section_title_them--theme="dark">
+<div class="section_title">
+<div class="w-layout-vflex section_title_them w-variant-5053a507-255c-7c47-49b7-669050399f5e">
 <div>
 <div class="h2 w-richtext">
 <h2><?php esc_html_e( 'LEAVE YOUR REQUEST', 'osous' ); ?></h2>
@@ -48,7 +48,7 @@ get_header();
 </div>
 </div>
 </div>
-<div bind="fb6f2058-78d2-6254-70e7-7691981c4b25" class="form-block w-form">
+<div class="form-block w-form">
 <?php osous_contact_notice(); ?>
 <form data-name="Email Form" id="email-form" method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" name="email-form"><input type="hidden" name="action" value="osous_contact"><?php wp_nonce_field( 'osous_contact', 'osous_contact_nonce' ); ?>
 <div class="w-layout-vflex input-wrapper"><input class="input t-m-md w-input" data-name="name" id="name" maxlength="256" name="name" placeholder="<?php esc_attr_e( 'Enter your name', 'osous' ); ?>" required="" type="text"/><input class="input t-m-md w-input" data-name="company" id="company" maxlength="256" name="company" placeholder="<?php esc_attr_e( 'Company', 'osous' ); ?>" required="" type="text"/><input class="input t-m-md w-input" data-name="email" id="email" maxlength="256" name="email" placeholder="<?php esc_attr_e( 'Email', 'osous' ); ?>" required="" type="email"/><input class="input t-m-md w-input" data-name="mobile" id="mobile" maxlength="256" name="mobile" placeholder="<?php esc_attr_e( 'Mobile', 'osous' ); ?>" type="text"/></div>

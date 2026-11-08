@@ -4,16 +4,16 @@
  */
 get_header();
 ?>
-<div class="section header" data-wf--header--style="style-1"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
+<div class="section header"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
 <div class="container h-100">
 <div class="header-contents">
-<div class="t-r-md c-on-light" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"948dc51e-29d7-17b5-3761-a146bc5829c8"}}}'><?php esc_html_e( 'Services', 'osous' ); ?></div>
-<div class="spacer" data-wf--spacer--variant="1x"></div>
-<div class="_w-max-200" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}}}'>
+<div class="t-r-md c-on-light"><?php esc_html_e( 'Services', 'osous' ); ?></div>
+<div class="spacer"></div>
+<div class="_w-max-200">
 <div class="divider gradient-1 m-y-0"></div>
 </div>
 <div>
-<h1 class="h1 a-c" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"2ef5e533-cf57-a671-85c8-09df900bd27b"}}}' text-split="" words-rotate-in=""><?php esc_html_e( 'Managed IT Services', 'osous' ); ?></h1>
+<h1 class="h1 a-c" text-split="" words-rotate-in=""><?php esc_html_e( 'Managed IT Services', 'osous' ); ?></h1>
 </div>
 </div>
 </div>
@@ -39,77 +39,77 @@ get_header();
 <p class="p-r-sm c-on-secondary a-c"><?php esc_html_e( 'Modern Iraqi enterprises face complex challenges managing their IT ecosystems. Osous Al Taqnia delivers expert solutions across cloud migration, cybersecurity, infrastructure optimization, and disaster recovery to address these increasingly complex technological demands.t', 'osous' ); ?></p>
 </div>
 <div class="w-layout-grid grid-3">
-<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
-<div class="number_container" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"cf00b2c1-2216-f37c-c937-4ea52fa5d176"}}}}}'>
-<div class="h3 number-style-1" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"83811ce9-5092-665b-d41b-4ec23c4589b3"}}}'>01</div>
+<div class="card-2">
+<div class="number_container">
+<div class="h3 number-style-1">01</div>
 <div class="number-shape"></div>
 </div>
-<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Proactive Monitoring', 'osous' ); ?></h3>
-<p class="p c-on-primary-subtle" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b901eb9c-1939-7ce3-65b3-0dd34c2aa8e0"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fb72aabd-1983-9ae3-887a-91c34ad6d6eb"}}}'><?php esc_html_e( 'Continuous tracking of networks and devices to prevent issues before they impact operations.', 'osous' ); ?></p>
-<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<h3 class="h3 c-on-primary"><?php esc_html_e( 'Proactive Monitoring', 'osous' ); ?></h3>
+<p class="p c-on-primary-subtle"><?php esc_html_e( 'Continuous tracking of networks and devices to prevent issues before they impact operations.', 'osous' ); ?></p>
+<div class="card2-background"></div>
 </div>
-<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
-<div class="number_container" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"cf00b2c1-2216-f37c-c937-4ea52fa5d176"}}}}}'>
-<div class="h3 number-style-1" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"83811ce9-5092-665b-d41b-4ec23c4589b3"}}}'>02</div>
+<div class="card-2">
+<div class="number_container">
+<div class="h3 number-style-1">02</div>
 <div class="number-shape"></div>
 </div>
-<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Infrastructure Management', 'osous' ); ?></h3>
-<p class="p c-on-primary-subtle" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b901eb9c-1939-7ce3-65b3-0dd34c2aa8e0"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fb72aabd-1983-9ae3-887a-91c34ad6d6eb"}}}'><?php esc_html_e( 'Regular health checks and security protocols that maximize efficiency and stability.', 'osous' ); ?></p>
-<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<h3 class="h3 c-on-primary"><?php esc_html_e( 'Infrastructure Management', 'osous' ); ?></h3>
+<p class="p c-on-primary-subtle"><?php esc_html_e( 'Regular health checks and security protocols that maximize efficiency and stability.', 'osous' ); ?></p>
+<div class="card2-background"></div>
 </div>
-<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
-<div class="number_container" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"cf00b2c1-2216-f37c-c937-4ea52fa5d176"}}}}}'>
-<div class="h3 number-style-1" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"83811ce9-5092-665b-d41b-4ec23c4589b3"}}}'>03</div>
+<div class="card-2">
+<div class="number_container">
+<div class="h3 number-style-1">03</div>
 <div class="number-shape"></div>
 </div>
-<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Data Protection', 'osous' ); ?></h3>
-<p class="p c-on-primary-subtle" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b901eb9c-1939-7ce3-65b3-0dd34c2aa8e0"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fb72aabd-1983-9ae3-887a-91c34ad6d6eb"}}}'><?php esc_html_e( 'Automated backups and recovery planning to minimize downtime during system failures or attacks.', 'osous' ); ?></p>
-<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<h3 class="h3 c-on-primary"><?php esc_html_e( 'Data Protection', 'osous' ); ?></h3>
+<p class="p c-on-primary-subtle"><?php esc_html_e( 'Automated backups and recovery planning to minimize downtime during system failures or attacks.', 'osous' ); ?></p>
+<div class="card2-background"></div>
 </div>
-<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
-<div class="number_container" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"cf00b2c1-2216-f37c-c937-4ea52fa5d176"}}}}}'>
-<div class="h3 number-style-1" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"83811ce9-5092-665b-d41b-4ec23c4589b3"}}}'>04</div>
+<div class="card-2">
+<div class="number_container">
+<div class="h3 number-style-1">04</div>
 <div class="number-shape"></div>
 </div>
-<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Enhanced Security', 'osous' ); ?></h3>
-<p class="p c-on-primary-subtle" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b901eb9c-1939-7ce3-65b3-0dd34c2aa8e0"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fb72aabd-1983-9ae3-887a-91c34ad6d6eb"}}}'><?php esc_html_e( 'Multi-layered protection including audits, monitoring, and employee awareness training against cyber threats.', 'osous' ); ?></p>
-<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<h3 class="h3 c-on-primary"><?php esc_html_e( 'Enhanced Security', 'osous' ); ?></h3>
+<p class="p c-on-primary-subtle"><?php esc_html_e( 'Multi-layered protection including audits, monitoring, and employee awareness training against cyber threats.', 'osous' ); ?></p>
+<div class="card2-background"></div>
 </div>
-<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
-<div class="number_container" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"cf00b2c1-2216-f37c-c937-4ea52fa5d176"}}}}}'>
-<div class="h3 number-style-1" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"83811ce9-5092-665b-d41b-4ec23c4589b3"}}}'>05</div>
+<div class="card-2">
+<div class="number_container">
+<div class="h3 number-style-1">05</div>
 <div class="number-shape"></div>
 </div>
-<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( '24/7 Support', 'osous' ); ?></h3>
-<p class="p c-on-primary-subtle" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b901eb9c-1939-7ce3-65b3-0dd34c2aa8e0"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fb72aabd-1983-9ae3-887a-91c34ad6d6eb"}}}'><?php esc_html_e( 'Round-the-clock helpdesk with remote and on-site troubleshooting for all technical issues.', 'osous' ); ?></p>
-<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<h3 class="h3 c-on-primary"><?php esc_html_e( '24/7 Support', 'osous' ); ?></h3>
+<p class="p c-on-primary-subtle"><?php esc_html_e( 'Round-the-clock helpdesk with remote and on-site troubleshooting for all technical issues.', 'osous' ); ?></p>
+<div class="card2-background"></div>
 </div>
-<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
-<div class="number_container" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"cf00b2c1-2216-f37c-c937-4ea52fa5d176"}}}}}'>
-<div class="h3 number-style-1" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"83811ce9-5092-665b-d41b-4ec23c4589b3"}}}'>06</div>
+<div class="card-2">
+<div class="number_container">
+<div class="h3 number-style-1">06</div>
 <div class="number-shape"></div>
 </div>
-<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Strategic Planning', 'osous' ); ?></h3>
-<p class="p c-on-primary-subtle" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b901eb9c-1939-7ce3-65b3-0dd34c2aa8e0"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fb72aabd-1983-9ae3-887a-91c34ad6d6eb"}}}'><?php esc_html_e( 'Technology roadmaps and digital transformation guidance aligned with your business goals.', 'osous' ); ?></p>
-<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<h3 class="h3 c-on-primary"><?php esc_html_e( 'Strategic Planning', 'osous' ); ?></h3>
+<p class="p c-on-primary-subtle"><?php esc_html_e( 'Technology roadmaps and digital transformation guidance aligned with your business goals.', 'osous' ); ?></p>
+<div class="card2-background"></div>
 </div>
-<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
-<div class="number_container" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"cf00b2c1-2216-f37c-c937-4ea52fa5d176"}}}}}'>
-<div class="h3 number-style-1" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"83811ce9-5092-665b-d41b-4ec23c4589b3"}}}'>07</div>
+<div class="card-2">
+<div class="number_container">
+<div class="h3 number-style-1">07</div>
 <div class="number-shape"></div>
 </div>
-<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Scalable Solutions', 'osous' ); ?></h3>
-<p class="p c-on-primary-subtle" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b901eb9c-1939-7ce3-65b3-0dd34c2aa8e0"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fb72aabd-1983-9ae3-887a-91c34ad6d6eb"}}}'><?php esc_html_e( 'Flexible services and enterprise-grade technologies that grow with your changing business needs.', 'osous' ); ?></p>
-<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<h3 class="h3 c-on-primary"><?php esc_html_e( 'Scalable Solutions', 'osous' ); ?></h3>
+<p class="p c-on-primary-subtle"><?php esc_html_e( 'Flexible services and enterprise-grade technologies that grow with your changing business needs.', 'osous' ); ?></p>
+<div class="card2-background"></div>
 </div>
-<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
-<div class="number_container" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"cf00b2c1-2216-f37c-c937-4ea52fa5d176"}}}}}'>
-<div class="h3 number-style-1" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"83811ce9-5092-665b-d41b-4ec23c4589b3"}}}'>08</div>
+<div class="card-2">
+<div class="number_container">
+<div class="h3 number-style-1">08</div>
 <div class="number-shape"></div>
 </div>
-<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Cost Efficiency', 'osous' ); ?></h3>
-<p class="p c-on-primary-subtle" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"b901eb9c-1939-7ce3-65b3-0dd34c2aa8e0"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"fb72aabd-1983-9ae3-887a-91c34ad6d6eb"}}}'><?php esc_html_e( 'Predictable monthly expenses without staffing costs, reducing downtime losses and optimizing investments.', 'osous' ); ?></p>
-<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<h3 class="h3 c-on-primary"><?php esc_html_e( 'Cost Efficiency', 'osous' ); ?></h3>
+<p class="p c-on-primary-subtle"><?php esc_html_e( 'Predictable monthly expenses without staffing costs, reducing downtime losses and optimizing investments.', 'osous' ); ?></p>
+<div class="card2-background"></div>
 </div>
 </div>
 </div>
@@ -162,13 +162,13 @@ get_header();
 <div class="divider c-border-light"></div>
 </div>
 </section><div>
-<section class="section white list-scroll-section c-surface-white" data-wf--section--variant="base">
+<section class="section white list-scroll-section c-surface-white">
 <div class="slot">
 <section class="list-scroll">
 <div class="w-layout-grid grid-2">
 <div class="cell">
-<div class="section_title" data-wf--section_title--align="left">
-<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div class="section_title">
+<div class="w-layout-vflex section_title_them">
 <div>
 <div class="h2 w-richtext">
 <h2><strong><?php esc_html_e( 'Why Choose Osous Al Taqnia for Managed IT Services in Iraq?', 'osous' ); ?></strong></h2>
@@ -199,17 +199,17 @@ get_header();
 </section>
 </div>
 </section>
-</div><div bind="e7b0e4ae-847c-fd95-2f18-98ae53a2315b" id="inquiery">
-<section class="section c-surface-white" data-wf--section--variant="tight">
+</div><div id="inquiery">
+<section class="section c-surface-white">
 <div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
 <div class="card cta-bg">
 <div class="section_title center">
-<h2 class="h2 a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"4f4ff8c1-7149-c37a-723a-6df3a7b8dac0"}}}'><?php esc_html_e( 'Elevate Your Business Potential with Professional Managed IT Services', 'osous' ); ?></h2>
-<p class="p a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"66cc16e7-3a04-8032-1c49-0c4dbb3d137b"}}}'><?php esc_html_e( 'Contact our team today to discover how Osous Al Taqnia\'s managed IT services can help your Iraq business achieve greater efficiency, enhanced security, and sustainable growth through optimized technology solutions', 'osous' ); ?></p>
+<h2 class="h2 a-c c-on-primary"><?php esc_html_e( 'Elevate Your Business Potential with Professional Managed IT Services', 'osous' ); ?></h2>
+<p class="p a-c c-on-primary"><?php esc_html_e( 'Contact our team today to discover how Osous Al Taqnia\'s managed IT services can help your Iraq business achieve greater efficiency, enhanced security, and sustainable growth through optimized technology solutions', 'osous' ); ?></p>
 <div class="spacer-3x"></div>
 <a class="btn dark w-inline-block" href="<?php echo esc_url( osous_url( 'contact.html' ) ); ?>">
 <div class="t-r-md"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
-<div bind="afa2a8e7-3bc2-ef1b-02fd-a439665df88e" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<div class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
 </svg></div>
 </a>
