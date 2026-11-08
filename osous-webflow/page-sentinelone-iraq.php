@@ -1,0 +1,199 @@
+<?php
+/**
+ * Template Name: SentinelOne Partner in Iraq - AI-Powered Cybersecurity
+ */
+get_header();
+?>
+<div class="section header" data-wf--header--style="style-1"><img alt="" class="header-cut" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
+<div class="container h-100">
+<div class="header-contents">
+<div class="spacer" data-wf--spacer--variant="1x"></div>
+<div>
+<h1 class="h1 a-c" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"2ef5e533-cf57-a671-85c8-09df900bd27b"}}}' text-split="" words-rotate-in=""><?php esc_html_e( 'SentinelOne Partner in Iraq', 'osous' ); ?></h1>
+<p class="p-r-sm c-on-neutral a-c" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"55e6ff9a-1cd7-051d-6d3c-ffdd8f8e7601"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"32fd7b44-8704-4d9e-6779-0172356281da"}}}'><?php esc_html_e( 'AI-powered endpoint protection and XDR solutions for fast, autonomous cybersecurity across Iraq', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+</div><section class="section">
+<div class="w-layout-blockcontainer container fit c-surface-white elevation w-container">
+<div class="w-layout-grid grid-2">
+<div class="cell" id="w-node-c9b3122f-9893-72c6-6315-69aa880c2917-317ad2af">
+<div class="content">
+<h2 class="h2" sym-bind='{"children":{"type":"Call","val":{"fun":{"type":"Variable","val":["DynamoGateway","dynamoPlainTextToListOfElements"]},"arg":{"type":"Select","val":{"from":{"type":"Variable","val":"Dynamo"},"prop":"s1-heading"}}}}}'><?php esc_html_e( 'Authorized SentinelOne Reseller in Iraq', 'osous' ); ?></h2>
+<p><?php esc_html_e( 'Osous Al Taqnia is a trusted SentinelOne partner in Iraq, delivering intelligent cybersecurity solutions that protect organizations in real time. Using the Singularity XDR platform and AI-driven defense, we support government agencies, energy companies, financial institutions, and enterprises across Iraq in detecting and stopping ransomware, advanced persistent threats, and zero-day attacks.', 'osous' ); ?><br/>‍<br/><?php esc_html_e( 'Our in-country teams based in Baghdad, Erbil, and Basra ensure end-to-end service, covering deployment, threat monitoring, and rapid incident response.', 'osous' ); ?></p>
+</div>
+</div><img alt="<?php esc_attr_e( 'SentinelOne', 'osous' ); ?>" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 49vw, (max-width: 991px) 356px, 462px" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/partner-bg-SentinelONe.webp" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/images/partner-bg-SentinelONe-p-500.webp 500w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/partner-bg-SentinelONe.webp 652w"/>
+</div>
+</div>
+</section><section class="section">
+<div class="w-layout-blockcontainer container w-container">
+<div class="w-layout-grid grid-2">
+<div class="cell" id="w-node-c9b3122f-9893-72c6-6315-69aa880c2922-317ad2af">
+<h2 class="h2" sym-bind='{"children":{"type":"Call","val":{"fun":{"type":"Variable","val":["DynamoGateway","dynamoPlainTextToListOfElements"]},"arg":{"type":"Select","val":{"from":{"type":"Variable","val":"Dynamo"},"prop":"s2-heading"}}}}}'><?php esc_html_e( 'About SentinelOne', 'osous' ); ?></h2>
+<div class="_w-max-200" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}}}'>
+<div class="divider gradient-1"></div>
+</div>
+</div>
+<p><?php esc_html_e( 'SentinelOne is a global leader in autonomous cybersecurity, offering AI-powered protection across endpoints, cloud, identity, and networks. Its flagship Singularity XDR platform consolidates threat prevention, detection, and response into a single, real-time interface.', 'osous' ); ?><br/>‍<br/><?php esc_html_e( 'Recognized by Gartner, MITRE ATT&CK, and Forrester, SentinelOne is trusted by security teams worldwide to reduce dwell time, enhance visibility, and accelerate response.', 'osous' ); ?></p>
+</div>
+</div>
+</section><section class="section c-surface-secondary bg-img-1">
+<div class="w-layout-blockcontainer container w-container">
+<div class="spacer-5x"></div>
+<div class="section_title center">
+<h2 class="h2 c-on-secondary a-c" sym-bind='{"children":{"type":"Call","val":{"fun":{"type":"Variable","val":["DynamoGateway","dynamoPlainTextToListOfElements"]},"arg":{"type":"Select","val":{"from":{"type":"Variable","val":"Dynamo"},"prop":"s4-heading"}}}}}'><?php esc_html_e( 'SentinelOne Solutions Offered by Osous Al Taqnia', 'osous' ); ?></h2>
+</div>
+<div class="w-layout-grid grid-3">
+<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
+<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Singularity XDR – Unified Extended Detection & Response', 'osous' ); ?></h3>
+<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<div class="rich-text-block w-richtext" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"dd3728f3-2bd1-6047-3ace-a7f637917fbf"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9e6ed13b-5822-1543-4d4d-65897260178c"}}}'>
+<ul role="list">
+<li><?php esc_html_e( 'End-to-end detection, investigation, and response across endpoints, identity, cloud, and email', 'osous' ); ?><br/></li>
+<li><?php esc_html_e( 'Automated threat containment in seconds', 'osous' ); ?></li>
+<li><?php esc_html_e( 'Centralized visibility for managing distributed attack surfaces in Iraq', 'osous' ); ?><br/></li>
+</ul>
+</div>
+</div>
+<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
+<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Autonomous AI Threat Detection', 'osous' ); ?></h3>
+<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<div class="rich-text-block w-richtext" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"dd3728f3-2bd1-6047-3ace-a7f637917fbf"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9e6ed13b-5822-1543-4d4d-65897260178c"}}}'>
+<ul role="list">
+<li><?php esc_html_e( 'Machine-learning models to detect threats without manual input', 'osous' ); ?><br/></li>
+<li><?php esc_html_e( 'Stops ransomware, phishing, zero-day malware, and insider threats', 'osous' ); ?><br/></li>
+<li><?php esc_html_e( 'Behavioral analytics and predictive prevention are built into every endpoint', 'osous' ); ?></li>
+</ul>
+</div>
+</div>
+<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
+<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Seamless Deployment & Integration', 'osous' ); ?></h3>
+<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<div class="rich-text-block w-richtext" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"dd3728f3-2bd1-6047-3ace-a7f637917fbf"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9e6ed13b-5822-1543-4d4d-65897260178c"}}}'>
+<ul role="list">
+<li><?php esc_html_e( 'Quick deployment across thousands of devices', 'osous' ); ?><br/></li>
+<li><?php esc_html_e( 'Integrates with SIEM, SOAR, and existing cybersecurity stacks', 'osous' ); ?><br/></li>
+<li><?php esc_html_e( 'Minimal resource usage with fast setup—ideal for Iraqi IT teams', 'osous' ); ?></li>
+</ul>
+</div>
+</div>
+<div bind="dae60673-c449-40e8-8434-db2281f220cc" class="card-2">
+<h3 class="h3 c-on-primary" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7b7e7d17-ed0a-f45f-db2f-33960212c75f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"6c0bba96-641c-4f40-c7fa-3c67b75e93d8"}}}'><?php esc_html_e( 'Cloud & Hybrid Workload Security', 'osous' ); ?></h3>
+<div class="card2-background" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"381bbeaf-fd63-8e0a-d595-bcaa782d6486"}}}}}'></div>
+<div class="rich-text-block w-richtext" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"dd3728f3-2bd1-6047-3ace-a7f637917fbf"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9e6ed13b-5822-1543-4d4d-65897260178c"}}}'>
+<ul role="list">
+<li><?php esc_html_e( 'Protects workloads in AWS, Azure, and hybrid environments', 'osous' ); ?></li>
+<li><?php esc_html_e( 'Secure identity, access, and runtime behaviors', 'osous' ); ?></li>
+<li><?php esc_html_e( 'Designed for Iraq’s evolving enterprise and public cloud ecosystems', 'osous' ); ?></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section><section class="section">
+<div class="w-layout-blockcontainer container w-container">
+<div class="section_title center">
+<h2 class="h2 a-c" sym-bind='{"children":{"type":"Call","val":{"fun":{"type":"Variable","val":["DynamoGateway","dynamoPlainTextToListOfElements"]},"arg":{"type":"Select","val":{"from":{"type":"Variable","val":"Dynamo"},"prop":"s2-paragrpah"}}}}}'><?php esc_html_e( 'Industries We Support with SentinelOne in Iraq', 'osous' ); ?></h2>
+</div>
+<div class="w-layout-grid grid-3 grid-to-carousel">
+<div class="card" data-wf--card--style="white">
+<div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon-telecommunications.svg"/>
+<div class="position-relative-10">
+<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Education', 'osous' ); ?></h3>
+<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Cloud security and identity protection for academic networks', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+<div class="card" data-wf--card--style="white">
+<div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/Property-1Banking.svg"/>
+<div class="position-relative-10">
+<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Finance & Banking', 'osous' ); ?></h3>
+<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Compliance-ready solutions to safeguard sensitive financial data', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+<div class="card" data-wf--card--style="white">
+<div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon-oil.svg"/>
+<div class="position-relative-10">
+<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Oil & Gas', 'osous' ); ?></h3>
+<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Real-time endpoint protection for field operations and data centers', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+<div class="card" data-wf--card--style="white">
+<div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/Property-1Healthcare.svg"/>
+<div class="position-relative-10">
+<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Healthcare', 'osous' ); ?></h3>
+<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'AI-powered defense against ransomware in clinical systems', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+<div class="card" data-wf--card--style="white">
+<div class="w-layout-vflex f-v a-l-sb h-100"><img alt="" class="icon-128 m-b-1" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/Property-1Government.svg"/>
+<div class="position-relative-10">
+<h3 sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"219d5a5f-ac02-e664-5a4d-658a19ac106f"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"547d9954-9c57-b0f4-e06d-90da1ca02893"}}}'><?php esc_html_e( 'Government & Public Sector', 'osous' ); ?></h3>
+<p sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"af73bf53-48ec-a988-b5f9-035c8adbd92b"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"539c64d3-fc2d-b95c-c53a-df2f6c9d9837"}}}'><?php esc_html_e( 'Infrastructure-wide protection for ministries and national services', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><div>
+<section class="section white list-scroll-section c-surface-white" data-wf--section--variant="base">
+<div class="slot">
+<section class="list-scroll">
+<div class="w-layout-grid grid-2">
+<div class="cell">
+<div class="section_title" data-wf--section_title--align="left">
+<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div>
+<div class="h2 w-richtext">
+<h2><strong><?php esc_html_e( 'Why Choose Osous Al Taqnia for SentinelOne in Iraq?', 'osous' ); ?></strong></h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="list-items-wrapper" id="w-node-_5794981e-2697-6814-4642-afcaa12d285b-a12d2853">
+<div class="card list-item active w-node-_5794981e-2697-6814-4642-afcaa12d285c-a12d2853" id="virtual-booths">
+<div class="t-b-lg"><strong><?php esc_html_e( 'Certified SentinelOne Partner', 'osous' ); ?></strong></div>
+<p><?php esc_html_e( 'We are an authorized reseller offering licensed SentinelOne solutions, technical assistance, and full access to SentinelOne support resources.', 'osous' ); ?></p>
+</div>
+<div class="card list-item w-node-_5794981e-2697-6814-4642-afcaa12d2862-a12d2853" id="virtual-booths">
+<div class="t-b-lg"><strong><?php esc_html_e( 'Local Insight with National Reach', 'osous' ); ?></strong></div>
+<p class="p-r-sm"><?php esc_html_e( 'Our cybersecurity teams in Baghdad, Basra, and Erbil understand Iraq’s infrastructure, data privacy laws, and compliance needs, delivering tailored protection.', 'osous' ); ?></p>
+</div>
+<div class="card list-item w-node-_5794981e-2697-6814-4642-afcaa12d2868-a12d2853" id="virtual-booths">
+<div class="t-b-lg"><strong><?php esc_html_e( 'End-to-End Cybersecurity Management', 'osous' ); ?></strong></div>
+<p class="p-r-sm"><?php esc_html_e( 'We oversee every stage—from system design and rollout to real-time alerting, fine-tuning, and support—so your security posture stays current.', 'osous' ); ?></p>
+</div>
+<div class="card list-item w-node-_5794981e-2697-6814-4642-afcaa12d286e-a12d2853" id="virtual-booths">
+<div class="t-b-lg"><strong><?php esc_html_e( 'Proven Success Across Critical Sectors', 'osous' ); ?></strong></div>
+<p class="p-r-sm"><?php esc_html_e( 'We’ve successfully deployed SentinelOne in oil fields, banks, government institutions, and healthcare providers across Iraq, maintaining 24/7 security visibility.', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</section>
+</div><div bind="e7b0e4ae-847c-fd95-2f18-98ae53a2315b" id="inquiery">
+<section class="section c-surface-white" data-wf--section--variant="tight">
+<div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
+<div class="card cta-bg">
+<div class="section_title center">
+<h2 class="h2 a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"4f4ff8c1-7149-c37a-723a-6df3a7b8dac0"}}}'><?php esc_html_e( 'Contact Osous Al Taqnia – SentinelOne Partner in Iraq', 'osous' ); ?></h2>
+<p class="p a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"66cc16e7-3a04-8032-1c49-0c4dbb3d137b"}}}'><?php esc_html_e( 'Want to detect and neutralize threats before they impact your operations?', 'osous' ); ?></p>
+<div class="spacer-3x"></div>
+<a class="btn dark w-inline-block" href="<?php echo esc_url( osous_url( 'contact.html' ) ); ?>">
+<div class="t-r-md"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
+<div bind="afa2a8e7-3bc2-ef1b-02fd-a439665df88e" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
+</svg></div>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+<?php
+get_footer();

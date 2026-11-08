@@ -1,0 +1,1093 @@
+<?php
+/**
+ * Template Name: e-commerce
+ */
+get_header();
+?>
+<div class="page-wrap">
+<div bind="78a9e0e1-a66d-7caa-f48d-55a97e4bac67" class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" data-wf--navbar--style="default" data-wf-component-id="b34223f0-89a2-d8be-2a87-6097027da21f" data-wf-variant-state="base" role="banner">
+<div class="navbar-wrapper elevation">
+<a class="navbar-brand w-nav-brand" href="<?php echo esc_url( osous_url( 'index.html' ) ); ?>"><img alt="<?php esc_attr_e( 'Osous Al Taqnia', 'osous' ); ?>" class="logo" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/Logo-Full-mixed.svg" width="130"/></a>
+<div class="navebar-menu">
+<div class="menu-item hide-on-desktop">
+<a class="nav-link" href="<?php echo esc_url( osous_url( 'index.html' ) ); ?>"><?php esc_html_e( 'Home', 'osous' ); ?></a>
+</div>
+<div class="menu-item">
+<a class="nav-link" href="<?php echo esc_url( osous_url( 'about.html' ) ); ?>"><?php esc_html_e( 'About', 'osous' ); ?></a>
+</div>
+<div bind="8c66bee8-866a-6609-aa3e-3dcd59c8a297" class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
+<div class="menu-item-toggle w-dropdown-toggle">
+<div bind="8c66bee8-866a-6609-aa3e-3dcd59c8a299" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<a class="nav-link" href="#"><?php esc_html_e( 'Solutions', 'osous' ); ?></a>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v bg-white"></div>
+<div class="accordion-icon-line-h bg-white"></div>
+</div>
+</div>
+<nav class="menu w-dropdown-list">
+<div class="dd-menu-list">
+<div class="dd-menu-list-toggle">
+<a class="menu-list-item menu-title hide-on-tablet w-inline-block" href="<?php echo esc_url( osous_url( 'cloud-services-iraq.html' ) ); ?>">
+<div><?php esc_html_e( 'Cloud Services', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item menu-title show-on-tablet w-inline-block" href="#">
+<div><?php esc_html_e( 'Cloud Services', 'osous' ); ?></div>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v"></div>
+<div class="accordion-icon-line-h"></div>
+</div>
+</a>
+</div>
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'microsoft-dynamics-365-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Microsoft Dynamics 365', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'microsoft-office-365-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Microsoft 365', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'azure-cloud-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Microsoft Azure Cloud', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'cloud-optimization-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Cloud Optimization', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+<div class="dd-menu-list">
+<div class="dd-menu-list-toggle">
+<a class="menu-list-item menu-title show-on-tablet w-inline-block" href="#">
+<div><?php esc_html_e( 'Cyber Security', 'osous' ); ?></div>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v"></div>
+<div class="accordion-icon-line-h"></div>
+</div>
+</a>
+<a class="menu-list-item menu-title hide-on-tablet w-inline-block" href="<?php echo esc_url( osous_url( 'cybersecurity-iraq.html' ) ); ?>">
+<div><?php esc_html_e( 'Cyber Security', 'osous' ); ?></div>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v"></div>
+<div class="accordion-icon-line-h"></div>
+</div>
+</a>
+</div>
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'next-generation-firewall-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Next Generation Firewall', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'siem-soc-solutions-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'SIEM & SOC Solutions', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'privileged-access-management-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Privileged Access Management (PAM)', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'multi-factor-authentication-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Multi Factor Authentication (MFA)', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'identity-access-management-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Identity Access Management (IAM)', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'endpoint-secuirty-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Endpoint Security', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'email-security-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Email Security', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'device-management-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Device Management', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+<div class="dd-menu-list">
+<div class="dd-menu-list-toggle">
+<a class="menu-list-item menu-title show-on-tablet w-inline-block" href="#">
+<div><?php esc_html_e( 'Data Protection', 'osous' ); ?></div>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v"></div>
+<div class="accordion-icon-line-h"></div>
+</div>
+</a>
+<a class="menu-list-item menu-title hide-on-tablet w-inline-block" href="<?php echo esc_url( osous_url( 'data-protection-iraq.html' ) ); ?>">
+<div><?php esc_html_e( 'Data Protection', 'osous' ); ?></div>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v"></div>
+<div class="accordion-icon-line-h"></div>
+</div>
+</a>
+</div>
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'dlp-solutions-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Data Loss Prevention', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'disaster-recovery-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Disaster Recovery', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'backup-solutions-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Backup Solutions', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'cloud-backup-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Cloud Backup', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+<div class="dd-menu-list">
+<div class="dd-menu-list-toggle">
+<a class="menu-list-item menu-title show-on-tablet w-inline-block" href="#">
+<div><?php esc_html_e( 'Infrastructure', 'osous' ); ?></div>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v"></div>
+<div class="accordion-icon-line-h"></div>
+</div>
+</a>
+<a class="menu-list-item menu-title hide-on-tablet w-inline-block" href="<?php echo esc_url( osous_url( 'it-infrastructure-iraq.html' ) ); ?>">
+<div><?php esc_html_e( 'Infrastructure', 'osous' ); ?></div>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v"></div>
+<div class="accordion-icon-line-h"></div>
+</div>
+</a>
+</div>
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'virtualization-solutions-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Virtualization Solutions', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'structured-cabling-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Structured Cabling', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'server-storage-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Server & Storage', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'data-center-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Modular Datacenter', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'hci-solutions-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'HCI Solutions', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'cctv-company-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'CCTV & Network Solutions', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'network-wifi-solutions-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Network Wifi solutions', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+</nav>
+</div>
+<div bind="9b4a1091-3f82-fdb3-a60e-69bf9f7061a2" class="dd-menu-item hide-on-desktop w-dropdown" data-delay="0" data-hover="true">
+<div class="menu-item-toggle w-dropdown-toggle">
+<div bind="9b4a1091-3f82-fdb3-a60e-69bf9f7061a4" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<a class="nav-link" href="#"><?php esc_html_e( 'Products', 'osous' ); ?></a>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v bg-white"></div>
+<div class="accordion-icon-line-h bg-white"></div>
+</div>
+</div>
+<nav class="menu w-dropdown-list">
+<div class="dd-menu-list">
+<div class="dd-menu-list-toggle">
+<a class="menu-list-item menu-title hide-on-tablet w-inline-block" href="#">
+<div><?php esc_html_e( 'Banking software', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item menu-title show-on-tablet w-inline-block" href="#">
+<div><?php esc_html_e( 'Banking software', 'osous' ); ?></div>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v"></div>
+<div class="accordion-icon-line-h"></div>
+</div>
+</a>
+</div>
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'reconciliation-system.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Reconciliation System', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'customer-onboarding.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Customer Onboarding', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'aml-compliance-software.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'AML & Compliance', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+</nav>
+</div>
+<div bind="b3e72f1c-6d42-476e-cbee-c3907fd09a8a" class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
+<div class="menu-item-toggle w-dropdown-toggle">
+<div bind="b3e72f1c-6d42-476e-cbee-c3907fd09a8c" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<a class="nav-link" href="#"><?php esc_html_e( 'Services', 'osous' ); ?></a>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v bg-white"></div>
+<div class="accordion-icon-line-h bg-white"></div>
+</div>
+</div>
+<nav class="menu w-dropdown-list">
+<div class="dd-menu-list">
+<div class="dd-menu-list-toggle">
+<a class="menu-list-item menu-title hide-on-tablet w-inline-block" href="#">
+<div><?php esc_html_e( 'For Businesses', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item menu-title show-on-tablet w-inline-block" href="#">
+<div><?php esc_html_e( 'For Businesses', 'osous' ); ?></div>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v"></div>
+<div class="accordion-icon-line-h"></div>
+</div>
+</a>
+</div>
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'managed-it-services-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Managed IT Services', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'it-consulting-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'IT Consulting', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'it-amc-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'IT AMC', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'ict-solutions-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'ICT Solutions', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+<div class="dd-menu-list">
+<div class="dd-menu-list-toggle">
+<a class="menu-list-item menu-title hide-on-tablet w-inline-block" href="#">
+<div><?php esc_html_e( 'Website & Mobile', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item menu-title show-on-tablet w-inline-block" href="#">
+<div><?php esc_html_e( 'Website & Mobile', 'osous' ); ?></div>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v"></div>
+<div class="accordion-icon-line-h"></div>
+</div>
+</a>
+</div>
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'website-design.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Website Design', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'mobile-app.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Mobile Apps', 'osous' ); ?></div>
+</a>
+<a aria-current="page" class="menu-list-item w-inline-block w--current" href="<?php echo esc_url( osous_url( 'e-commerce.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'E-commerce', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+</nav>
+</div>
+<div bind="7e5b02eb-eb8c-3c72-cdb8-9eb997de1e0e" class="dd-menu-item w-dropdown" data-delay="0" data-hover="true">
+<div class="menu-item-toggle w-dropdown-toggle">
+<div bind="7e5b02eb-eb8c-3c72-cdb8-9eb997de1e10" class="icon-257 hide-on-tablet w-icon-dropdown-toggle"></div>
+<a class="nav-link hide-on-tablet" href="<?php echo esc_url( osous_url( 'partners.html' ) ); ?>"><?php esc_html_e( 'Partners', 'osous' ); ?></a>
+<a class="nav-link hide-on-desktop" href="#"><?php esc_html_e( 'Partners', 'osous' ); ?></a>
+<div class="menu-list-icon">
+<div class="accordion-icon-line-v bg-white"></div>
+<div class="accordion-icon-line-h bg-white"></div>
+</div>
+</div>
+<nav class="menu w-dropdown-list">
+<div class="dd-menu-list">
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'fortinet-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Fortinet', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'sophos-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Sophos', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'red-hat-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Red Hat', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'juniper-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Juniper', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'citrix-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Citrix', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'avigilon-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Avigilon', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+<div class="dd-menu-list">
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'acronis-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Acronis', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'aruba-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Aruba', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'sentinelone-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'SentinelOne', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'kaspersky-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Kaspersky', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'vmware-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'VmWare', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'microsoft-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Microsoft', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+<div class="dd-menu-list">
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'huawei-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Huawel', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'corning-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Corning', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'vertiv-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Vertiv', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'hikvision-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Hikvision', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'axis-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Axis', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'veeam-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Veeam', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+<div class="dd-menu-list">
+<div class="menu-list">
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'motorola-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Motorola', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'hpe-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'HPE', 'osous' ); ?></div>
+</a>
+<a class="menu-list-item w-inline-block" href="<?php echo esc_url( osous_url( 'dell-iraq.html' ) ); ?>"><img alt="" class="icon-12" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/arrow-right.png"/>
+<div><?php esc_html_e( 'Dell', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+</nav>
+</div>
+<div class="navbar-mobile-buttons">
+<a class="btn outline w-inline-block" href="<?php echo esc_url( osous_url( 'contact.html' ) ); ?>">
+<div class="t-r-md c-on-secondary"><?php esc_html_e( 'Contact', 'osous' ); ?></div>
+</a>
+</div>
+</div>
+<div class="navbar-buttons">
+<div class="nav-button-wrapper">
+<a class="btn-cta w-inline-block" href="<?php echo esc_url( osous_url( 'contact.html' ) ); ?>">
+<div class="t-r-md c-on-primary position-relative-10"><?php esc_html_e( 'Lets Talk', 'osous' ); ?></div><img alt="" class="btn-blur" data-wf-target='[[["b34223f0-89a2-d8be-2a87-6097027da21f","b623e9fe-3e85-727a-d993-d40fdd3ee65c"],["965f3bfb-dd26-2142-9ad4-5490af31fb95"]]]' loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/cta-bg.png"/>
+<div class="btn-icon-dot"></div>
+</a>
+</div>
+</div>
+<a class="btn btn-menu w-inline-block" href="#">
+<div class="menu-icon-top"></div>
+<div class="menu-icon-middle"></div>
+<div class="menu-icon-bottom"></div>
+</a>
+</div>
+</div>
+<a bind="70e540a2-83c2-c3d2-8b52-fff1dbaafb9e" class="whatsapp w-inline-block" href="https://wa.me/+9647870606069" target="_blank">
+<div class="w-layout-blockcontainer container-lg w-container">
+<div class="magnatic p-r-0">
+<div bind="70e540a2-83c2-c3d2-8b52-fff1dbaafba1" class="icon-whatsapp w-embed"><svg fill="none" height="58" viewbox="0 0 57 58" width="57" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M13.1601 52.8946L14.182 53.5165C18.497 56.1023 23.4446 57.4607 28.4896 57.4771H28.5058C43.9976 57.4771 56.6181 44.7608 56.6181 29.1151C56.6181 21.5377 53.6982 14.4186 48.3937 9.0506C43.0892 3.68262 36.0165 0.736771 28.5058 0.736771C13.0141 0.720405 0.393555 13.4366 0.393555 29.0824C0.393555 34.434 1.86973 39.6547 4.69232 44.1716L5.35741 45.2518L2.5186 55.7095L13.1601 52.8946ZM18.1574 13.3385C18.7576 13.3548 19.4227 13.3876 20.0553 14.8114C20.4607 15.7271 21.1341 17.3914 21.6986 18.7864C22.1732 19.9593 22.5707 20.9417 22.667 21.1286C22.8779 21.5541 23.0077 22.0451 22.7319 22.6179C22.6993 22.6856 22.6686 22.7503 22.639 22.8126C22.4178 23.2776 22.2603 23.6087 21.8884 24.0417C21.7362 24.2189 21.5776 24.4132 21.4195 24.6068C21.1397 24.9497 20.8615 25.2905 20.6231 25.531C20.2013 25.9565 19.7633 26.4148 20.25 27.2658C20.7367 28.1168 22.4399 30.9154 24.9543 33.1738C27.6574 35.6132 30.0079 36.6411 31.1963 37.1607C31.4271 37.2616 31.614 37.3434 31.7512 37.4126C32.5947 37.8381 33.0976 37.7726 33.5843 37.1998C34.0709 36.627 35.6931 34.7122 36.2609 33.8612C36.8124 33.0102 37.3802 33.1575 38.1588 33.4357C38.9374 33.7303 43.0902 35.7924 43.9337 36.2179C44.1 36.3017 44.2555 36.3773 44.3996 36.4474C44.9872 36.733 45.3866 36.9271 45.5559 37.2162C45.7668 37.5762 45.7668 39.2783 45.0693 41.2749C44.3555 43.2715 40.9003 45.1863 39.3592 45.3336C39.2118 45.3477 39.0651 45.3657 38.9141 45.3842C37.4869 45.5592 35.6754 45.7813 29.2206 43.2061C21.2682 40.0363 16.0185 32.1722 14.956 30.5807C14.872 30.4548 14.8142 30.3682 14.7833 30.3262C14.7777 30.3187 14.7718 30.3106 14.7653 30.3018C14.2824 29.6468 11.328 25.6397 11.328 21.505C11.328 17.5496 13.2504 15.4903 14.1271 14.5511C14.1826 14.4916 14.234 14.4366 14.2804 14.3859C15.059 13.5349 15.9675 13.3221 16.5352 13.3221C17.103 13.3221 17.6707 13.3221 18.1574 13.3385Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg></div>
+<div bind="70e540a2-83c2-c3d2-8b52-fff1dbaafba2" class="icon-whatsapp-border w-embed"><svg fill="none" height="68" viewbox="0 0 67 68" width="67" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.714844 67.3068L5.34988 50.245C2.4843 45.237 0.981045 39.5655 0.996704 33.7677C0.996704 15.6 15.6534 0.828857 33.6455 0.828857C42.3832 0.828857 50.5885 4.25702 56.7424 10.4814C62.912 16.7058 66.31 24.984 66.2944 33.7835C66.2944 51.9512 51.6376 66.7223 33.6299 66.7223H33.6142C28.1493 66.7223 22.7783 65.3321 18.0023 62.7096L0.714844 67.3068Z" fill="#945FFE"></path>
+</svg></div>
+</div>
+</div>
+</a>
+<div class="section header w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b bg_8" data-wf--header--style="style-2"><img alt="" class="header-cut w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header-cut.svg"/>
+<div class="container h-100 w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b">
+<div class="header-contents w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b">
+<div class="t-r-md c-on-light w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"948dc51e-29d7-17b5-3761-a146bc5829c8"}}}'><?php esc_html_e( 'Services', 'osous' ); ?></div>
+<div class="spacer" data-wf--spacer--variant="1x"></div>
+<div class="_w-max-200" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"9df33e85-7e46-a553-e7d4-33c80bf69bda"}}}}}'>
+<div class="divider gradient-1 m-y-0 w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b"></div>
+</div>
+<div>
+<h1 class="h1 a-c w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b osous-title-light" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"2ef5e533-cf57-a671-85c8-09df900bd27b"}}}' text-split="" words-rotate-in=""><?php esc_html_e( 'Ecommerce Website Development in Iraq', 'osous' ); ?></h1>
+<p class="p-r-sm c-on-neutral a-c w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b" sym-bind='{"visibility":{"type":"Record","val":{"conditions":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"55e6ff9a-1cd7-051d-6d3c-ffdd8f8e7601"}}}},"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"32fd7b44-8704-4d9e-6779-0172356281da"}}}'><?php esc_html_e( 'Custom online stores built for Iraqi businesses — secure, fast, and designed to sell. From small retail shops to large-scale B2B platforms, we build ecommerce that works.', 'osous' ); ?></p>
+</div>
+</div>
+</div><img alt="" class="header_img w-variant-c756be24-ae5b-3cce-8f4a-c141e624aa4b" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/header_img_ecommerce.webp"/>
+</div>
+<div class="page-main">
+<section class="section c-surface-white" data-wf--section--variant="tight">
+<div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
+<div class="w-layout-grid grid-4">
+<div class="card metric">
+<div class="metric_number">20+</div>
+<div class="t-b-md"><?php esc_html_e( 'Apps Launched', 'osous' ); ?></div>
+</div>
+<div class="card metric">
+<div class="metric_number">6–10</div>
+<div class="t-b-md"><?php esc_html_e( 'Weeks Average Delivery', 'osous' ); ?></div>
+</div>
+<div class="card metric">
+<div class="metric_number">3</div>
+<div class="t-b-md"><?php esc_html_e( 'Languages Supported (AR, KU, EN)', 'osous' ); ?></div>
+</div>
+<div class="card metric">
+<div class="metric_number">24/7</div>
+<div class="t-b-md"><?php esc_html_e( 'Post-Launch Support', 'osous' ); ?></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0 c-surface-white" data-wf--section--variant="fit-full">
+<div class="slot w-variant-c26fbffc-1fbe-ef2f-6269-bc88f2b3d9c0 c-surface-secondary">
+<div class="content list-scroll">
+<div class="w-layout-grid grid-2 list_scrolled">
+<div class="cell list-scroll">
+<div class="section_title" data-wf--section_title--align="left">
+<div class="w-layout-vflex section_title_them w-variant-5053a507-255c-7c47-49b7-669050399f5e" data-wf--section_title_them--theme="dark">
+<div>
+<div class="h2 w-richtext">
+<h2><?php esc_html_e( 'Our Ecommerce Development Servicesin Iraq', 'osous' ); ?></h2>
+</div>
+<p class="t-r-sm"><?php esc_html_e( 'End-to-end ecommerce solutions tailored for the Iraqi market — from design and development to payment integration and SEO.', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+</div>
+<div class="w-layout-vflex f-v" id="w-node-_6821c914-d97c-0592-33e3-37e2720ce441-e3746350">
+<div class="w-layout-vflex list_item_2 active">
+<div class="w-layout-vflex f-v">
+<h3 class="h2 c-on-secondary"><?php esc_html_e( 'Custom Ecommerce Design', 'osous' ); ?></h3>
+<p class="p c-on-secondary-subtle"><?php esc_html_e( 'Tailored UI/UX designs that reflect your brand, build trust with Iraqi shoppers, and guide customers from browsing to checkout with minimal friction.', 'osous' ); ?></p>
+</div><img alt="" class="list_item_img" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ecommerce_service_06.webp"/>
+</div>
+<div class="w-layout-vflex list_item_2">
+<div class="w-layout-vflex f-v">
+<h3 class="h2 c-on-secondary"><?php esc_html_e( 'Ecommerce Platform Development', 'osous' ); ?></h3>
+<p class="p c-on-secondary-subtle"><?php esc_html_e( 'We build on WooCommerce, Shopify, and Magento — or develop fully custom ecommerce solutions — depending on your business size, goals, and budget.', 'osous' ); ?></p>
+</div><img alt="" class="list_item_img" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ecommerce_service_05.webp"/>
+</div>
+<div class="w-layout-vflex list_item_2">
+<div class="w-layout-vflex f-v">
+<h3 class="h2 c-on-secondary"><?php esc_html_e( 'Payment Gateway Integration', 'osous' ); ?></h3>
+<p class="p c-on-secondary-subtle"><?php esc_html_e( 'We integrate Iraq\'s most trusted payment methods — Zain Cash, Qi Card, and cash on delivery — alongside international gateways for businesses selling abroad.', 'osous' ); ?></p>
+</div><img alt="" class="list_item_img" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ecommerce_service_01.webp"/>
+</div>
+<div class="w-layout-vflex list_item_2">
+<div class="w-layout-vflex f-v">
+<h3 class="h2 c-on-secondary"><?php esc_html_e( 'Mobile Optimization & Performance', 'osous' ); ?></h3>
+<p class="p c-on-secondary-subtle"><?php esc_html_e( 'Every store is built mobile-first with optimized images, fast loading speeds, and a checkout flow designed for thumb-friendly browsing on Iraqi smartphones.', 'osous' ); ?></p>
+</div><img alt="" class="list_item_img" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ecommerce_service_02.webp"/>
+</div>
+<div class="w-layout-vflex list_item_2">
+<div class="w-layout-vflex f-v">
+<h3 class="h2 c-on-secondary"><?php esc_html_e( 'SEO & Conversion Optimization', 'osous' ); ?></h3>
+<p class="p c-on-secondary-subtle"><?php esc_html_e( 'On-page SEO, structured data, optimized product pages, and CRO strategies that turn organic traffic into paying customers from the moment your store goes live.', 'osous' ); ?></p>
+</div><img alt="" class="list_item_img" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ecommerce_service_03.webp"/>
+</div>
+<div class="w-layout-vflex list_item_2">
+<div class="w-layout-vflex f-v">
+<h3 class="h2 c-on-secondary"><?php esc_html_e( 'Maintenance & Ongoing Support', 'osous' ); ?></h3>
+<p class="p c-on-secondary-subtle"><?php esc_html_e( 'Security updates, plugin management, performance monitoring, and feature enhancements — we keep your store running securely and smoothly after launch.', 'osous' ); ?></p>
+</div><img alt="" class="list_item_img" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/ecommerce_service_04.webp"/>
+</div>
+</div>
+</div>
+</div>
+<div class="w-embed w-script"><!--  List scroll  -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const items = document.querySelectorAll(".list_item_2");
+  const headingCell = document.querySelector(".list-scroll .grid-2 > .cell:first-child");
+  const lastItem = items[items.length - 1];
+  // Restrict all ScrollTrigger animations to screens 769px and wider
+  ScrollTrigger.matchMedia({
+    "(min-width: 825px)": function () {
+      // 1. Loop through items for opacity and image animations
+      items.forEach((item) => {
+        const img = item.querySelector(".list_item_img");
+        // Set the initial opacity of the entire item to 40%
+        gsap.set(item, { opacity: 0.4 });
+        // Manage parent opacity and active class
+        ScrollTrigger.create({
+          trigger: item,
+          start: "top center",
+          end: "bottom center",
+          onToggle: (self) => {
+            item.classList.toggle("active", self.isActive);
+            if (self.isActive) {
+              gsap.to(item, { opacity: 1, duration: 0.4, ease: "power2.out", overwrite: "auto" });
+            } else {
+              gsap.to(item, { opacity: 0.4, duration: 0.4, ease: "power2.out", overwrite: "auto" });
+            }
+          }
+        });
+        // Animate the image with pop-up and slight rotation
+        if (img) {
+          gsap.fromTo(img, 
+            { 
+              opacity: 0, 
+              scale: 0.8,  
+              y: 20,       
+              rotation: -5 
+            }, 
+            { 
+              opacity: 1,   
+              scale: 1,     
+              y: 0,         
+              rotation: 0,  
+              duration: 0.5,
+              ease: "back.out(1.5)", 
+              scrollTrigger: {
+                trigger: item, 
+                start: "top center",
+                end: "bottom center",
+                toggleActions: "play reverse play reverse" 
+              }
+            }
+          );
+        }
+      });
+      // 2. Pin the left .cell until the last item ends
+      if (headingCell && lastItem) {
+        ScrollTrigger.create({
+          trigger: headingCell,
+          start: "top center",
+          endTrigger: lastItem,
+          end: "bottom center",
+          pin: true,
+          pinSpacing: false,
+          anticipatePin: 1,
+        });
+      }
+    }
+  });
+  window.addEventListener("resize", () => {
+    ScrollTrigger.refresh();
+  });
+});
+</script>
+</div>
+</div>
+</section>
+<section class="section c-surface-light bg_7" data-wf--section--variant="tight">
+<div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
+<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="t-b-sm"><?php esc_html_e( 'Why Choose Us', 'osous' ); ?></div>
+</div>
+<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div>
+<div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
+<h2><?php esc_html_e( 'Why Choose Us for Ecommerce Development inIraq', 'osous' ); ?></h2>
+</div>
+<p class="t-r-sm w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2"><?php esc_html_e( 'Local expertise, proven results, and end-to-end support — here\'s what sets us apart as Iraq\'s ecommerce development partner.', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+<div class="swiper-container">
+<div class="swiper-wrapper why_us">
+<div class="swiper-slide">
+<div class="card w-variant-59ddda9c-5bdb-5093-3c9d-6ddcc61c026d basic f-v white second" data-wf--card_simple--variant="outlined">
+<div class="w-layout-vflex">
+<h2 class="h3"><?php esc_html_e( 'End-to-End Delivery', 'osous' ); ?></h2>
+<p class="p"><?php esc_html_e( 'Discovery, design, development, testing, App Store submission, and post-launch support — all under one roof. You never have to coordinate between multiple vendors or agencies.', 'osous' ); ?><br/></p>
+</div>
+<div class="card_slot"></div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="card w-variant-79d05571-e072-891f-a69f-3e50c863bc6e basic f-v white second" data-wf--card_simple--variant="primary">
+<div class="w-layout-vflex">
+<h2 class="h3"><?php esc_html_e( 'Local Market Understanding', 'osous' ); ?></h2>
+<p class="p"><?php esc_html_e( 'We know the Iraqi user — their language, device preferences, payment habits, and cultural expectations. Every app we build reflects this deep local knowledge, from Arabic RTL layouts to locally relevant features.', 'osous' ); ?><br/></p>
+</div>
+<div class="card_slot"></div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="card w-variant-59ddda9c-5bdb-5093-3c9d-6ddcc61c026d basic f-v white second" data-wf--card_simple--variant="outlined">
+<div class="w-layout-vflex">
+<h2 class="h3"><?php esc_html_e( 'Secure & Scalable Architecture', 'osous' ); ?></h2>
+<p class="p"><?php esc_html_e( 'Every app is built on a secure, scalable backend that handles growth without breaking. Enterprise-grade security practices, data encryption, and performance standards are built in from day one.', 'osous' ); ?><br/></p>
+</div>
+<div class="card_slot"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section w-variant-2e28a4ec-0a9a-9a38-9e9f-a87be7f1f021 c-surface-white overflow-hidden" data-wf--section--variant="full">
+<div class="slot w-variant-2e28a4ec-0a9a-9a38-9e9f-a87be7f1f021">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
+<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div>
+<div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
+<h2><?php esc_html_e( 'Our Work', 'osous' ); ?></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-container">
+<div class="swiper-wrapper ourwork_website">
+<div class="swiper-slide"><img alt="" class="ourwork_ecommerce_item" loading="lazy" sizes="100vw" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_1.webp" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_1-p-500.webp 500w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_1-p-800.webp 800w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_1-p-1080.webp 1080w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_1.webp 1303w"/></div>
+<div class="swiper-slide"><img alt="" class="ourwork_ecommerce_item" loading="lazy" sizes="100vw" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_2.webp" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_2-p-500.webp 500w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_2-p-800.webp 800w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_2-p-1080.webp 1080w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_2.webp 1303w"/></div>
+<div class="swiper-slide"><img alt="" class="ourwork_ecommerce_item" loading="lazy" sizes="100vw" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_3.webp" srcset="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_3-p-500.webp 500w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_3-p-800.webp 800w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_3-p-1080.webp 1080w, <?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio_ecommerce_3.webp 1303w"/></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section c-surface-light" data-wf--section--variant="base">
+<div class="slot">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
+<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="t-b-sm"><?php esc_html_e( 'Budget & Pricing', 'osous' ); ?></div>
+</div>
+<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div>
+<div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
+<h2><?php esc_html_e( 'Cost of Ecommerce Development in Iraq', 'osous' ); ?></h2>
+</div>
+<p class="t-r-sm w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2"><?php esc_html_e( 'Ecommerce website cost in Iraq depends on several variables. Here\'s what shapes your budget and how to plan your investment.', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+<div class="w-layout-grid grid-2">
+<div class="cell">
+<div class="card c-surface-primary corner-b-0">
+<h3 class="h3 c-on-primary"><?php esc_html_e( 'Factors Affecting Cost', 'osous' ); ?></h3>
+<p class="p c-on-primary"><?php esc_html_e( 'Follow these steps to arrive at an accurate scope before requesting a quote.', 'osous' ); ?></p>
+</div>
+<div class="card corner_top_0">
+<ul class="list" role="list">
+<li class="list_item" data-wf--list_item--type="arrow">
+<div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
+<div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
+</svg></div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
+</svg>
+</div>
+</div>
+<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="t-b-md"><?php esc_html_e( 'Platform choice — WooCommerce, Shopify, Magento, or custom', 'osous' ); ?></div>
+</div>
+</li>
+<li class="list_item" data-wf--list_item--type="arrow">
+<div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
+<div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
+</svg></div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
+</svg>
+</div>
+</div>
+<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="t-b-md"><?php esc_html_e( 'Number of products and catalogue complexity', 'osous' ); ?></div>
+</div>
+</li>
+<li class="list_item" data-wf--list_item--type="arrow">
+<div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
+<div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
+</svg></div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
+</svg>
+</div>
+</div>
+<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="t-b-md"><?php esc_html_e( 'Custom UI/UX design vs. theme-based approach', 'osous' ); ?></div>
+</div>
+</li>
+<li class="list_item" data-wf--list_item--type="arrow">
+<div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
+<div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
+</svg></div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
+</svg>
+</div>
+</div>
+<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="t-b-md"><?php esc_html_e( 'Payment gateway integrations required', 'osous' ); ?></div>
+</div>
+</li>
+<li class="list_item" data-wf--list_item--type="arrow">
+<div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
+<div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
+</svg></div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
+</svg>
+</div>
+</div>
+<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="t-b-md"><?php esc_html_e( 'Arabic, Kurdish, and English multilingual setup', 'osous' ); ?></div>
+</div>
+</li>
+<li class="list_item" data-wf--list_item--type="arrow">
+<div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
+<div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
+</svg></div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
+</svg>
+</div>
+</div>
+<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="t-b-md"><?php esc_html_e( 'Third-party integrations — ERP, CRM, shipping, inventory', 'osous' ); ?></div>
+</div>
+</li>
+<li class="list_item" data-wf--list_item--type="arrow">
+<div class="list_item_number w-variant-93070888-5417-3070-1d2c-429f395c784e c-surface-primary">
+<div class="t-m-lg c-on-tertiary w-variant-93070888-5417-3070-1d2c-429f395c784e">01</div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
+</svg></div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="list_checked_icon w-variant-93070888-5417-3070-1d2c-429f395c784e w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.8135 4.7998L8.7998 19.8145L0.185547 11.2002L1.59961 9.78516L8.79883 16.9854L22.3994 3.38574L23.8135 4.7998Z" fill="currentColor"></path>
+</svg>
+</div>
+</div>
+<div class="list_item_content" data-wf--list_item_them--theme="light">
+<div class="t-b-md"><?php esc_html_e( 'Post-launch maintenance and SEO scope', 'osous' ); ?></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="cell">
+<div class="card estimated-price">
+<div>
+<h3 class="h3 c-on-primary"><?php esc_html_e( 'Estimated Price Ranges', 'osous' ); ?></h3>
+<p class="p c-on-primary"><?php esc_html_e( 'Follow these steps to arrive at an accurate scope before requesting a quote.', 'osous' ); ?></p>
+</div><img alt="" class="icon-128" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/estimated-price.png"/>
+</div>
+<div class="w-layout-vflex f-v">
+<div class="card ecommerce_estimate_price">
+<div class="list_item_content">
+<div class="t-b-lg"><?php esc_html_e( 'Basic Store', 'osous' ); ?></div>
+<div class="t-r-md"><?php esc_html_e( 'Up to 50 products, standard design, essential payment methods', 'osous' ); ?></div>
+</div>
+<div class="t-b-lg c-active-secondary"><?php esc_html_e( 'Starter', 'osous' ); ?></div>
+</div>
+<div class="card ecommerce_estimate_price">
+<div class="list_item_content">
+<div class="t-b-lg"><?php esc_html_e( 'Business Store — Mid-Range', 'osous' ); ?></div>
+<div class="t-r-md"><?php esc_html_e( 'Custom designCustom design, full multilingual, advanced payments, SEO., full multilingual, advanced payments, SEO.', 'osous' ); ?></div>
+</div>
+<div class="t-b-lg c-active-secondary"><?php esc_html_e( 'POPULAR', 'osous' ); ?></div>
+</div>
+<div class="card ecommerce_estimate_price">
+<div class="list_item_content">
+<div class="t-b-lg"><?php esc_html_e( 'Enterprise Store — Premium', 'osous' ); ?></div>
+<div class="t-r-md"><?php esc_html_e( 'Unlimited products, ERP/CRM integration, full custom build.', 'osous' ); ?></div>
+</div>
+<div class="t-b-lg c-active-secondary"><?php esc_html_e( 'PREMIUM', 'osous' ); ?></div>
+</div>
+</div>
+</div>
+</div>
+<div class="spacer w-variant-804ecf3d-e06d-d993-7192-9b5ce4a18ec9" data-wf--spacer--variant="2x"></div>
+<div class="w-layout-hflex f-h a-c-c">
+<a class="btn w-inline-block" data-wf--button--variant="primary" href="#">
+<div class="t-r-md c-on-primary"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
+<div bind="e102a27e-89a0-2b3d-fcb1-91e147adcabd" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
+</svg></div>
+</a>
+</div>
+</div>
+</section>
+<section class="section pattern_1" data-wf--section--variant="tight">
+<div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
+<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="t-b-sm"><?php esc_html_e( 'How We Work', 'osous' ); ?></div>
+</div>
+<div class="w-layout-vflex section_title_them w-variant-5053a507-255c-7c47-49b7-669050399f5e" data-wf--section_title_them--theme="dark">
+<div>
+<div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
+<h2><?php esc_html_e( 'Our Ecommerce Development Process', 'osous' ); ?></h2>
+</div>
+<p class="t-r-sm w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2"><?php esc_html_e( 'A clear, structured workflow from concept to launch — with full transparency at every step.', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+<div class="w-layout-vflex step_list">
+<div class="w-layout-hflex step">
+<div class="card step_number">
+<div class="t-r-md"><?php esc_html_e( 'STEP', 'osous' ); ?></div>
+<div class="step_n">01</div>
+</div>
+<div class="card step_content">
+<div class="h3"><?php esc_html_e( 'Discovery & Planning', 'osous' ); ?></div>
+<p class="p"><?php esc_html_e( 'We start by understanding your products, target customers, competitors, and business goals. This phase defines your store\'s architecture, platform choice, feature list, and launch timeline — giving your project a solid foundation before any design begins.', 'osous' ); ?></p>
+</div>
+</div>
+<div class="w-layout-hflex step">
+<div class="card step_number">
+<div class="t-r-md"><?php esc_html_e( 'STEP', 'osous' ); ?></div>
+<div class="step_n">02</div>
+</div>
+<div class="card step_content">
+<div class="h3"><?php esc_html_e( 'UI/UX Design & Prototyping', 'osous' ); ?></div>
+<p class="p"><?php esc_html_e( 'Our designers create wireframes and full visual mockups of your store — including product pages, category layouts, cart, and checkout — for your review before development starts. You see exactly what your customers will experience.', 'osous' ); ?></p>
+</div>
+</div>
+<div class="w-layout-hflex step">
+<div class="card step_number">
+<div class="t-r-md"><?php esc_html_e( 'STEP', 'osous' ); ?></div>
+<div class="step_n">03</div>
+</div>
+<div class="card step_content">
+<div class="h3"><?php esc_html_e( 'Development & Integration', 'osous' ); ?></div>
+<p class="p"><?php esc_html_e( 'We build your store, configure payment gateways (Zain Cash, Qi Card, COD), integrate shipping systems, set up product catalogues, and connect any third-party tools required — all tested rigorously in a staging environment before going live.', 'osous' ); ?></p>
+</div>
+</div>
+<div class="w-layout-hflex step">
+<div class="card step_number">
+<div class="t-r-md"><?php esc_html_e( 'STEP', 'osous' ); ?></div>
+<div class="step_n">04</div>
+</div>
+<div class="card step_content">
+<div class="h3"><?php esc_html_e( 'Testing & Quality Assurance', 'osous' ); ?></div>
+<p class="p"><?php esc_html_e( 'Comprehensive testing across devices, browsers, and checkout flows. We verify every payment method, form, and user journey before your final approval. Once you sign off, we deploy to production and monitor closely during the go-live window.', 'osous' ); ?></p>
+</div>
+</div>
+<div class="w-layout-hflex step">
+<div class="card step_number">
+<div class="t-r-md"><?php esc_html_e( 'STEP', 'osous' ); ?></div>
+<div class="step_n">05</div>
+</div>
+<div class="card step_content">
+<div class="h3"><?php esc_html_e( 'Deployment & Launch', 'osous' ); ?></div>
+<p class="p"><?php esc_html_e( 'After launch we remain your technical partner — handling performance optimization, ongoing SEO, feature additions, security patches, and any issues that arise. Your store is never left unsupported.', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section c-surface-white" data-wf--section--variant="base">
+<div class="slot">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
+<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="t-b-sm"><?php esc_html_e( 'Industries We Serve', 'osous' ); ?></div>
+</div>
+<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div>
+<div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
+<h2><?php esc_html_e( 'Ecommerce for Every Iraqi Industry', 'osous' ); ?></h2>
+</div>
+<p class="t-r-sm w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2"><?php esc_html_e( 'From fashion to food delivery, we build ecommerce solutions tailored to the specific needs of each sector.', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+<div class="w-layout-grid grid-4">
+<div class="card industry"><img alt="" class="icon-64" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon-1.svg"/>
+<div class="spacer-5x"></div>
+<p class="h3"><?php esc_html_e( 'Retail & Fashion', 'osous' ); ?></p>
+</div>
+<div class="card industry"><img alt="" class="icon-64" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/tech.svg"/>
+<div class="spacer-5x"></div>
+<p class="h3"><?php esc_html_e( 'Electronics', 'osous' ); ?></p>
+</div>
+<div class="card industry"><img alt="" class="icon-64" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon-transportation.svg"/>
+<div class="spacer-5x"></div>
+<p class="h3"><?php esc_html_e( 'Grocery & Food Delivery', 'osous' ); ?></p>
+</div>
+<div class="card industry"><img alt="" class="icon-64" loading="lazy" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/b2b.svg"/>
+<div class="spacer-5x"></div>
+<p class="h3"><?php esc_html_e( 'B2B Ecommerce', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+</section>
+<section class="section c-surface-white" data-wf--section--variant="base">
+<div class="slot">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
+<div class="eyebrow_badge" data-wf--eyebrow_badge--variant="light">
+<div class="t-b-sm"><?php esc_html_e( 'Client Reviews', 'osous' ); ?></div>
+</div>
+<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div>
+<div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
+<h2><?php esc_html_e( 'What Iraqi Businesses Say About Us', 'osous' ); ?></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-container">
+<div class="swiper-wrapper tesimonial">
+<div class="swiper-slide">
+<div class="testimonial_card_1">
+<div class="card testimonial" data-wf--testimonial--variant="base">
+<div class="_5_stars"></div>
+<p class="p-b-lg"><em><?php esc_html_e( '"Our online store launched with full Arabic support and Zain Cash integration. Within three months our sales exceeded our physical shop. Best business decision we made."', 'osous' ); ?></em></p>
+<div class="w-layout-hflex f-h t">
+<div class="testimonial_avatar"></div>
+<div class="w-layout-vflex flex-block">
+<div class="t-b-md"><?php esc_html_e( 'Fatima Al-Saadi', 'osous' ); ?></div>
+<div class="t-r-sm"><?php esc_html_e( 'Fashion Retailer, Baghdad', 'osous' ); ?></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="testimonial_card_2">
+<div class="card testimonial w-variant-375e6d65-118b-6894-2a5f-1d79cc00d736" data-wf--testimonial--variant="primary">
+<div class="_5_stars w-variant-375e6d65-118b-6894-2a5f-1d79cc00d736"></div>
+<p class="p-b-lg"><?php esc_html_e( '"They built our electronics store on WooCommerce with 500+ products, full inventory management, and it ranks on the first page of Google for our main keywords. Outstanding work."', 'osous' ); ?></p>
+<div class="w-layout-hflex f-h t">
+<div class="testimonial_avatar w-variant-375e6d65-118b-6894-2a5f-1d79cc00d736"></div>
+<div class="w-layout-vflex flex-block">
+<div class="t-b-md"><?php esc_html_e( 'Hassan Karimi', 'osous' ); ?></div>
+<div class="t-r-sm"><?php esc_html_e( 'Electronics Business Owner, Erbil', 'osous' ); ?></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="testimonial_card_3">
+<div class="card testimonial" data-wf--testimonial--variant="base">
+<div class="_5_stars"></div>
+<p class="p-b-lg"><?php esc_html_e( '"Our B2B wholesale platform was complex — custom pricing, bulk ordering, customer accounts. They delivered exactly what we needed on time and within budget."', 'osous' ); ?></p>
+<div class="w-layout-hflex f-h t">
+<div class="testimonial_avatar"></div>
+<div class="w-layout-vflex flex-block">
+<div class="t-b-md"><?php esc_html_e( 'Waleed Nouri', 'osous' ); ?></div>
+<div class="t-r-sm"><?php esc_html_e( 'Wholesale Distributor, Basra', 'osous' ); ?></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section c-surface-white" data-wf--section--variant="tight">
+<div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
+<div class="section_title w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2" data-wf--section_title--align="center">
+<div class="w-layout-vflex section_title_them" data-wf--section_title_them--theme="light">
+<div>
+<div class="h2 w-variant-9d63a84e-4632-12fe-d16e-23dad33b70d2 w-richtext">
+<h2><?php esc_html_e( 'FAQs', 'osous' ); ?></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="w-layout-vflex">
+<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion_qustion">
+<div class="h3"><?php esc_html_e( 'How long does it take to build an ecommerce website?', 'osous' ); ?></div>
+<div class="accordion_icon">
+<div class="accordion-icon-line-h"></div>
+<div class="accordion-icon-line-v"></div>
+</div>
+</div>
+<div class="accordion_answer">
+<p class="p"><?php esc_html_e( 'A basic ecommerce store typically takes 4–6 weeks. Stores with custom features, integrations, and multilingual support can take 8–14 weeks. We provide a clear timeline after your discovery session so you always know what to expect.', 'osous' ); ?></p>
+</div>
+</div>
+<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion_qustion">
+<div class="h3"><?php esc_html_e( 'What payment gateways are available in Iraq?', 'osous' ); ?></div>
+<div class="accordion_icon">
+<div class="accordion-icon-line-h"></div>
+<div class="accordion-icon-line-v"></div>
+</div>
+</div>
+<div class="accordion_answer">
+<p class="p"><?php esc_html_e( 'We integrate Iraq\'s most trusted local payment options — Zain Cash, Qi Card, and cash on delivery. We also configure international payment gateways for businesses selling outside Iraq. We advise on the best payment mix for your customers.', 'osous' ); ?></p>
+</div>
+</div>
+<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion_qustion">
+<div class="h3"><?php esc_html_e( 'How much does an ecommerce website cost in Iraq?', 'osous' ); ?></div>
+<div class="accordion_icon">
+<div class="accordion-icon-line-h"></div>
+<div class="accordion-icon-line-v"></div>
+</div>
+</div>
+<div class="accordion_answer">
+<p class="p"><?php esc_html_e( 'Ecommerce costs vary based on complexity, number of products, platform, and required features. Basic stores start at a lower investment while enterprise builds require a larger budget. Contact us for a detailed, personalized quote.', 'osous' ); ?></p>
+</div>
+</div>
+<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion_qustion">
+<div class="h3"><?php esc_html_e( 'Can I sell internationally from Iraq?', 'osous' ); ?></div>
+<div class="accordion_icon">
+<div class="accordion-icon-line-h"></div>
+<div class="accordion-icon-line-v"></div>
+</div>
+</div>
+<div class="accordion_answer">
+<p class="p"><?php esc_html_e( 'Yes. We build multi-currency and multi-language stores that allow Iraqi businesses to sell internationally, with international shipping options, currency conversion, and payment methods configured for cross-border commerce.', 'osous' ); ?></p>
+</div>
+</div>
+<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion_qustion">
+<div class="h3"><?php esc_html_e( 'Do I need hosting and domain services?', 'osous' ); ?></div>
+<div class="accordion_icon">
+<div class="accordion-icon-line-h"></div>
+<div class="accordion-icon-line-v"></div>
+</div>
+</div>
+<div class="accordion_answer">
+<p class="p"><?php esc_html_e( 'Yes. We advise on and set up the best hosting environment for your ecommerce store — fast, secure, and optimized for Iraqi and international visitors. We handle the full technical setup so you can focus on your business.', 'osous' ); ?></p>
+</div>
+</div>
+<div class="accordion" data-wf--accordion--variant="base">
+<div class="accordion_qustion">
+<div class="h3"><?php esc_html_e( 'Which ecommerce platform is best for my business?', 'osous' ); ?></div>
+<div class="accordion_icon">
+<div class="accordion-icon-line-h"></div>
+<div class="accordion-icon-line-v"></div>
+</div>
+</div>
+<div class="accordion_answer">
+<p class="p"><?php esc_html_e( 'It depends on your business size and goals. WooCommerce is ideal for flexibility and Arabic support. Shopify is great for fast launches. Magento suits large enterprises. We recommend the right platform after understanding your specific needs.', 'osous' ); ?></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div bind="e7b0e4ae-847c-fd95-2f18-98ae53a2315b" id="inquiery">
+<section class="section c-surface-white" data-wf--section--variant="tight">
+<div class="slot w-variant-8a10b5c0-3e90-2749-4b5c-65bfe6c9c5d6">
+<div class="card cta-bg">
+<div class="section_title center">
+<h2 class="h2 a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"4f4ff8c1-7149-c37a-723a-6df3a7b8dac0"}}}'><?php esc_html_e( 'Get Started with Your Ecommerce Website Today', 'osous' ); ?></h2>
+<p class="p a-c c-on-primary" sym-bind='{"children":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"66cc16e7-3a04-8032-1c49-0c4dbb3d137b"}}}'><?php esc_html_e( 'Tell us about your business and we\'ll get back with a free consultation and custom quote within 48 hours. No commitment required.', 'osous' ); ?></p>
+<div class="spacer-3x"></div>
+<a class="btn dark w-inline-block" href="<?php echo esc_url( osous_url( 'contact.html' ) ); ?>">
+<div class="t-r-md"><?php esc_html_e( 'Requst Consulation', 'osous' ); ?></div>
+<div bind="afa2a8e7-3bc2-ef1b-02fd-a439665df88e" class="icon-24 w-embed"><svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6822 18.7468L21.4651 12M21.4651 12L15.6822 5.25323M21.4651 12L3.7085 12" stroke="currentColor" stroke-width="1.5"></path>
+</svg></div>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+</div>
+<?php
+get_footer();
