@@ -21,6 +21,10 @@ tools/wp.sh theme activate osous-webflow
 - Site: http://127.0.0.1:8200 (the theme folder is mounted, edits show on reload).
 - Mail from the contact form: http://127.0.0.1:8245 (Mailpit).
 - Activating the theme creates every page and sets the home page.
+- To test the blog with real posts, export them from a WordPress REST API
+  (`/wp-json/wp/v2/posts?_embed&per_page=100`) to `tools/posts.json`, then run
+  `tools/wp.sh eval-file /tools/import-posts.php /tools/posts.json` (existing slugs are skipped).
+  Keep `posts.json` out of git.
 
 ## Release
 

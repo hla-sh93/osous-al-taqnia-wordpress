@@ -13,6 +13,14 @@
 .section.header { background-color: #fff; color: #000; }
 .section.header h1, .section.header h2, .section.header h3, .section.header p { color: #000; }
 
+/* The curved cut under the hero is placed after the section's side padding, so it ran 16px past the
+   right edge and the page scrolled sideways on phones and tablets. Clip it sideways only; it stays in place. */
+.section.header { overflow-x: clip; }
+
+/* Same for the tilted marquee band (website design and home pages): 100vw wide and rotated 3 degrees,
+   its corners ran past the right edge. Clip its section sideways only; the band looks the same. */
+.section:has(.marquee) { overflow-x: clip; }
+
 /* Page heroes keep the original light-blue band (the blog design); the blog panel sits over it */
 .section.header.osous-blog-hero { background-color: #f1f4fa !important; }
 .section.header.osous-blog-hero h1 { color: var(--neutral--900); }
@@ -26,12 +34,10 @@
 /* Reconciliation hero: this title is white */
 .section.header h1.osous-title-light { color: #fff; }
 
-/* Blog post cards: fixed image height, cropped to fill */
-.osous-blog-list .blog-image-thumb-container { height: 415px; }
+/* Blog post cards: every image the same shape as the post covers (2.7 : 1, like the featured image below),
+   so the whole cover shows, its text included, and the cards stay the same height */
+.osous-blog-list .blog-image-thumb-container { aspect-ratio: 2.7 / 1; height: auto; }
 .osous-blog-list .blog-image-thumb { display: block; width: 100%; height: 100%; object-fit: cover; }
-@media (max-width: 767px) {
-  .osous-blog-list .blog-image-thumb-container { height: 260px; }
-}
 
 /* Blog post cards: dark, fully opaque titles */
 .osous-blog-list .blog-card,
@@ -41,6 +47,9 @@
 
 /* Post body: centred reading column, as on the finished post design */
 .container.blog > .w-richtext { width: 100%; max-width: 760px; margin: 0 auto; }
+
+/* Post body: a wide table scrolls inside its own box instead of pushing the page sideways on phones */
+.container.blog .w-richtext table { display: block; max-width: 100%; overflow-x: auto; }
 
 /* Whole page background is white */
 /* body only: a background on html stops the body's colour reaching the canvas, which hides the hero's negative z-index */
