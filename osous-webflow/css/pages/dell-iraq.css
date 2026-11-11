@@ -16,6 +16,10 @@
 	#main #services .cell.list-scroll{position:sticky;top:50vh;align-self:start}
 	#main #services .cell.list-scroll .section_title,#main #services .cell.list-scroll p{margin-bottom:0}
 }
+@media (min-width:825px){
+	#main #services.list-js .list_item_2{opacity:.4;transition:opacity .4s cubic-bezier(.25,.46,.45,.94)}
+	#main #services.list-js .list_item_2.active{opacity:1}
+}
 #main,#main *{box-sizing:border-box}
 #main [id]{scroll-margin-top:110px}
 html:has(#main){scroll-behavior:smooth}

@@ -33,6 +33,22 @@
 		}
 	}
 
+	// Installation list: the item crossing the middle of the screen is active, the others dim
+	// (the web-design page's services list; the title is held by CSS).
+	var services = main.querySelector( '#services' );
+	var serviceItems = all( '#services .list_item_2' );
+	if ( services && serviceItems.length && 'IntersectionObserver' in window ) {
+		services.classList.add( 'list-js' );
+		var itemObserver = new IntersectionObserver( function ( entries ) {
+			entries.forEach( function ( entry ) {
+				entry.target.classList.toggle( 'active', entry.isIntersecting );
+			} );
+		}, { rootMargin: '-50% 0px -50% 0px' } );
+		serviceItems.forEach( function ( item ) {
+			itemObserver.observe( item );
+		} );
+	}
+
 	// FAQ: animated open and close.
 	if ( ! reduce && Element.prototype.animate ) {
 		all( '.faq details' ).forEach( function ( det ) {

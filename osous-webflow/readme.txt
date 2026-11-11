@@ -1,4 +1,4 @@
-Osous Al Taqnia (Webflow) 1.1.5
+Osous Al Taqnia (Webflow) 1.1.6
 ================================
 
 Converted from the Webflow export. A classic WordPress theme: one template per

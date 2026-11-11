@@ -1,10 +1,8 @@
 /**
  * Scrolling list with pictures (e-commerce, mobile app and website design pages):
  * the active item fades in, its picture pops up, and the heading cell stays pinned.
- * A page that holds the heading with CSS instead passes window.osousListScrollImages = { pin: false }.
  */
 document.addEventListener("DOMContentLoaded", () => {
-  const options = Object.assign({ pin: true }, window.osousListScrollImages || {});
   const items = document.querySelectorAll(".list_item_2");
   const headingCell = document.querySelector(".list-scroll .grid-2 > .cell:first-child");
   const lastItem = items[items.length - 1];
@@ -56,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       // Pin the left cell until the last item ends.
-      if (options.pin && headingCell && lastItem) {
+      if (headingCell && lastItem) {
         ScrollTrigger.create({
           trigger: headingCell,
           start: "top center",
