@@ -99,7 +99,7 @@
 	}
 
 	// Sections fade up as they enter the screen, siblings one after another.
-	var els = all( '.intro,.jump,.split>div,.head,.cards>.card,#servers .actions,#storage .actions,.note,.steps>.step,.industries>.card,.faq,.contact' );
+	var els = all( '.intro,.jump,.split>div,.head,.cards>.card,#servers .actions,#storage .actions,.note,.industries>.card,.faq,.contact' );
 	els.forEach( function ( el ) {
 		var siblings = [].slice.call( el.parentNode.children ).filter( function ( c ) {
 			return els.indexOf( c ) > -1;

@@ -240,7 +240,10 @@ function osous_page_scripts() {
 		'e-commerce.html'                    => array( 'osous-list-scroll-images' => array( 'list-scroll-images.js', 'osous-scrolltrigger', null ) ),
 		'mobile-app.html'                    => array( 'osous-list-scroll-images' => array( 'list-scroll-images.js', 'osous-scrolltrigger', null ) ),
 		'website-design.html'                => array( 'osous-list-scroll-images' => array( 'list-scroll-images.js', 'osous-scrolltrigger', null ) ),
-		'dell-iraq.html'                     => array( 'osous-dell-iraq' => array( 'dell-iraq.js', null, null ) ),
+		'dell-iraq.html'                     => array(
+			'osous-dell-iraq'          => array( 'dell-iraq.js', null, null ),
+			'osous-list-scroll-images' => array( 'list-scroll-images.js', 'osous-scrolltrigger', array( 'osousListScrollImages', array( 'pin' => false ) ) ),
+		),
 	);
 	$file = osous_current_file();
 	return isset( $table[ $file ] ) ? $table[ $file ] : array();
