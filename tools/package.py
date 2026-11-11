@@ -1,4 +1,5 @@
-"""Build the installable theme zip: dist/osous-webflow-<version>.zip.
+"""Build the installable theme zip: dist/osous-al-taqnia-classic-<version>.zip.
+The theme folder inside the zip stays osous-webflow, so WordPress updates the installed theme.
 
 Usage: python tools/package.py
 """
@@ -11,7 +12,7 @@ THEME = ROOT / 'osous-webflow'
 SKIP = {'.DS_Store', 'Thumbs.db'}
 
 version = re.search(r'^Version:\s*(\S+)', (THEME / 'style.css').read_text(encoding='utf8'), re.M).group(1)
-out = ROOT / 'dist' / f'osous-webflow-{version}.zip'
+out = ROOT / 'dist' / f'osous-al-taqnia-classic-{version}.zip'
 out.parent.mkdir(exist_ok=True)
 
 count = 0

@@ -29,7 +29,7 @@ tools/wp.sh theme activate osous-webflow
 ## Release
 
 1. Raise `Version` in `osous-webflow/style.css` (the theme reads its version from there).
-2. `python tools/package.py` writes `dist/osous-webflow-<version>.zip`, ready for
+2. `python tools/package.py` writes `dist/osous-al-taqnia-classic-<version>.zip`, ready for
    Appearance > Themes > Upload Theme.
 
 ## History
