@@ -70,6 +70,14 @@ function osous_blog_url() {
 	return $blog ? get_permalink( $blog ) : home_url( '/' );
 }
 
+/**
+ * A blog post's URL by its slug; the blog list when the post does not exist.
+ */
+function osous_post_url( $slug ) {
+	$post = get_page_by_path( $slug, OBJECT, 'post' );
+	return $post ? get_permalink( $post ) : osous_blog_url();
+}
+
 function osous_current_class( $file ) {
 	return ( $file === osous_current_file() ) ? ' w--current' : '';
 }
@@ -126,7 +134,7 @@ function osous_meta( $key ) {
     'cybersecurity-iraq.html' => array( 'title' => __( 'Cyber security Services in Iraq - Protect Your Business | Osous Al Taqnia', 'osous' ), 'description' => __( 'Safeguard your Iraqi business with Osous Al Taqnia\'s comprehensive cybersecurity solutions. From next-gen firewalls to SOC services, we protect your digital assets. Free consultation!', 'osous' ) ),
     'data-center-iraq.html' => array( 'title' => __( 'Data Center in Iraq | Osous Al Taqnia', 'osous' ), 'description' => __( 'Deploy customized, scalable modular data centers across Iraq with Osous Al Taqnia. Our prefabricated solutions offer rapid deployment, local expertise, and end-to-end support.', 'osous' ) ),
     'data-protection-iraq.html' => array( 'title' => __( 'Data Protection Solutions in Iraq | Osous Al Taqnia', 'osous' ), 'description' => __( 'Secure your business with enterprise-grade data protection solutions from Osous Al Taqnia. Comprehensive backup, disaster recovery, and DLP services across Iraq.', 'osous' ) ),
-    'dell-iraq.html' => array( 'title' => __( 'Dell Partner Iraq - Authorized Dell Reseller | Osous Al Taqnia', 'osous' ), 'description' => __( 'Need a Dell reseller in Iraq? Get genuine Dell servers, Dell EMC storage and infrastructure services with local design, delivery and support across Iraq.', 'osous' ) ),
+    'dell-iraq.html' => array( 'title' => __( 'Dell Partner Iraq – Servers & Storage | Osous Al Taqnia', 'osous' ), 'description' => __( 'Explore Dell servers and storage solutions in Iraq. Osous Al Taqnia helps businesses with sizing, procurement, deployment and support. Request a quote.', 'osous' ) ),
     'device-management-iraq.html' => array( 'title' => __( 'Device Management Solutions in Iraq | Osous Al Taqnia', 'osous' ), 'description' => __( 'Discover how Osous Al Taqnia\'s device management solutions provide Iraqi businesses with enhanced security, efficiency, and control across all endpoints. Contact us today!', 'osous' ) ),
     'disaster-recovery-iraq.html' => array( 'title' => __( 'Disaster Recovery Solutions & Services in Iraq | Osous Al Taqnia', 'osous' ), 'description' => __( 'Implement robust disaster recovery solutions with Osous Al Taqnia to protect your Iraqi business from data loss and minimize downtime. Expert planning, testing and support. Contact us today!', 'osous' ) ),
     'dlp-solutions-iraq.html' => array( 'title' => __( 'DLP Solution in Iraq - Data Loss Prevention & Security Solutions | Osous Al Taqnia', 'osous' ), 'description' => __( 'Protect your organization from data breaches with Osous Al Taqnia\'s advanced DLP solutions in Iraq. AI-powered security, compliance management, and 24/7 support.', 'osous' ) ),
@@ -232,6 +240,7 @@ function osous_page_scripts() {
 		'e-commerce.html'                    => array( 'osous-list-scroll-images' => array( 'list-scroll-images.js', 'osous-scrolltrigger', null ) ),
 		'mobile-app.html'                    => array( 'osous-list-scroll-images' => array( 'list-scroll-images.js', 'osous-scrolltrigger', null ) ),
 		'website-design.html'                => array( 'osous-list-scroll-images' => array( 'list-scroll-images.js', 'osous-scrolltrigger', null ) ),
+		'dell-iraq.html'                     => array( 'osous-dell-iraq' => array( 'dell-iraq.js', null, null ) ),
 	);
 	$file = osous_current_file();
 	return isset( $table[ $file ] ) ? $table[ $file ] : array();
@@ -249,7 +258,7 @@ function osous_enqueue_page_scripts( $after_carousel ) {
 		if ( ( 'osous-carousel' === $dependency ) !== $after_carousel ) {
 			continue;
 		}
-		wp_enqueue_script( $handle, $js . $file, array( $dependency ), OSOUS_VERSION, true );
+		wp_enqueue_script( $handle, $js . $file, $dependency ? array( $dependency ) : array(), OSOUS_VERSION, true );
 		if ( $options ) {
 			list( $var, $values ) = $options;
 			wp_add_inline_script( $handle, 'window.' . $var . ' = ' . wp_json_encode( $values ) . ';', 'before' );
@@ -266,6 +275,12 @@ function osous_enqueue_assets() {
 	wp_enqueue_style( 'osous-webflow', $uri . '/css/webflow.css', array( 'osous-normalize' ), OSOUS_VERSION );
 	wp_enqueue_style( 'osous-site', $uri . '/css/osous-al-taqnia.webflow.css', array( 'osous-webflow' ), OSOUS_VERSION );
 	wp_enqueue_style( 'osous-theme', $uri . '/css/osous-theme.css', array( 'osous-site' ), OSOUS_VERSION );
+
+	// A page's own stylesheet, css/pages/{slug}.css, on that page only.
+	$page_css = 'css/pages/' . basename( osous_current_file(), '.html' ) . '.css';
+	if ( '' !== osous_current_file() && file_exists( get_template_directory() . '/' . $page_css ) ) {
+		wp_enqueue_style( 'osous-page', $uri . '/' . $page_css, array( 'osous-theme' ), OSOUS_VERSION );
+	}
 
 	wp_enqueue_script( 'osous-jquery', $js . 'vendor/jquery-3.5.1.min.js', array(), '3.5.1', true );
 	wp_enqueue_script( 'osous-webflow', $js . 'webflow.js', array( 'osous-jquery' ), OSOUS_VERSION, true );

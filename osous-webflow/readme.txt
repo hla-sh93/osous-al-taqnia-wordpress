@@ -1,4 +1,4 @@
-Osous Al Taqnia (Webflow) 1.1.1
+Osous Al Taqnia (Webflow) 1.1.2
 ================================
 
 Converted from the Webflow export. A classic WordPress theme: one template per
@@ -32,9 +32,11 @@ Where things are
 - single.php        a blog post. template-parts/ holds the blog list and hero.
 - functions.php     page titles and descriptions (one table), scripts and
                     styles, the contact form.
+- css/pages/        a page's own styles, {slug}.css, loaded on that page only.
 - inc/              Turnstile and the page installer.
 - js/               the site's own scripts (carousel, scrolling lists, split
-                    section, overlapping cards); js/vendor/ holds jQuery, GSAP,
+                    section, overlapping cards, page scripts such as
+                    dell-iraq.js); js/vendor/ holds jQuery, GSAP,
                     ScrollTrigger and Swiper. Nothing loads from other hosts
                     except Google Fonts (and Turnstile on the contact page).
 
