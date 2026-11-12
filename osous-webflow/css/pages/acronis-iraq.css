@@ -1,0 +1,239 @@
+/**
+ * Acronis Partner Iraq page (page-acronis-iraq.php). Loaded on this page only.
+ * Every rule is scoped to #main so the shared header, footer and other pages are untouched.
+ */
+#main{--purple:#7c4cdb;--purple-600:#622ad2;--purple-400:#c2a4ff;--purple-100:#ede9f5;--diamond:#945ffe;--navy:#001373;--navy-600:#2339aa;--blue:#001373;--ink:#151320;--text:#333;--muted:#5b5d6b;--line:#e5e6ef;--grey:#f0f0f0;--wash:#f0f4fb;--teal:#00baf8;--mint:#00dfcd;--on-dark:#e0f3fa;--subtle:#a6a9bf;--radius-card:14.4px;--radius-box:24px;--shadow:0 8px 20px rgba(0,0,0,.1);--shadow-lg:0 15px 30px rgba(0,0,0,.14);--ease:cubic-bezier(.22,1,.36,1)}
+/* theme overrides */
+#main :is(p,a,li,ul,span,strong,button,summary):where(:not(#services *)){font-family:inherit}
+#main p:where(:not(#services *)){max-width:none}
+#main h2:where(:not(#services *)){display:block;max-width:none}
+#main li:where(:not(#services *)){padding-top:0;padding-bottom:0;background-image:none}
+#main .btn{z-index:auto;flex-wrap:nowrap;opacity:1!important;transform:none!important}
+/* page */
+#main .services-list{grid-area:span 1/span 2/span 1/span 2}
+#main .services-list>.list_item_2{width:100%}
+@media (min-width:992px){
+	#main #services .cell.list-scroll{position:sticky;top:50vh;align-self:start}
+	#main #services .cell.list-scroll .section_title,#main #services .cell.list-scroll p{margin-bottom:0}
+}
+@media (min-width:825px){
+	#main #services.list-js .list_item_2{opacity:.4;transition:opacity .4s cubic-bezier(.25,.46,.45,.94)}
+	#main #services.list-js .list_item_2.active{opacity:1}
+}
+#main,#main *{box-sizing:border-box}
+#main [id]{scroll-margin-top:110px}
+html:has(#main){scroll-behavior:smooth}
+#main{color:var(--text);font-family:Inter,Arial,sans-serif;font-size:16px;line-height:1.7;background:#fff;overflow-x:clip;-webkit-font-smoothing:antialiased}
+#main h1:where(:not(#services *)),#main h2:where(:not(#services *)),#main h3:where(:not(#services *)),#main h4:where(:not(#services *)){font-family:Sora,Arial,sans-serif;font-weight:600;line-height:1.4;color:#000;margin:0 0 16px}
+#main h1:where(:not(#services *)){font-size:48px;letter-spacing:-.2rem}
+#main h2:where(:not(#services *)){font-size:32px;letter-spacing:-.1rem}
+#main h3:where(:not(#services *)){font-size:24px;letter-spacing:-.05rem}
+#main h4:where(:not(#services *)){font-size:18px;letter-spacing:-.02em}
+#main p:where(:not(#services *)){margin:0 0 16px;color:var(--text);opacity:.85}
+#main a:where(:not(#services *)){color:inherit}
+#main button:where(:not(#services *)),#main summary:where(:not(#services *)){font:inherit}
+#main a:where(:not(#services *)):focus-visible,#main button:where(:not(#services *)):focus-visible,#main summary:where(:not(#services *)):focus-visible{outline:2px solid var(--teal);outline-offset:4px;border-radius:4px}
+#main img:where(:not(#services *)){max-width:100%;display:block}
+#main .wrap{width:min(1236px,calc(100% - 64px));margin:auto}
+#main .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:48px;padding:0 32px;background:var(--purple);color:#fff;border:1px solid transparent;border-radius:8px;text-decoration:none;font-size:16px;font-weight:400;line-height:1.4;transition:background-color .25s,color .25s,border-color .25s,transform .25s var(--ease),box-shadow .25s;position:relative;white-space:nowrap}
+#main .btn::after{content:'';width:22px;height:22px;flex-shrink:0;background:currentColor;-webkit-mask:url("../../images/icon-arrow-long.svg") center/contain no-repeat;mask:url("../../images/icon-arrow-long.svg") center/contain no-repeat;transition:transform .3s var(--ease)}
+#main .btn:hover{background:var(--purple-600);box-shadow:0 10px 24px rgba(124,76,219,.28)}
+#main .btn:hover::after{transform:translateX(4px)}
+#main .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+#main .hero{position:relative;isolation:isolate;min-height:max(600px,calc(80vh - 40px));display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:150px 0 110px}
+#main .hero::before{content:'';position:absolute;z-index:-2;top:0;bottom:0;left:50%;width:100vw;transform:translateX(-50%);background:var(--grey)}
+#main .hero::after{content:'';position:absolute;z-index:-1;top:100%;left:50%;width:100vw;height:6vw;min-height:34px;transform:translateX(-50%);background:url("../../images/header-cut.svg") left top/111vw 100% no-repeat}
+#main .hero h1{max-width:900px;margin:0 auto 16px;color:#000}
+#main .hero p{max-width:640px;margin:0 auto;font-size:.85rem;line-height:1.6;color:#000;opacity:1}
+#main .hero .actions{justify-content:center}
+#main .section:where(:not(#services)){padding:128px 0;position:relative}
+#main .soft{background:#fff}
+#main .head{max-width:800px;margin:0 auto 48px;text-align:center}
+#main .head h2{max-width:640px;margin-left:auto;margin-right:auto}
+#main .head p{margin:0 auto;max-width:760px}
+#main section[aria-labelledby="intro-heading"]{position:relative;z-index:2;margin-top:-28px;padding-bottom:16px}
+#main .intro{background:#fff;border-radius:var(--radius-box);box-shadow:var(--shadow);padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+#main .intro-text{padding:8px 10px 8px 10px}
+#main .intro-text h2{margin-bottom:20px}
+#main .intro img{border-radius:var(--radius-card);width:100%;height:100%;min-height:380px;aspect-ratio:1.29;object-fit:cover;transition:transform 1.2s var(--ease)}
+#main .intro p:last-child{margin-bottom:0}
+#main .jump{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 32px;padding:40px 0 0}
+#main .jump a{font-size:14px;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--purple);padding-bottom:2px;transition:color .2s}
+#main .jump a:hover{color:var(--purple)}
+#main .split{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+#main .split h2{max-width:600px}
+#main .rule{width:200px;max-width:100%;height:1px;background:linear-gradient(93deg,var(--purple),var(--teal));margin:32px 0;transform-origin:left;transition:transform 1.1s var(--ease) .2s}
+.rv-on #main .rule{transform:scaleX(0)}
+.rv-on #main .in .rule,.rv-on #main .rule.in{transform:scaleX(1)}
+#main #backup,#main #storage{background-color:var(--navy);background-image:url("../../images/bg-1.webp");background-position:100% 100%;background-repeat:no-repeat;color:#fff}
+#main #backup{padding-bottom:64px;background-image:none}
+#main #storage{padding-top:64px}
+#main :is(#backup,#storage) .actions{justify-content:center}
+#main :is(#backup,#storage) :is(h2,h3,h4){color:#fff}
+#main :is(#backup,#storage) .head p{color:#fff;opacity:.85}
+#main .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+#main #storage .cards{grid-template-columns:repeat(3,1fr)}
+#main .card{position:relative;border-radius:var(--radius-card);padding:32px;background:#fff}
+#main .card h3{margin-bottom:16px}
+#main .card p:last-child{margin-bottom:0}
+#main .card ul{list-style:none;padding:0;margin:16px 0 0}
+#main .card li{position:relative;padding-left:23px;margin:0 0 16px;font-size:14px;line-height:1.3;color:var(--text)}
+#main .card li:last-child{margin-bottom:0}
+#main .card li::before{content:'';position:absolute;left:0;top:50%;width:10px;height:10px;margin-top:-5px;background:url("../../images/bullet-1.svg") center/contain no-repeat}
+#main .card .num{display:none}
+#main :is(#backup,#storage) .card{background-color:var(--purple);background-image:linear-gradient(143deg,rgba(0,19,115,.3),rgba(0,19,115,0));color:#fff}
+#main :is(#backup,#storage) .card h3{color:#fff}
+#main :is(#backup,#storage) .card p{color:#fff;opacity:.85}
+#main :is(#backup,#storage) .card li{color:#fff}
+#main #planning{background:#fff}
+#main #planning .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+#main #planning .cards .card{background:transparent}
+#main #planning .cards .card::before{content:'';display:block;width:128px;height:96px;margin-bottom:16px;background:center/contain no-repeat}
+#main #planning .cards .card:nth-child(1)::before{background-image:url("../../images/icon-1.svg")}
+#main #planning .cards .card:nth-child(2)::before{background-image:url("../../images/Property-1Banking.svg")}
+#main #planning .cards .card:nth-child(3)::before{background-image:url("../../images/Property-1Healthcare.svg")}
+#main #planning .cards .card:nth-child(4)::before{background-image:url("../../images/Property-1Oil--Gas.svg")}
+#main #planning .cards h3{font-size:24px;color:#333;margin-bottom:12px}
+#main #planning .cards p{font-size:16px}
+#main .split:has(.reason)>div:first-child{position:sticky;top:calc(50vh - 90px);align-self:start}
+#main .split:has(.reason) .rule{display:none}
+#main .reason{padding:32px;margin-bottom:8px;border-radius:var(--radius-card);border:1px solid #eee;background:#fff;transition:opacity .2s,transform .2s,background-color .2s,border-color .2s}
+#main .reason h3{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;font-size:20.8px;font-weight:700;line-height:1.2;letter-spacing:0;color:#000;margin:0 0 12px;transition:color .2s}
+#main .reason p{margin:0;font-size:13.6px;transition:color .2s}
+.rv-on #main .reason{opacity:.5;transform:translateX(1rem)}
+#main .reason.active{background:var(--navy);border-color:var(--navy)}
+.rv-on #main .reason.active{opacity:1;transform:none}
+#main .reason.active h3,#main .reason.active p{color:#fff}
+#main .related{display:flex;gap:20px;flex-wrap:wrap;margin-top:32px}
+#main .related a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--purple);font-size:15px;padding-bottom:2px;transition:color .2s}
+#main .related a:hover{color:var(--purple)}
+#main #faq{background:#fff}
+#main .faq{max-width:832px;margin:0 auto}
+#main .faq details{overflow:hidden}
+#main .faq summary{cursor:pointer;min-height:80px;padding:16px 56px 16px 16px;border-bottom:1.5px solid #c7c8d3;list-style:none;font-family:Sora,Arial,sans-serif;font-size:24px;position:relative;font-weight:600;line-height:1.4;letter-spacing:-.05rem;color:#333;display:flex;align-items:center;transition:color .2s}
+#main .faq summary:hover,#main .faq details[open] summary{color:var(--purple)}
+#main .faq summary::-webkit-details-marker{display:none}
+#main .faq summary::before,#main .faq summary::after{content:'';position:absolute;right:16px;top:50%;width:20px;height:2px;margin-top:-1px;background:#000;transition:transform .3s var(--ease),opacity .3s}
+#main .faq summary::after{transform:rotate(90deg)}
+#main .faq details[open] summary::after{transform:rotate(0);opacity:0}
+#main .faq details>p,#main .faq details>ul{margin:0;padding:16px;font-size:16px;color:#333;opacity:1}
+#main .faq details>ul{padding-left:38px}
+#main #contact{padding:64px 0 128px}
+#main .contact{max-width:900px;margin:0 auto;border-radius:var(--radius-card);padding:40px 32px;text-align:center;color:#fff;background:var(--purple) url("../../images/cta-background.webp") center/cover no-repeat;overflow:hidden;position:relative}
+#main .contact h2{color:#fff;max-width:640px;margin:0 auto 8px}
+#main .contact>p{max-width:680px;margin:0 auto 8px;color:#fff;opacity:1}
+#main .contact .actions{justify-content:center;margin-top:40px}
+#main .contact .btn{background:var(--ink);color:#f0f4fb;text-decoration:underline;text-underline-offset:3px}
+#main .contact .btn:hover{background:#000;box-shadow:none}
+.rv-on #main .rv{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:var(--d,0s)}
+.rv-on #main .rv.in{opacity:1;transform:none}
+#main .hero h1 .w{display:inline-block;transform-origin:50% 100%}
+.rv-on #main .hero h1 .w{opacity:0;transform:perspective(700px) rotateX(-75deg) translateY(.35em);animation:wordIn .9s var(--ease) forwards;animation-delay:calc(.25s + var(--i) * .08s)}
+@keyframes wordIn{to{opacity:1;transform:none}}
+.rv-on #main .hero p,.rv-on #main .hero .actions{opacity:0;animation:fadeUp .9s var(--ease) forwards}
+.rv-on #main .hero p{animation-delay:.75s}
+.rv-on #main .hero .actions{animation-delay:.9s}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@media(max-width:991px) {
+	#main .intro{grid-template-columns:1fr;gap:24px}
+	#main .intro img{min-height:0}
+	#main .split{grid-template-columns:1fr;gap:8px}
+	#main .split:has(.reason)>div:first-child{position:static}
+	#main #planning .cards,#main #storage .cards{grid-template-columns:repeat(2,1fr)}
+	#main .faq summary{font-size:20px}
+	#main .section:where(:not(#services)){padding:96px 0}
+}
+@media(max-width:767px) {
+	#main .wrap{width:calc(100% - 32px)}
+	#main h1:where(:not(#services *)){font-size:32px;letter-spacing:-.12rem}
+	#main h2:where(:not(#services *)){font-size:24px;letter-spacing:-.06rem}
+	#main h3:where(:not(#services *)){font-size:20px}
+	#main .hero{min-height:0;padding:130px 0 90px}
+	#main .section:where(:not(#services)){padding:56px 0}
+	#main section[aria-labelledby="intro-heading"]{margin-top:-20px}
+	#main .intro{padding:16px;border-radius:20px}
+	#main .intro-text{padding:8px}
+	#main .intro img{aspect-ratio:1.4}
+	#main .cards,#main #storage .cards,#main #planning .cards{grid-template-columns:1fr}
+	#main .card{padding:24px}
+	#main #planning .cards .card::before{width:64px;height:64px}
+	#main .head{margin-bottom:32px}
+	#main .reason{padding:24px}
+	.rv-on #main .reason{transform:translateX(-.5rem)}
+	.rv-on #main .reason.active{transform:none}
+	#main .faq summary{font-size:18px;min-height:68px;padding:14px 44px 14px 8px}
+	#main .faq summary::before,#main .faq summary::after{right:8px;width:16px}
+	#main .faq details>p,#main .faq details>ul{padding:14px 8px}
+	#main #contact{padding:16px 0 56px}
+	#main .contact{padding:32px 20px}
+	#main .actions .btn{font-size:14px;padding:0 22px;white-space:normal;height:auto;min-height:48px}
+	#main .jump{gap:10px 20px}
+}
+@media(prefers-reduced-motion:reduce) {
+	html:has(#main){scroll-behavior:auto}
+	#main,#main *,#main *::before,#main *::after{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}
+}
+/* Servers and storage: icon cards, intro and specs side by side in the sizing card */
+#main :is(#backup,#storage) .cards{gap:24px}
+#main #storage .cards{grid-template-columns:repeat(2,1fr)}
+#main :is(#backup,#storage) .card{padding:40px}
+#main :is(#backup,#storage) .card::before{content:'';display:block;width:64px;height:64px;margin-bottom:24px;background:center/contain no-repeat}
+#main #backup .card:nth-child(1)::before{background-image:url("../../images/icon-acronis-physical-servers.svg")}
+#main #backup .card:nth-child(2)::before{background-image:url("../../images/icon-acronis-virtual-machines.svg")}
+#main #backup .card:nth-child(3)::before{background-image:url("../../images/icon-acronis-m365-backup.svg")}
+#main #backup .card:nth-child(4)::before{background-image:url("../../images/icon-acronis-cloud-distributed.svg")}
+#main #storage .card:nth-child(1)::before{background-image:url("../../images/icon-acronis-local-offsite.svg")}
+#main #storage .card:nth-child(2)::before{background-image:url("../../images/icon-acronis-data-location.svg")}
+#main #storage .card:nth-child(3)::before{background-image:url("../../images/icon-acronis-capacity-bandwidth.svg")}
+#main #storage .card:nth-child(4)::before{background-image:url("../../images/icon-acronis-retention-immutability.svg")}
+#main :is(#backup,#storage) .card h3{margin-bottom:12px}
+#main :is(#backup,#storage) .card>p{margin-bottom:0}
+#main :is(#backup,#storage) .card ul{margin-top:24px;padding-top:24px;border-top:1px solid rgba(255,255,255,.2)}
+#main :is(#backup,#storage) .card li{margin-bottom:12px;line-height:1.4}
+@media (max-width:767px){
+	#main #storage .cards{grid-template-columns:1fr}
+	#main :is(#backup,#storage) .card{padding:28px 24px}
+	#main :is(#backup,#storage) .card::before{width:52px;height:52px;margin-bottom:20px}
+}
+/* Planning: four sectors in one row, the industries look of the partner pages */
+#main #planning .cards{grid-template-columns:repeat(4,1fr)}
+/* Solutions: the disaster-recovery page "Key Benefits" panel (wash panel, 2x2 white cards, icon top, text bottom) */
+#main #solutions>.wrap{padding:48px 16px 16px;border-radius:var(--radius-box);background:var(--wash)}
+#main #solutions .head{margin-bottom:16px}
+#main #solutions .cards{gap:16px}
+#main #solutions .card{display:flex;flex-direction:column;align-items:flex-start;padding:32px}
+#main #solutions .card::before{content:'';display:block;width:128px;height:96px;margin-bottom:32px;background:center/contain no-repeat}
+#main #solutions .card:nth-child(1)::before{background-image:url("../../images/Property-1Enhanced-Security.svg")}
+#main #solutions .card:nth-child(2)::before{background-image:url("../../images/Property-14.svg")}
+#main #solutions .card:nth-child(3)::before{background-image:url("../../images/icon-recovery.svg")}
+#main #solutions .card:nth-child(4)::before{background-image:url("../../images/icon-automated.svg")}
+#main #solutions .card h3{margin:auto 0 10px;color:#333;letter-spacing:-.8px}
+#main #solutions .card p{margin:0;line-height:1.7}
+/* Recovery: the backup-solutions page "Comprehensive Backup and Replication Solutions" (white cards, diamond lists) */
+#main #recovery .card{padding:32px}
+#main #recovery .card h3{margin:0 0 10px;color:#333;letter-spacing:-.8px}
+#main #recovery .card>p{margin:0 0 10px}
+#main #recovery .card ul{display:flex;flex-direction:column;gap:8px;margin:0}
+#main #recovery .card li{margin:0;padding:8px 0 8px 30px;font-size:16px;line-height:1.4;color:#333;background:url("../../images/bullet-1.svg") 0 13px no-repeat}
+#main #recovery .card li::before{display:none}
+/* Resilience: the "Why choose" list, with its lead line as on the backup-solutions page */
+#main #resilience .lead{margin:0;font-size:13.6px;line-height:1.4;color:#000;opacity:1}
+/* Licensing: the disaster-recovery page "Strategic Business Benefits" (text cells between two dividers) */
+#main #licensing .cards{grid-template-columns:repeat(4,1fr);padding:32px 0;border-top:1px solid #c7c8d3;border-bottom:1px solid #c7c8d3}
+#main #licensing .card{padding:0;border-radius:0;background:transparent}
+#main #licensing .card h3{margin:0 0 10px;color:#333;letter-spacing:-.8px}
+#main #licensing .card p{margin:0;line-height:1.7}
+/* related links on the navy panels */
+#main :is(#storage,#services) .related a{color:#fff;border-bottom-color:var(--purple-400)}
+#main :is(#storage,#services) .related a:hover{color:var(--mint)}
+#main #services .related{flex-direction:column;align-items:flex-start;gap:12px;margin-top:24px}
+@media (max-width:991px){
+	#main :is(#planning,#licensing) .cards{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:767px){
+	#main :is(#planning,#licensing) .cards{grid-template-columns:1fr}
+	#main #solutions>.wrap{width:calc(100% - 32px);padding:32px 8px 8px}
+	#main :is(#solutions,#recovery) .card{padding:24px}
+	#main #solutions .card::before{width:64px;height:64px;margin-bottom:24px}
+	#main :is(#solutions,#recovery,#licensing) .card h3{font-size:20px}
+}
