@@ -89,10 +89,10 @@ html:has(#main){scroll-behavior:smooth}
 #main #solutions .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 #main #solutions .cards .card{background:transparent}
 #main #solutions .cards .card::before{content:'';display:block;width:128px;height:96px;margin-bottom:16px;background:center/contain no-repeat}
-#main #solutions .cards .card:nth-child(1)::before{background-image:url("../../images/icon-kaspersky-edr-foundations.svg")}
-#main #solutions .cards .card:nth-child(2)::before{background-image:url("../../images/icon-kaspersky-edr-optimum.svg")}
-#main #solutions .cards .card:nth-child(3)::before{background-image:url("../../images/icon-kaspersky-edr-expert.svg")}
-#main #solutions .cards .card:nth-child(4)::before{background-image:url("../../images/icon-kaspersky-xdr.svg")}
+#main #solutions .cards .card:nth-child(1)::before{background-image:url("../../images/Property-11.svg")}
+#main #solutions .cards .card:nth-child(2)::before{background-image:url("../../images/audit_check.svg")}
+#main #solutions .cards .card:nth-child(3)::before{background-image:url("../../images/Property-1Enhanced-Security.svg")}
+#main #solutions .cards .card:nth-child(4)::before{background-image:url("../../images/icon-telecommunications_1.svg")}
 #main #solutions .cards h3{font-size:24px;color:#333;margin-bottom:12px}
 #main #solutions .cards p{font-size:16px}
 #main .split:has(.reason)>div:first-child{position:sticky;top:calc(50vh - 90px);align-self:start}
@@ -177,15 +177,15 @@ html:has(#main){scroll-behavior:smooth}
 #main :is(#endpoint,#licensing) .cards{gap:24px}
 #main #licensing .cards{grid-template-columns:repeat(2,1fr)}
 #main :is(#endpoint,#licensing) .card{padding:40px}
-#main :is(#endpoint,#licensing) .card::before{content:'';display:block;width:64px;height:64px;margin-bottom:24px;background:center/contain no-repeat}
-#main #endpoint .card:nth-child(1)::before{background-image:url("../../images/icon-kaspersky-endpoint-protection.svg")}
-#main #endpoint .card:nth-child(2)::before{background-image:url("../../images/icon-kaspersky-edr-response.svg")}
-#main #endpoint .card:nth-child(3)::before{background-image:url("../../images/icon-kaspersky-workloads.svg")}
-#main #endpoint .card:nth-child(4)::before{background-image:url("../../images/icon-kaspersky-central-management.svg")}
-#main #licensing .card:nth-child(1)::before{background-image:url("../../images/icon-kaspersky-new-license.svg")}
-#main #licensing .card:nth-child(2)::before{background-image:url("../../images/icon-kaspersky-renewal.svg")}
-#main #licensing .card:nth-child(3)::before{background-image:url("../../images/icon-kaspersky-upgrade.svg")}
-#main #licensing .card:nth-child(4)::before{background-image:url("../../images/icon-kaspersky-pricing-scope.svg")}
+#main :is(#endpoint,#licensing) .card::before{content:'';display:block;width:64px;height:64px;margin-bottom:24px;background:#fff;-webkit-mask:center/contain no-repeat;mask:center/contain no-repeat}
+#main #endpoint .card:nth-child(1)::before{-webkit-mask-image:url("../../images/icon-protection.svg");mask-image:url("../../images/icon-protection.svg")}
+#main #endpoint .card:nth-child(2)::before{-webkit-mask-image:url("../../images/alert_without_check.svg");mask-image:url("../../images/alert_without_check.svg")}
+#main #endpoint .card:nth-child(3)::before{-webkit-mask-image:url("../../images/tech.svg");mask-image:url("../../images/tech.svg")}
+#main #endpoint .card:nth-child(4)::before{-webkit-mask-image:url("../../images/icon-automated.svg");mask-image:url("../../images/icon-automated.svg")}
+#main #licensing .card:nth-child(1)::before{-webkit-mask-image:url("../../images/icon-planning.svg");mask-image:url("../../images/icon-planning.svg")}
+#main #licensing .card:nth-child(2)::before{-webkit-mask-image:url("../../images/icon-recovery.svg");mask-image:url("../../images/icon-recovery.svg")}
+#main #licensing .card:nth-child(3)::before{-webkit-mask-image:url("../../images/Property-12.svg");mask-image:url("../../images/Property-12.svg")}
+#main #licensing .card:nth-child(4)::before{-webkit-mask-image:url("../../images/icon_1.svg");mask-image:url("../../images/icon_1.svg")}
 #main :is(#endpoint,#licensing) .card h3{margin-bottom:12px}
 #main :is(#endpoint,#licensing) .card>p{margin-bottom:0}
 #main :is(#endpoint,#licensing) .card ul{margin-top:24px;padding-top:24px;border-top:1px solid rgba(255,255,255,.2)}
@@ -201,22 +201,23 @@ html:has(#main){scroll-behavior:smooth}
 #main #services .related{flex-direction:column;align-items:flex-start;gap:12px;margin-top:24px}
 #main #services .related a{color:#fff;border-bottom-color:var(--purple-400)}
 #main #services .related a:hover{color:var(--mint)}
-/* Support: grey band with white raised cards, purple icons */
-#main #support{background:var(--grey)}
-#main #support .cards{gap:24px}
-#main #support .card{padding:40px;border-radius:var(--radius-box);box-shadow:var(--shadow)}
-#main #support .card::before{content:'';display:block;width:64px;height:64px;margin-bottom:24px;background:center/contain no-repeat}
-#main #support .card:nth-child(1)::before{background-image:url("../../images/icon-kaspersky-local-support.svg")}
-#main #support .card:nth-child(2)::before{background-image:url("../../images/icon-kaspersky-vendor-entitlements.svg")}
-#main #support .card h3{margin-bottom:12px}
-#main #support .card>p{margin-bottom:0}
-#main #support .card ul{margin-top:24px;padding-top:24px;border-top:1px solid var(--line)}
-#main #support .card li{margin-bottom:12px;line-height:1.4}
+/* Support: the live About page "Mission / Vision" pair (light band, navy card with the cubes, white card) */
+#main #support{background:var(--wash)}
+#main #support .cards{gap:16px}
+#main #support .card{display:flex;flex-direction:column;gap:16px;padding:32px;border-radius:var(--radius-card);background:#fff;color:#333}
+#main #support .card:nth-child(1){background:var(--navy) url("../../images/bg-1.webp") 100% 100% no-repeat;color:#fff}
+#main #support .card h3{margin:0 0 10px;font-size:24px;line-height:1.4;letter-spacing:-.8px;color:inherit}
+#main #support .card>p{margin:0;color:inherit}
+#main #support .card ul{display:flex;flex-direction:column;gap:8px;margin:0}
+#main #support .card li{margin:0;padding-left:24px;font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;font-size:16px;font-weight:700;line-height:1.4;color:#000;background:url("../../images/bullet-1.svg") 0 7px no-repeat}
+#main #support .card:nth-child(1) li{color:#fff}
+#main #support .card li::before{display:none}
 @media (max-width:991px){
 	#main #solutions .cards{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:767px){
 	#main #solutions .cards{grid-template-columns:1fr}
-	#main #support .card{padding:28px 24px}
-	#main #support .card::before{width:52px;height:52px;margin-bottom:20px}
+	#main #support{padding:48px 0}
+	#main #support .card{padding:24px}
+	#main #support .card h3{font-size:20px}
 }
