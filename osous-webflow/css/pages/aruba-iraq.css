@@ -51,7 +51,7 @@ html:has(#main){scroll-behavior:smooth}
 #main .head{max-width:800px;margin:0 auto 48px;text-align:center}
 #main .head h2{max-width:640px;margin-left:auto;margin-right:auto}
 #main .head p{margin:0 auto;max-width:760px}
-#main section[aria-labelledby="intro-heading"]{position:relative;z-index:2;margin-top:-28px;padding-bottom:16px}
+#main section:has(>.intro){position:relative;z-index:2;margin-top:-28px;padding-bottom:16px}
 #main .intro{background:#fff;border-radius:var(--radius-box);box-shadow:var(--shadow);padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
 #main .intro-text{padding:8px 10px 8px 10px}
 #main .intro-text h2{margin-bottom:20px}
@@ -134,7 +134,7 @@ html:has(#main){scroll-behavior:smooth}
 	#main h3:where(:not(#services *)){font-size:20px}
 	#main .hero{min-height:0;padding:130px 0 90px}
 	#main .section:where(:not(#services)){padding:56px 0}
-	#main section[aria-labelledby="intro-heading"]{margin-top:-20px}
+	#main section:has(>.intro){margin-top:-20px}
 	#main .intro{padding:16px;border-radius:20px}
 	#main .intro-text{padding:8px}
 	#main .intro img{aspect-ratio:1.4}
@@ -207,7 +207,7 @@ html:has(#main){scroll-behavior:smooth}
 #main #connectivity .head h2{max-width:600px;margin:0 0 10px;color:#fff}
 #main #connectivity .head p{margin:0;max-width:800px;color:#e0f3fa}
 #main #connectivity .cards{gap:16px}
-#main #connectivity .card{display:flex;flex-direction:column;align-items:flex-start;padding:32px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.05);color:#e0f3fa}
+#main #connectivity .card{display:flex;flex-direction:column;align-items:flex-start;padding:32px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.05);color:#e0f3fa;-webkit-backdrop-filter:blur(15px);backdrop-filter:blur(15px)}
 #main #connectivity .card::before{content:'';display:block;width:128px;height:96px;margin-bottom:32px;background:left center/64px no-repeat}
 #main #connectivity .card:nth-child(1)::before{background-image:url("../../images/icon-aruba-gateway.svg")}
 #main #connectivity .card:nth-child(2)::before{background-image:url("../../images/icon-aruba-sd-wan.svg")}
